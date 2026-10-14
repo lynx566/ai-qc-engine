@@ -6,6 +6,7 @@ import { SourceDocumentInteraction } from '@/components/review/source-document-i
 import { documentReaderScrollAnchorClassName } from '@/lib/document-navigation'
 import {
   centeredDocumentCanvasHorizontalClassName,
+  documentPageHorizontalInsetClassName,
   fullDocumentSurfaceMaxWidthClassName,
 } from '@/lib/document-surface-layout'
 import {
@@ -180,10 +181,11 @@ export function DocumentReader({
           {(handlers) => (
             <article
               className={cn(
-                'document-surface box-border w-full min-w-0 max-w-full rounded-sm bg-white px-6 py-12 shadow-md ring-1 ring-black/5',
+                'document-surface box-border w-full min-w-0 max-w-full rounded-sm bg-white py-12 shadow-md ring-1 ring-black/5',
+                documentPageHorizontalInsetClassName,
                 contentPlacement === 'expanded'
-                  ? 'mx-auto min-[840px]:max-w-[56rem] min-[840px]:px-10 min-[840px]:sm:px-12 min-[840px]:sm:py-14'
-                  : 'mx-auto min-[840px]:px-10 min-[840px]:sm:px-14 min-[840px]:sm:py-16',
+                  ? 'mx-auto min-[840px]:max-w-[56rem] min-[840px]:sm:py-14'
+                  : 'mx-auto min-[840px]:sm:py-16',
                 contentPlacement === 'center' && (
                   surfaceWidth === 'full-document'
                     ? fullDocumentSurfaceMaxWidthClassName
@@ -191,7 +193,7 @@ export function DocumentReader({
                 ),
               )}
             >
-              <div className="document-body text-foreground">
+              <div className="document-body min-w-0 text-foreground [overflow-wrap:anywhere]">
                 {openingGroups.length > 0 ? (
                   <div className={openingSectionClassName()}>
                     <DocumentRenderGroups

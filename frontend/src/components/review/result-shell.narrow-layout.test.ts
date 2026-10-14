@@ -810,7 +810,7 @@ describe('ResultShell narrow-desktop layout', () => {
     expect(outline.classList.contains('w-[22.5rem]')).toBe(false)
     const surface = workspace.querySelector('article.document-surface')!
     expect(surface.classList.contains('min-[840px]:max-w-[56rem]')).toBe(true)
-    expect(surface.classList.contains('min-[840px]:sm:px-14')).toBe(true)
+    expect(surface.classList.contains('px-[clamp(1.5rem,10%,6rem)]')).toBe(true)
     expect(surface.classList.contains('mx-auto')).toBe(true)
     expect(outline.classList.contains('min-[840px]:shrink-0')).toBe(true)
     expect(outline.classList.contains('min-w-0')).toBe(true)

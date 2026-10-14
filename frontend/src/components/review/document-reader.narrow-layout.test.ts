@@ -78,12 +78,12 @@ describe('DocumentReader narrow-desktop layout', () => {
     expect(canvas.classList.contains('max-w-[48rem]')).toBe(false)
   })
 
-  it('tightens horizontal padding below 840px and restores wider padding above', () => {
+  it('keeps canvas breakpoints and uses fluid page whitespace with a positive narrow minimum', () => {
     const { canvas, surface } = renderReader()
     for (const token of ['px-2', 'min-[840px]:px-4', 'min-[840px]:sm:px-8']) {
       expect(canvas.classList.contains(token)).toBe(true)
     }
-    for (const token of ['px-6', 'py-12', 'min-[840px]:px-10', 'min-[840px]:sm:px-14']) {
+    for (const token of ['px-[clamp(1.5rem,10%,6rem)]', 'py-12']) {
       expect(surface.classList.contains(token)).toBe(true)
     }
   })
@@ -106,7 +106,7 @@ describe('DocumentReader narrow-desktop layout', () => {
     for (const token of ['px-3', 'min-[840px]:px-4', 'min-[840px]:sm:px-6']) {
       expect(expanded.canvas.classList.contains(token)).toBe(true)
     }
-    for (const token of ['px-6', 'py-12', 'min-[840px]:px-10', 'min-[840px]:sm:px-12', 'min-[840px]:sm:py-14']) {
+    for (const token of ['px-[clamp(1.5rem,10%,6rem)]', 'py-12', 'min-[840px]:sm:py-14']) {
       expect(expanded.surface.classList.contains(token)).toBe(true)
     }
   })
