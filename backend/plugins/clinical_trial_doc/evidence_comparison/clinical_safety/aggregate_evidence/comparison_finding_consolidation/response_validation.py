@@ -46,13 +46,14 @@ class ComparisonFindingConsolidationValidatedResponse:
 
 def _extract_json_text(raw_text: str) -> str:
     text = raw_text.strip()
-    if text.startswith("```") and text.endswith("```"):
+    if text.startswith("```"):
         lines = text.splitlines()
-        if len(lines) >= 3:
+        if len(lines) >= 2:
             opening = lines[0].strip()
-            closing = lines[-1].strip()
-            if opening in {"```", "```json", "```JSON"} and closing == "```":
-                return "\n".join(lines[1:-1]).strip()
+            if opening in {"```", "```json", "```JSON"}:
+                if len(lines) >= 3 and lines[-1].strip() == "```":
+                    return "\n".join(lines[1:-1]).strip()
+                return "\n".join(lines[1:]).strip()
     return text
 
 
