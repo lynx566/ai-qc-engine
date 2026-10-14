@@ -162,7 +162,7 @@ def validate_comparison_finding_consolidation_response_structure(
             raise ComparisonFindingConsolidationValidationError(
                 f"{group_path} contains duplicate conclusion alias within group"
             )
-        if len(set(aliases)) < 2:
+        if not aliases:
             raise ComparisonFindingConsolidationValidationError(
                 f"{group_path} must contain at least two distinct conclusion aliases"
             )
@@ -195,6 +195,9 @@ def validate_comparison_finding_consolidation_response_structure(
             )
             for alias_index, alias in enumerate(combined_raw)
         )
+        # A well-formed singleton owns its raw alias but performs no merge.
+        if len(aliases) == 1:
+            continue
         validated_groups.append(
             ComparisonFindingConsolidatedGroup(
                 conclusion_aliases=aliases,

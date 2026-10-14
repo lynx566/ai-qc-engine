@@ -244,8 +244,8 @@ def test_hard_validation_failure_is_distinct_outcome() -> None:
             {
                 "consolidated_groups": [
                     {
-                        "conclusion_aliases": ["C001"],
-                        "unified_conclusion": "Invalid singleton",
+                        "conclusion_aliases": ["C001", "C999"],
+                        "unified_conclusion": "Unknown alias",
                         "combined_sentence_aliases": ["T0001"],
                     }
                 ]
@@ -261,5 +261,121 @@ def test_hard_validation_failure_is_distinct_outcome() -> None:
     assert execution.status == "failed"
     assert execution.parse_status == "success"
     assert execution.validation_status == "failed"
-    assert "at least two distinct" in (execution.error_message or "")
+    assert "unknown conclusion alias" in (execution.error_message or "")
     assert execution.llm_invocations[0].status == "success"
+
+
+@pytest.mark.parametrize(
+    ("memberships", "expected_sources"),
+    [
+        ([["C003", "C001"], ["C002"]], [["L001", "L003"], ["L002"], ["L004"]]),
+        ([["C001"], ["C002"], ["C003"], ["C004"]],
+         [["L001"], ["L002"], ["L003"], ["L004"]]),
+        ([["C001"]], [["L001"], ["L002"], ["L003"], ["L004"]]),
+    ],
+)
+def test_singleton_noops_preserve_product_final_order_and_conservation(
+    memberships: list[list[str]], expected_sources: list[list[str]]
+) -> None:
+    from plugins.clinical_trial_doc.evidence_comparison.clinical_safety.aggregate_evidence.comparison_finding_consolidation.config import (
+        ResolvedComparisonFindingConsolidationConfig,
+    )
+    from plugins.clinical_trial_doc.evidence_comparison.clinical_safety.aggregate_evidence.finalization import (
+        finalize_aggregate_evidence_comparison,
+    )
+
+    originals = [_finding(i) for i in range(1, 5)]
+    originals[0]["label"] = "need_review"
+    originals[1]["label"] = "need_review"
+    rows = [{
+        "frozen_job_index": 1,
+        "comparison_mode_id": "focus_comparison",
+        "comparison_groups": [{"group_role": "focus_scope", "scope_aliases": ["H0001"]}],
+        "findings": originals,
+    }]
+    consolidation_input = materialize_comparison_finding_consolidation_input(
+        comparison_mode_id="focus_comparison",
+        aggregate_comparison_evidence=_evidence(),
+        selected_job_final_rows=rows,
+    )
+    response = {"consolidated_groups": [{
+        "conclusion_aliases": members,
+        "unified_conclusion": "Model rewrite must not affect passthrough",
+        "combined_sentence_aliases": ["T0001"],
+    } for members in memberships]}
+    execution = execute_comparison_finding_consolidation(
+        consolidation_input=consolidation_input,
+        provider=_Provider(json.dumps(response)),
+    )
+
+    assert execution.status == "success"
+    assert execution.parse_status == "success"
+    assert execution.validation_status == "success"
+    assert execution.group_count == sum(len(members) > 1 for members in memberships)
+    assert execution.validated_response is not None
+    assert all(len(g.conclusion_aliases) >= 2
+               for g in execution.validated_response.consolidated_groups)
+    final = finalize_aggregate_evidence_comparison(
+        job_final_rows=rows,
+        consolidation_executions=(execution,),
+        consolidation_config=ResolvedComparisonFindingConsolidationConfig(
+            enabled_comparison_modes=("focus_comparison",),
+        ),
+    )
+
+    assert final["finalization_status"] == "completed"
+    assert final["fallback_comparison_modes"] == []
+    assert [f["source_finding_ids"] for f in final["findings"]] == expected_sources
+    sources = [sid for f in final["findings"] for sid in f["source_finding_ids"]]
+    assert sorted(sources) == ["L001", "L002", "L003", "L004"]
+    assert len(sources) == len(set(sources))
+    by_id = {f["finding_id"]: f for f in originals}
+    for finding in final["findings"]:
+        if len(finding["source_finding_ids"]) == 1:
+            original = by_id[finding["source_finding_ids"][0]]
+            for key in ("finding_id", "label", "conclusion", "source_sentence_aliases"):
+                assert finding[key] == original[key]
+        else:
+            assert finding["finding_id"] == "L005"
+            assert finding["label"] == "fail"
+            assert finding["source_sentence_aliases"] == ["T0001", "T0003"]
+
+
+@pytest.mark.parametrize("raw", [
+    "not json",
+    '{"consolidated_groups":[{"conclusion_aliases":["C999"],'
+    '"unified_conclusion":"Valid","combined_sentence_aliases":["T0001"]}]}',
+    '{"consolidated_groups":[{"conclusion_aliases":["C001","C002"],'
+    '"unified_conclusion":"Valid","combined_sentence_aliases":["T0001"]},'
+    '{"conclusion_aliases":["C002"],"unified_conclusion":"Valid",'
+    '"combined_sentence_aliases":["T0002"]}]}',
+    '{"consolidated_groups":[{"conclusion_aliases":["C001"]}]}',
+])
+def test_true_response_errors_still_fallback_whole_mode(raw: str) -> None:
+    from plugins.clinical_trial_doc.evidence_comparison.clinical_safety.aggregate_evidence.comparison_finding_consolidation.config import (
+        ResolvedComparisonFindingConsolidationConfig,
+    )
+    from plugins.clinical_trial_doc.evidence_comparison.clinical_safety.aggregate_evidence.finalization import (
+        finalize_aggregate_evidence_comparison,
+    )
+
+    execution = execute_comparison_finding_consolidation(
+        consolidation_input=_input(2), provider=_Provider(raw),
+    )
+    assert execution.status == "failed"
+    rows = [{
+        "frozen_job_index": 1,
+        "comparison_mode_id": "focus_comparison",
+        "comparison_groups": [{"group_role": "focus_scope", "scope_aliases": ["H0001"]}],
+        "findings": [_finding(1), _finding(2)],
+    }]
+    final = finalize_aggregate_evidence_comparison(
+        job_final_rows=rows,
+        consolidation_executions=(execution,),
+        consolidation_config=ResolvedComparisonFindingConsolidationConfig(
+            enabled_comparison_modes=("focus_comparison",),
+        ),
+    )
+    assert final["finalization_status"] == "completed_with_fallback"
+    assert final["fallback_comparison_modes"] == ["focus_comparison"]
+    assert [f["source_finding_ids"] for f in final["findings"]] == [["L001"], ["L002"]]

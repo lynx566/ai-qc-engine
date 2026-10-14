@@ -120,7 +120,7 @@ def test_schema_and_field_contract_is_strict(payload: dict, message: str) -> Non
             [_group(["C001", "C002"]), _group(["C002", "C003"])],
             "duplicate conclusion alias across groups",
         ),
-        ([_group(["C001"])], "at least two distinct conclusion aliases"),
+        ([dict(_group(), conclusion_aliases=[])], "at least two distinct conclusion aliases"),
     ],
 )
 def test_alias_membership_invariants_are_hard_validation(
@@ -257,3 +257,61 @@ def test_opening_only_fence_preserves_backticks_inside_conclusion() -> None:
     )
 
     assert serialize_validated_response(validated) == payload
+
+
+@pytest.mark.parametrize(
+    ("memberships", "expected"),
+    [
+        ([["C001", "C002"], ["C003"]], [("C001", "C002")]),
+        ([["C001"], ["C002"], ["C003"]], []),
+        ([["C001"]], []),
+    ],
+)
+def test_valid_singletons_are_excluded_from_effective_groups(
+    memberships: list[list[str]], expected: list[tuple[str, ...]]
+) -> None:
+    validated = validate_comparison_finding_consolidation_response_structure(
+        {"consolidated_groups": [_group(aliases) for aliases in memberships]},
+        input_conclusion_aliases=INPUT_ALIASES,
+    )
+
+    assert [g.conclusion_aliases for g in validated.consolidated_groups] == expected
+
+
+@pytest.mark.parametrize(
+    ("memberships", "message"),
+    [
+        ([["C999"]], "unknown conclusion alias"),
+        ([["C001", "C001"]], "duplicate conclusion alias within group"),
+        ([["C001", "C002"], ["C002"]], "duplicate conclusion alias across groups"),
+        ([["C002"], ["C001", "C002"]], "duplicate conclusion alias across groups"),
+        ([["C002"], ["C002"]], "duplicate conclusion alias across groups"),
+    ],
+)
+def test_singletons_cannot_hide_alias_integrity_errors(
+    memberships: list[list[str]], message: str
+) -> None:
+    with pytest.raises(ComparisonFindingConsolidationValidationError, match=message):
+        validate_comparison_finding_consolidation_response_structure(
+            {"consolidated_groups": [_group(aliases) for aliases in memberships]},
+            input_conclusion_aliases=INPUT_ALIASES,
+        )
+
+
+@pytest.mark.parametrize(
+    "group",
+    [
+        {"conclusion_aliases": ["C001"], "unified_conclusion": "Valid"},
+        dict(_group(["C001"]), unified_conclusion=" "),
+        dict(_group(["C001"]), combined_sentence_aliases="T0001"),
+        dict(_group(["C001"]), combined_sentence_aliases=["invalid"]),
+        dict(_group(["C001"]), extra=True),
+        dict(_group(["C001"]), conclusion_aliases="C001"),
+    ],
+)
+def test_singletons_must_be_otherwise_well_formed(group: dict) -> None:
+    with pytest.raises(ComparisonFindingConsolidationValidationError):
+        validate_comparison_finding_consolidation_response_structure(
+            {"consolidated_groups": [group]},
+            input_conclusion_aliases=INPUT_ALIASES,
+        )
