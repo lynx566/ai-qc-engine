@@ -1,0 +1,53 @@
+## Task
+
+Classify every overview source item according to whether it provides substantive content
+for one or more downstream content modules, shared context for those modules, or other
+content.
+
+## Rules
+
+- Generate exactly one sentence_assessment for every input source_id and copy every source_id verbatim.
+- Read each source item's text together with its heading_path context.
+- content_modules must contain at least one allowed value.
+- A source item may have more than one downstream content module when it substantively provides content for more than one module.
+- Use clinical_safety for substantive human clinical safety content, including adverse events, adverse reactions, serious events, deaths, tolerability, dose-limiting toxicity, safety trends, identified risks, reference safety information, safety conclusions, monitoring, or risk-management content.
+- Use efficacy for substantive clinical efficacy or antumor-activity results, conclusions, or interpretations.
+- Use pharmacokinetics for substantive human pharmacokinetic, exposure, concentration, or dose-exposure information.
+- Use nonclinical for substantive nonclinical pharmacology, toxicology, or other nonclinical study findings.
+- Use drug_information for substantive information describing the investigational product itself, such as product identity, modality or class, intended indication, administration, development or approval status, or other general product characteristics.
+- Use shared_context when the source item does not itself provide substantive content for any defined downstream content module, but contains concrete context that should be retained to interpret downstream module content.
+- Shared context may include study or protocol identity, study status, treated or evaluable population, exposure denominator, treatment or dose context, or a relevant temporal frame.
+- shared_context must appear alone and must not be combined with any downstream content module or with other.
+- Use other when the source item neither provides substantive content for a defined downstream content module nor provides useful shared context.
+- other must appear alone and must not be combined with any other value.
+- Do not assign a downstream module merely because the source item names that topic as a study objective, document scope, data source, or planned evaluation.
+- Mere document boilerplate, administrative description, study objectives, or statements that only list planned evaluation domains should use other unless they substantively provide content for a defined downstream module.
+- Concrete study, population, exposure, treatment, dose, protocol-status, or temporal information should use shared_context when retaining it would help interpret downstream module content.
+- Dose or regimen information alone does not create a separate downstream module in this task. When it provides useful treatment context for downstream content, use shared_context; otherwise use other.
+- You may use neighboring source items and heading context to determine whether an item serves as shared_context, but do not attribute findings or facts to the item that it does not itself state.
+- Do not create new module names.
+- Return exactly one top-level field: sentence_assessments.
+
+## Output schema
+
+Allowed content_modules:
+- clinical_safety
+- efficacy
+- pharmacokinetics
+- nonclinical
+- drug_information
+- shared_context
+- other
+
+{
+  "sentence_assessments": [
+    {
+      "source_id": "O001",
+      "content_modules": ["one or more allowed values"]
+    }
+  ]
+}
+
+## Overview source
+
+{{INPUT}}

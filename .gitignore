@@ -1,0 +1,79 @@
+# =============================
+# Python
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest cache
+.pytest_cache/
+**/.pytest_cache/
+
+# ruff cache
+.ruff_cache/
+**/.ruff_cache/
+
+# Virtual environments (不要上传)
+.venv/
+venv/
+env/
+.venv*/
+# =============================
+# Jupyter auto checkpoints
+# =============================
+.ipynb_checkpoints/
+
+# =============================
+# Logs / temp / backups
+# =============================
+*.log
+*.tmp
+*.bak
+*.old
+
+# =============================
+# IDE / OS specific
+# =============================
+.vscode/      
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================
+# Distribution / packaging (一般用不到)
+# =============================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =============================
+# API keys
+# =============================
+.env.*
+.env*
+!.env.example
+
+# =============================
+# Pipeline run artifacts (local only)
+# =============================
+backend/runs/
+backend/dev_outputs/
+.tmp/
+
+# =============================
+# Architecture notes (local / WIP; keep only repo-tracked exceptions)
+# =============================
+docs/architecture/*
+!docs/architecture/execution_orchestration_contracts.md
+
+# =============================
+# Code copilot
+# =============================
+.superpowers
+
+# =============================
+# Others
+# =============================
+renders

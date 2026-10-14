@@ -1,0 +1,5517 @@
+{
+  "doc_id": "doc_edd6938b-94af-4099-bbcf-3fa025319923",
+  "file_name": "艾美妥珠单抗 研发期间安全性更新报告#2_fe_stub.docx",
+  "display_name": "艾美妥珠单抗 研发期间安全性更新报告#2_fe_stub",
+  "file_hash": "sha256:10910f206d37eb8e78e2cd5becd0e23747dc216bb446014dcc08d1fc61579cb4",
+  "created_at": "2026-09-10T15:01:15Z",
+  "source_type": "docx",
+  "front_matter_blocks": [
+    {
+      "block_id": "M0001",
+      "kind": "toc",
+      "raw_text": "目录",
+      "normalized_text": "目录",
+      "loc": "FRONT:TOC:P17",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 16
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0001:S001",
+          "raw_text": "目录",
+          "normalized_text": "目录"
+        }
+      ],
+      "page_no": null,
+      "order": 1,
+      "doc_order_index": 11,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC Heading",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "alignment": "center"
+        }
+      }
+    },
+    {
+      "block_id": "M0002",
+      "kind": "toc",
+      "raw_text": "1.前言\t4",
+      "normalized_text": "1.前言 4",
+      "loc": "FRONT:TOC:P18",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 17
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0002:S001",
+          "raw_text": "1.前言\t4",
+          "normalized_text": "1.前言 4"
+        }
+      ],
+      "page_no": null,
+      "order": 2,
+      "doc_order_index": 12,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "1.前言\t4",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0003",
+      "kind": "toc",
+      "raw_text": "2.全球上市批准状态\t4",
+      "normalized_text": "2.全球上市批准状态 4",
+      "loc": "FRONT:TOC:P19",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 18
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0003:S001",
+          "raw_text": "2.全球上市批准状态\t4",
+          "normalized_text": "2.全球上市批准状态 4"
+        }
+      ],
+      "page_no": null,
+      "order": 3,
+      "doc_order_index": 13,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "2.全球上市批准状态\t4",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0004",
+      "kind": "toc",
+      "raw_text": "3.报告周期内因安全性原因而采取的措施\t5",
+      "normalized_text": "3.报告周期内因安全性原因而采取的措施 5",
+      "loc": "FRONT:TOC:P20",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 19
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0004:S001",
+          "raw_text": "3.报告周期内因安全性原因而采取的措施\t5",
+          "normalized_text": "3.报告周期内因安全性原因而采取的措施 5"
+        }
+      ],
+      "page_no": null,
+      "order": 4,
+      "doc_order_index": 14,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "3.报告周期内因安全性原因而采取的措施\t5",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0005",
+      "kind": "toc",
+      "raw_text": "4.安全性参考信息变更\t5",
+      "normalized_text": "4.安全性参考信息变更 5",
+      "loc": "FRONT:TOC:P21",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 20
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0005:S001",
+          "raw_text": "4.安全性参考信息变更\t5",
+          "normalized_text": "4.安全性参考信息变更 5"
+        }
+      ],
+      "page_no": null,
+      "order": 5,
+      "doc_order_index": 15,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "4.安全性参考信息变更\t5",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0006",
+      "kind": "toc",
+      "raw_text": "5.报告周期内正在进行和已完成的临床试验清单\t6",
+      "normalized_text": "5.报告周期内正在进行和已完成的临床试验清单 6",
+      "loc": "FRONT:TOC:P22",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 21
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0006:S001",
+          "raw_text": "5.报告周期内正在进行和已完成的临床试验清单\t6",
+          "normalized_text": "5.报告周期内正在进行和已完成的临床试验清单 6"
+        }
+      ],
+      "page_no": null,
+      "order": 6,
+      "doc_order_index": 16,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "5.报告周期内正在进行和已完成的临床试验清单\t6",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0007",
+      "kind": "toc",
+      "raw_text": "6.估计的累计暴露量\t6",
+      "normalized_text": "6.估计的累计暴露量 6",
+      "loc": "FRONT:TOC:P23",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 22
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0007:S001",
+          "raw_text": "6.估计的累计暴露量\t6",
+          "normalized_text": "6.估计的累计暴露量 6"
+        }
+      ],
+      "page_no": null,
+      "order": 7,
+      "doc_order_index": 17,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "6.估计的累计暴露量\t6",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0008",
+      "kind": "toc",
+      "raw_text": "6.1 研发项目中的累计试验参与者暴露量\t6",
+      "normalized_text": "6.1 研发项目中的累计试验参与者暴露量 6",
+      "loc": "FRONT:TOC:P24",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 23
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0008:S001",
+          "raw_text": "6.1 研发项目中的累计试验参与者暴露量\t6",
+          "normalized_text": "6.1 研发项目中的累计试验参与者暴露量 6"
+        }
+      ],
+      "page_no": null,
+      "order": 8,
+      "doc_order_index": 18,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "6.1 研发项目中的累计试验参与者暴露量\t6",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0009",
+      "kind": "toc",
+      "raw_text": "6.2 上市后用药经验中的患者暴露量\t6",
+      "normalized_text": "6.2 上市后用药经验中的患者暴露量 6",
+      "loc": "FRONT:TOC:P25",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 24
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0009:S001",
+          "raw_text": "6.2 上市后用药经验中的患者暴露量\t6",
+          "normalized_text": "6.2 上市后用药经验中的患者暴露量 6"
+        }
+      ],
+      "page_no": null,
+      "order": 9,
+      "doc_order_index": 19,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "6.2 上市后用药经验中的患者暴露量\t6",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0010",
+      "kind": "toc",
+      "raw_text": "7.行列表和汇总表中的数据\t7",
+      "normalized_text": "7.行列表和汇总表中的数据 7",
+      "loc": "FRONT:TOC:P26",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 25
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0010:S001",
+          "raw_text": "7.行列表和汇总表中的数据\t7",
+          "normalized_text": "7.行列表和汇总表中的数据 7"
+        }
+      ],
+      "page_no": null,
+      "order": 10,
+      "doc_order_index": 20,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "7.行列表和汇总表中的数据\t7",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0011",
+      "kind": "toc",
+      "raw_text": "7.1 参考信息\t7",
+      "normalized_text": "7.1 参考信息 7",
+      "loc": "FRONT:TOC:P27",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 26
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0011:S001",
+          "raw_text": "7.1 参考信息\t7",
+          "normalized_text": "7.1 参考信息 7"
+        }
+      ],
+      "page_no": null,
+      "order": 11,
+      "doc_order_index": 21,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "7.1 参考信息\t7",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0012",
+      "kind": "toc",
+      "raw_text": "7.2 报告周期内的严重不良反应行列表\t7",
+      "normalized_text": "7.2 报告周期内的严重不良反应行列表 7",
+      "loc": "FRONT:TOC:P28",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 27
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0012:S001",
+          "raw_text": "7.2 报告周期内的严重不良反应行列表\t7",
+          "normalized_text": "7.2 报告周期内的严重不良反应行列表 7"
+        }
+      ],
+      "page_no": null,
+      "order": 12,
+      "doc_order_index": 22,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "7.2 报告周期内的严重不良反应行列表\t7",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0013",
+      "kind": "toc",
+      "raw_text": "7.3 严重不良事件的累计汇总表\t7",
+      "normalized_text": "7.3 严重不良事件的累计汇总表 7",
+      "loc": "FRONT:TOC:P29",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 28
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0013:S001",
+          "raw_text": "7.3 严重不良事件的累计汇总表\t7",
+          "normalized_text": "7.3 严重不良事件的累计汇总表 7"
+        }
+      ],
+      "page_no": null,
+      "order": 13,
+      "doc_order_index": 23,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "7.3 严重不良事件的累计汇总表\t7",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0014",
+      "kind": "toc",
+      "raw_text": "8.报告期内临床试验中有意义的发现\t7",
+      "normalized_text": "8.报告期内临床试验中有意义的发现 7",
+      "loc": "FRONT:TOC:P30",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 29
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0014:S001",
+          "raw_text": "8.报告期内临床试验中有意义的发现\t7",
+          "normalized_text": "8.报告期内临床试验中有意义的发现 7"
+        }
+      ],
+      "page_no": null,
+      "order": 14,
+      "doc_order_index": 24,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "8.报告期内临床试验中有意义的发现\t7",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0015",
+      "kind": "toc",
+      "raw_text": "8.1 已完成的临床试验\t7",
+      "normalized_text": "8.1 已完成的临床试验 7",
+      "loc": "FRONT:TOC:P31",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 30
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0015:S001",
+          "raw_text": "8.1 已完成的临床试验\t7",
+          "normalized_text": "8.1 已完成的临床试验 7"
+        }
+      ],
+      "page_no": null,
+      "order": 15,
+      "doc_order_index": 25,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "8.1 已完成的临床试验\t7",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0016",
+      "kind": "toc",
+      "raw_text": "8.2 正在进行的临床试验\t8",
+      "normalized_text": "8.2 正在进行的临床试验 8",
+      "loc": "FRONT:TOC:P32",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 31
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0016:S001",
+          "raw_text": "8.2 正在进行的临床试验\t8",
+          "normalized_text": "8.2 正在进行的临床试验 8"
+        }
+      ],
+      "page_no": null,
+      "order": 16,
+      "doc_order_index": 26,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "8.2 正在进行的临床试验\t8",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0017",
+      "kind": "toc",
+      "raw_text": "8.3 长期随访\t9",
+      "normalized_text": "8.3 长期随访 9",
+      "loc": "FRONT:TOC:P33",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 32
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0017:S001",
+          "raw_text": "8.3 长期随访\t9",
+          "normalized_text": "8.3 长期随访 9"
+        }
+      ],
+      "page_no": null,
+      "order": 17,
+      "doc_order_index": 27,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "8.3 长期随访\t9",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0018",
+      "kind": "toc",
+      "raw_text": "8.4 研究药物的其他治疗应用\t9",
+      "normalized_text": "8.4 研究药物的其他治疗应用 9",
+      "loc": "FRONT:TOC:P34",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 33
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0018:S001",
+          "raw_text": "8.4 研究药物的其他治疗应用\t9",
+          "normalized_text": "8.4 研究药物的其他治疗应用 9"
+        }
+      ],
+      "page_no": null,
+      "order": 18,
+      "doc_order_index": 28,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "8.4 研究药物的其他治疗应用\t9",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0019",
+      "kind": "toc",
+      "raw_text": "8.5 与联合治疗相关的新的安全性数据\t9",
+      "normalized_text": "8.5 与联合治疗相关的新的安全性数据 9",
+      "loc": "FRONT:TOC:P35",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 34
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0019:S001",
+          "raw_text": "8.5 与联合治疗相关的新的安全性数据\t9",
+          "normalized_text": "8.5 与联合治疗相关的新的安全性数据 9"
+        }
+      ],
+      "page_no": null,
+      "order": 19,
+      "doc_order_index": 29,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "8.5 与联合治疗相关的新的安全性数据\t9",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0020",
+      "kind": "toc",
+      "raw_text": "9.非干预性研究的安全性结果\t9",
+      "normalized_text": "9.非干预性研究的安全性结果 9",
+      "loc": "FRONT:TOC:P36",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 35
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0020:S001",
+          "raw_text": "9.非干预性研究的安全性结果\t9",
+          "normalized_text": "9.非干预性研究的安全性结果 9"
+        }
+      ],
+      "page_no": null,
+      "order": 20,
+      "doc_order_index": 30,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "9.非干预性研究的安全性结果\t9",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0021",
+      "kind": "toc",
+      "raw_text": "10.其他临床试验/研究的安全性信息\t9",
+      "normalized_text": "10.其他临床试验/研究的安全性信息 9",
+      "loc": "FRONT:TOC:P37",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 36
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0021:S001",
+          "raw_text": "10.其他临床试验/研究的安全性信息\t9",
+          "normalized_text": "10.其他临床试验/研究的安全性信息 9"
+        }
+      ],
+      "page_no": null,
+      "order": 21,
+      "doc_order_index": 31,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "10.其他临床试验/研究的安全性信息\t9",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0022",
+      "kind": "toc",
+      "raw_text": "11.上市后的安全性发现\t10",
+      "normalized_text": "11.上市后的安全性发现 10",
+      "loc": "FRONT:TOC:P38",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 37
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0022:S001",
+          "raw_text": "11.上市后的安全性发现\t10",
+          "normalized_text": "11.上市后的安全性发现 10"
+        }
+      ],
+      "page_no": null,
+      "order": 22,
+      "doc_order_index": 32,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "11.上市后的安全性发现\t10",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0023",
+      "kind": "toc",
+      "raw_text": "12.非临床数据\t10",
+      "normalized_text": "12.非临床数据 10",
+      "loc": "FRONT:TOC:P39",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 38
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0023:S001",
+          "raw_text": "12.非临床数据\t10",
+          "normalized_text": "12.非临床数据 10"
+        }
+      ],
+      "page_no": null,
+      "order": 23,
+      "doc_order_index": 33,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "12.非临床数据\t10",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0024",
+      "kind": "toc",
+      "raw_text": "13.文献\t10",
+      "normalized_text": "13.文献 10",
+      "loc": "FRONT:TOC:P40",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 39
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0024:S001",
+          "raw_text": "13.文献\t10",
+          "normalized_text": "13.文献 10"
+        }
+      ],
+      "page_no": null,
+      "order": 24,
+      "doc_order_index": 34,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "13.文献\t10",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0025",
+      "kind": "toc",
+      "raw_text": "14.其他DSUR\t10",
+      "normalized_text": "14.其他DSUR 10",
+      "loc": "FRONT:TOC:P41",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 40
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0025:S001",
+          "raw_text": "14.其他DSUR\t10",
+          "normalized_text": "14.其他DSUR 10"
+        }
+      ],
+      "page_no": null,
+      "order": 25,
+      "doc_order_index": 35,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "14.其他DSUR\t10",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0026",
+      "kind": "toc",
+      "raw_text": "15.缺乏疗效\t10",
+      "normalized_text": "15.缺乏疗效 10",
+      "loc": "FRONT:TOC:P42",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 41
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0026:S001",
+          "raw_text": "15.缺乏疗效\t10",
+          "normalized_text": "15.缺乏疗效 10"
+        }
+      ],
+      "page_no": null,
+      "order": 26,
+      "doc_order_index": 36,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "15.缺乏疗效\t10",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0027",
+      "kind": "toc",
+      "raw_text": "16.区域特有信息\t11",
+      "normalized_text": "16.区域特有信息 11",
+      "loc": "FRONT:TOC:P43",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 42
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0027:S001",
+          "raw_text": "16.区域特有信息\t11",
+          "normalized_text": "16.区域特有信息 11"
+        }
+      ],
+      "page_no": null,
+      "order": 27,
+      "doc_order_index": 37,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "16.区域特有信息\t11",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0028",
+      "kind": "toc",
+      "raw_text": "17.最新信息\t11",
+      "normalized_text": "17.最新信息 11",
+      "loc": "FRONT:TOC:P44",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 43
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0028:S001",
+          "raw_text": "17.最新信息\t11",
+          "normalized_text": "17.最新信息 11"
+        }
+      ],
+      "page_no": null,
+      "order": 28,
+      "doc_order_index": 38,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "17.最新信息\t11",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0029",
+      "kind": "toc",
+      "raw_text": "18.整体安全性评估\t12",
+      "normalized_text": "18.整体安全性评估 12",
+      "loc": "FRONT:TOC:P45",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 44
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0029:S001",
+          "raw_text": "18.整体安全性评估\t12",
+          "normalized_text": "18.整体安全性评估 12"
+        }
+      ],
+      "page_no": null,
+      "order": 29,
+      "doc_order_index": 39,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "18.整体安全性评估\t12",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0030",
+      "kind": "toc",
+      "raw_text": "18.1 风险评估\t12",
+      "normalized_text": "18.1 风险评估 12",
+      "loc": "FRONT:TOC:P46",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 45
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0030:S001",
+          "raw_text": "18.1 风险评估\t12",
+          "normalized_text": "18.1 风险评估 12"
+        }
+      ],
+      "page_no": null,
+      "order": 30,
+      "doc_order_index": 40,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "18.1 风险评估\t12",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0031",
+      "kind": "toc",
+      "raw_text": "18.2 获益-风险考量\t13",
+      "normalized_text": "18.2 获益-风险考量 13",
+      "loc": "FRONT:TOC:P47",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 46
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0031:S001",
+          "raw_text": "18.2 获益-风险考量\t13",
+          "normalized_text": "18.2 获益-风险考量 13"
+        }
+      ],
+      "page_no": null,
+      "order": 31,
+      "doc_order_index": 41,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 21",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "18.2 获益-风险考量\t13",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 2
+        }
+      }
+    },
+    {
+      "block_id": "M0032",
+      "kind": "toc",
+      "raw_text": "19.重要风险总结\t13",
+      "normalized_text": "19.重要风险总结 13",
+      "loc": "FRONT:TOC:P48",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 47
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0032:S001",
+          "raw_text": "19.重要风险总结\t13",
+          "normalized_text": "19.重要风险总结 13"
+        }
+      ],
+      "page_no": null,
+      "order": 32,
+      "doc_order_index": 42,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "19.重要风险总结\t13",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    },
+    {
+      "block_id": "M0033",
+      "kind": "toc",
+      "raw_text": "20.结论\t14",
+      "normalized_text": "20.结论 14",
+      "loc": "FRONT:TOC:P49",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 48
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "M0033:S001",
+          "raw_text": "20.结论\t14",
+          "normalized_text": "20.结论 14"
+        }
+      ],
+      "page_no": null,
+      "order": 33,
+      "doc_order_index": 43,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "TOC 11",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "20.结论\t14",
+        "presentation": {
+          "space_after_pt": 1.0,
+          "toc_level": 1
+        }
+      }
+    }
+  ],
+  "content_blocks": [
+    {
+      "block_id": "C0001",
+      "kind": "paragraph",
+      "raw_text": "重组人源化抗PD-L1单克隆抗体\nVT8802",
+      "normalized_text": "重组人源化抗PD-L1单克隆抗体 VT8802",
+      "loc": "BODY:P1",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 0
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0001:S001",
+          "raw_text": "重组人源化抗PD-L1单克隆抗体",
+          "normalized_text": "重组人源化抗PD-L1单克隆抗体"
+        },
+        {
+          "sentence_id": "C0001:S002",
+          "raw_text": "VT8802",
+          "normalized_text": "VT8802"
+        }
+      ],
+      "page_no": null,
+      "order": 1,
+      "doc_order_index": 0,
+      "heading_path": [],
+      "meta": {
+        "style_name": "Title",
+        "raw_text_changed_by_normalize": true,
+        "raw_text_before_normalize": "重组人源化抗PD-L1单克隆抗体\nVT8802",
+        "has_internal_newlines": true,
+        "presentation": {
+          "alignment": "center",
+          "space_before_pt": 85.0,
+          "font_size_pt": 20.0
+        }
+      }
+    },
+    {
+      "block_id": "C0002",
+      "kind": "paragraph",
+      "raw_text": "研发期间安全性更新报告#2",
+      "normalized_text": "研发期间安全性更新报告#2",
+      "loc": "BODY:P2",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 1
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0002:S001",
+          "raw_text": "研发期间安全性更新报告#2",
+          "normalized_text": "研发期间安全性更新报告#2"
+        }
+      ],
+      "page_no": null,
+      "order": 2,
+      "doc_order_index": 1,
+      "heading_path": [],
+      "meta": {
+        "style_name": "Title",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "alignment": "center",
+          "space_before_pt": 10.0
+        }
+      }
+    },
+    {
+      "block_id": "C0003",
+      "kind": "paragraph",
+      "raw_text": "涵盖周期：2022年12月01日-2023年11月30日",
+      "normalized_text": "涵盖周期：2022年12月01日-2023年11月30日",
+      "loc": "BODY:P3",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 2
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0003:S001",
+          "raw_text": "涵盖周期：2022年12月01日-2023年11月30日",
+          "normalized_text": "涵盖周期：2022年12月01日-2023年11月30日"
+        }
+      ],
+      "page_no": null,
+      "order": 3,
+      "doc_order_index": 2,
+      "heading_path": [],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "alignment": "center",
+          "space_before_pt": 25.0
+        }
+      }
+    },
+    {
+      "block_id": "C0004",
+      "kind": "paragraph",
+      "raw_text": "报告日期：2024年2月20日",
+      "normalized_text": "报告日期：2024年2月20日",
+      "loc": "BODY:P4",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 3
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0004:S001",
+          "raw_text": "报告日期：2024年2月20日",
+          "normalized_text": "报告日期：2024年2月20日"
+        }
+      ],
+      "page_no": null,
+      "order": 4,
+      "doc_order_index": 3,
+      "heading_path": [],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "alignment": "center"
+        }
+      }
+    },
+    {
+      "block_id": "C0005",
+      "kind": "paragraph",
+      "raw_text": "申办者：某某生物医药有限公司",
+      "normalized_text": "申办者：某某生物医药有限公司",
+      "loc": "BODY:P5",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 4
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0005:S001",
+          "raw_text": "申办者：某某生物医药有限公司",
+          "normalized_text": "申办者：某某生物医药有限公司"
+        }
+      ],
+      "page_no": null,
+      "order": 5,
+      "doc_order_index": 4,
+      "heading_path": [],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "alignment": "center"
+        }
+      }
+    },
+    {
+      "block_id": "C0006",
+      "kind": "heading",
+      "raw_text": "执行概要",
+      "normalized_text": "执行概要",
+      "loc": "BODY:HDG:P7",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 6
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0006:S001",
+          "raw_text": "执行概要",
+          "normalized_text": "执行概要"
+        }
+      ],
+      "page_no": null,
+      "order": 6,
+      "doc_order_index": 5,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0007",
+      "kind": "paragraph",
+      "raw_text": "本报告为VT8802的第2期研发期间安全性更新报告（DSUR #2），涵盖周期为2022年12月01日至2023年11月30日。",
+      "normalized_text": "本报告为VT8802的第2期研发期间安全性更新报告（DSUR #2），涵盖周期为2022年12月01日至2023年11月30日。",
+      "loc": "BODY:P8",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 7
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0007:S001",
+          "raw_text": "本报告为VT8802的第2期研发期间安全性更新报告（DSUR #2），涵盖周期为2022年12月01日至2023年11月30日。",
+          "normalized_text": "本报告为VT8802的第2期研发期间安全性更新报告（DSUR #2），涵盖周期为2022年12月01日至2023年11月30日。"
+        }
+      ],
+      "page_no": null,
+      "order": 7,
+      "doc_order_index": 6,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0008",
+      "kind": "paragraph",
+      "raw_text": "VT8802为重组人源化抗PD-L1单克隆抗体，属于免疫检查点抑制剂类抗肿瘤药物，拟用于治疗晚期恶性肿瘤，采用静脉输注给药。VT8802可选择性结合PD-L1，阻断PD-L1与PD-1及CD80的相互作用，从而解除肿瘤微环境中PD-L1介导的T细胞免疫抑制，增强抗肿瘤免疫应答。截至2023年11月30日，VT8802尚未在任何国家或地区获得上市批准。",
+      "normalized_text": "VT8802为重组人源化抗PD-L1单克隆抗体，属于免疫检查点抑制剂类抗肿瘤药物，拟用于治疗晚期恶性肿瘤，采用静脉输注给药。VT8802可选择性结合PD-L1，阻断PD-L1与PD-1及CD80的相互作用，从而解除肿瘤微环境中PD-L1介导的T细胞免疫抑制，增强抗肿瘤免疫应答。截至2023年11月30日，VT8802尚未在任何国家或地区获得上市批准。",
+      "loc": "BODY:P9",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 8
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0008:S001",
+          "raw_text": "VT8802为重组人源化抗PD-L1单克隆抗体，属于免疫检查点抑制剂类抗肿瘤药物，拟用于治疗晚期恶性肿瘤，采用静脉输注给药。",
+          "normalized_text": "VT8802为重组人源化抗PD-L1单克隆抗体，属于免疫检查点抑制剂类抗肿瘤药物，拟用于治疗晚期恶性肿瘤，采用静脉输注给药。"
+        },
+        {
+          "sentence_id": "C0008:S002",
+          "raw_text": "VT8802可选择性结合PD-L1，阻断PD-L1与PD-1及CD80的相互作用，从而解除肿瘤微环境中PD-L1介导的T细胞免疫抑制，增强抗肿瘤免疫应答。",
+          "normalized_text": "VT8802可选择性结合PD-L1，阻断PD-L1与PD-1及CD80的相互作用，从而解除肿瘤微环境中PD-L1介导的T细胞免疫抑制，增强抗肿瘤免疫应答。"
+        },
+        {
+          "sentence_id": "C0008:S003",
+          "raw_text": "截至2023年11月30日，VT8802尚未在任何国家或地区获得上市批准。",
+          "normalized_text": "截至2023年11月30日，VT8802尚未在任何国家或地区获得上市批准。"
+        }
+      ],
+      "page_no": null,
+      "order": 8,
+      "doc_order_index": 7,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0009",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，Ⅰ期剂量探索及扩展研究（OOJ-VT8802-01）已完成，共 30 例晚期实体瘤试验参与者接受了 VT8802 单药治疗（0.3 mg/kg 至 3 mg/kg Q3W 剂量组）。试验中未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD），且不良反应（ADR）发生率未见随剂量升高而增加的趋势。共有 24 例（70.0%）试验参与者发生 ADR，发生率≥10%的多为轻中度事件，主要包括乏力、恶心、皮疹、输液相关反应、ALT 升高、甲状腺功能减退及腹泻。共有5例（16.7%）试验参与者发生8例次严重不良事件，其中与VT8802相关的严重不良事件为感染性肺炎2例和药物诱导的肝损伤1例。",
+      "normalized_text": "本报告周期内，Ⅰ期剂量探索及扩展研究（OOJ-VT8802-01）已完成，共 30 例晚期实体瘤试验参与者接受了 VT8802 单药治疗（0.3 mg/kg 至 3 mg/kg Q3W 剂量组）。试验中未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD），且不良反应（ADR）发生率未见随剂量升高而增加的趋势。共有 24 例（70.0%）试验参与者发生 ADR，发生率≥10%的多为轻中度事件，主要包括乏力、恶心、皮疹、输液相关反应、ALT 升高、甲状腺功能减退及腹泻。共有5例（16.7%）试验参与者发生8例次严重不良事件，其中与VT8802相关的严重不良事件为感染性肺炎2例和药物诱导的肝损伤1例。",
+      "loc": "BODY:P10",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 9
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0009:S001",
+          "raw_text": "本报告周期内，Ⅰ期剂量探索及扩展研究（OOJ-VT8802-01）已完成，共 30 例晚期实体瘤试验参与者接受了 VT8802 单药治疗（0.3 mg/kg 至 3 mg/kg Q3W 剂量组）。",
+          "normalized_text": "本报告周期内，Ⅰ期剂量探索及扩展研究（OOJ-VT8802-01）已完成，共 30 例晚期实体瘤试验参与者接受了 VT8802 单药治疗（0.3 mg/kg 至 3 mg/kg Q3W 剂量组）。"
+        },
+        {
+          "sentence_id": "C0009:S002",
+          "raw_text": "试验中未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD），且不良反应（ADR）发生率未见随剂量升高而增加的趋势。",
+          "normalized_text": "试验中未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD），且不良反应（ADR）发生率未见随剂量升高而增加的趋势。"
+        },
+        {
+          "sentence_id": "C0009:S003",
+          "raw_text": "共有 24 例（70.0%）试验参与者发生 ADR，发生率≥10%的多为轻中度事件，主要包括乏力、恶心、皮疹、输液相关反应、ALT 升高、甲状腺功能减退及腹泻。",
+          "normalized_text": "共有 24 例（70.0%）试验参与者发生 ADR，发生率≥10%的多为轻中度事件，主要包括乏力、恶心、皮疹、输液相关反应、ALT 升高、甲状腺功能减退及腹泻。"
+        },
+        {
+          "sentence_id": "C0009:S004",
+          "raw_text": "共有5例（16.7%）试验参与者发生8例次严重不良事件，其中与VT8802相关的严重不良事件为感染性肺炎2例和药物诱导的肝损伤1例。",
+          "normalized_text": "共有5例（16.7%）试验参与者发生8例次严重不良事件，其中与VT8802相关的严重不良事件为感染性肺炎2例和药物诱导的肝损伤1例。"
+        }
+      ],
+      "page_no": null,
+      "order": 9,
+      "doc_order_index": 8,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0010",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，正在进行一项Ⅱ期联合治疗研究（OOJ-VT8802-002），累计入组20例晚期非鳞状非小细胞肺癌试验参与者（接受3 mg/kg Q3W的VT8802联合卡铂与培美曲塞治疗）。截至2023年11月30日，共14例（70.0%）试验参与者发生不良反应（ADR），整体符合各给药方案的已知风险谱。其中，化疗相关的ADR主要表现为骨髓抑制（贫血、中性粒细胞/白细胞减少）及胃肠道反应；与VT8802相关的ADR（共8例，40.0%）主要为皮疹、输液相关反应、肝/甲状腺异常及感染性肺炎。共3例试验参与者发生4例次严重不良事件（SAE），包括2例次与化疗相关的中性粒细胞减少症，1例次与研究药物均无关的房颤，以及1例次判定为与VT8802相关的感染性肺炎（属≥3级ADR）。",
+      "normalized_text": "本报告周期内，正在进行一项Ⅱ期联合治疗研究（OOJ-VT8802-002），累计入组20例晚期非鳞状非小细胞肺癌试验参与者（接受3 mg/kg Q3W的VT8802联合卡铂与培美曲塞治疗）。截至2023年11月30日，共14例（70.0%）试验参与者发生不良反应（ADR），整体符合各给药方案的已知风险谱。其中，化疗相关的ADR主要表现为骨髓抑制（贫血、中性粒细胞/白细胞减少）及胃肠道反应；与VT8802相关的ADR（共8例，40.0%）主要为皮疹、输液相关反应、肝/甲状腺异常及感染性肺炎。共3例试验参与者发生4例次严重不良事件（SAE），包括2例次与化疗相关的中性粒细胞减少症，1例次与研究药物均无关的房颤，以及1例次判定为与VT8802相关的感染性肺炎（属≥3级ADR）。",
+      "loc": "BODY:P11",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 10
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0010:S001",
+          "raw_text": "本报告周期内，正在进行一项Ⅱ期联合治疗研究（OOJ-VT8802-002），累计入组20例晚期非鳞状非小细胞肺癌试验参与者（接受3 mg/kg Q3W的VT8802联合卡铂与培美曲塞治疗）。",
+          "normalized_text": "本报告周期内，正在进行一项Ⅱ期联合治疗研究（OOJ-VT8802-002），累计入组20例晚期非鳞状非小细胞肺癌试验参与者（接受3 mg/kg Q3W的VT8802联合卡铂与培美曲塞治疗）。"
+        },
+        {
+          "sentence_id": "C0010:S002",
+          "raw_text": "截至2023年11月30日，共14例（70.0%）试验参与者发生不良反应（ADR），整体符合各给药方案的已知风险谱。",
+          "normalized_text": "截至2023年11月30日，共14例（70.0%）试验参与者发生不良反应（ADR），整体符合各给药方案的已知风险谱。"
+        },
+        {
+          "sentence_id": "C0010:S003",
+          "raw_text": "其中，化疗相关的ADR主要表现为骨髓抑制（贫血、中性粒细胞/白细胞减少）及胃肠道反应；",
+          "normalized_text": "其中，化疗相关的ADR主要表现为骨髓抑制（贫血、中性粒细胞/白细胞减少）及胃肠道反应；"
+        },
+        {
+          "sentence_id": "C0010:S004",
+          "raw_text": "与VT8802相关的ADR（共8例，40.0%）主要为皮疹、输液相关反应、肝/甲状腺异常及感染性肺炎。",
+          "normalized_text": "与VT8802相关的ADR（共8例，40.0%）主要为皮疹、输液相关反应、肝/甲状腺异常及感染性肺炎。"
+        },
+        {
+          "sentence_id": "C0010:S005",
+          "raw_text": "共3例试验参与者发生4例次严重不良事件（SAE），包括2例次与化疗相关的中性粒细胞减少症，1例次与研究药物均无关的房颤，以及1例次判定为与VT8802相关的感染性肺炎（属≥3级ADR）。",
+          "normalized_text": "共3例试验参与者发生4例次严重不良事件（SAE），包括2例次与化疗相关的中性粒细胞减少症，1例次与研究药物均无关的房颤，以及1例次判定为与VT8802相关的感染性肺炎（属≥3级ADR）。"
+        }
+      ],
+      "page_no": null,
+      "order": 10,
+      "doc_order_index": 9,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0011",
+      "kind": "paragraph",
+      "raw_text": "截至本报告期末，VT8802的总体获益-风险特征依然可接受，未发生因安全性原因导致暂停研究或终止临床开发的情况。初步疗效方面，单药研究（OOJ-VT8802-01）展现出抗肿瘤活性（ORR 11.5%），支持确立 3 mg/kg Q3W 为后续推荐给药方案；联合化疗研究（OOJ-VT8802-02）呈现更优疗效信号（ORR 38.9%），且未观察到超出背景化疗的不可接受协同毒性。核心安全性进展方面，研究累计报告 4 例次与 VT8802 相关的疑似非预期严重不良反应（3例次感染性肺炎及1例次药物诱导的肝损伤）。基于此，申办者拟将“感染性肺炎”及“药物诱导的肝损伤”确认为重要已识别风险，并作为预期严重不良反应纳入后续更新的安全性参考信息（RSI）中。其他已观察到的不良事件（如腹泻、皮疹及化疗相关骨髓抑制等），后续将在临床研究中维持常规监测。",
+      "normalized_text": "截至本报告期末，VT8802的总体获益-风险特征依然可接受，未发生因安全性原因导致暂停研究或终止临床开发的情况。初步疗效方面，单药研究（OOJ-VT8802-01）展现出抗肿瘤活性（ORR 11.5%），支持确立 3 mg/kg Q3W 为后续推荐给药方案；联合化疗研究（OOJ-VT8802-02）呈现更优疗效信号（ORR 38.9%），且未观察到超出背景化疗的不可接受协同毒性。核心安全性进展方面，研究累计报告 4 例次与 VT8802 相关的疑似非预期严重不良反应（3例次感染性肺炎及1例次药物诱导的肝损伤）。基于此，申办者拟将“感染性肺炎”及“药物诱导的肝损伤”确认为重要已识别风险，并作为预期严重不良反应纳入后续更新的安全性参考信息（RSI）中。其他已观察到的不良事件（如腹泻、皮疹及化疗相关骨髓抑制等），后续将在临床研究中维持常规监测。",
+      "loc": "BODY:P12",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 11
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0011:S001",
+          "raw_text": "截至本报告期末，VT8802的总体获益-风险特征依然可接受，未发生因安全性原因导致暂停研究或终止临床开发的情况。",
+          "normalized_text": "截至本报告期末，VT8802的总体获益-风险特征依然可接受，未发生因安全性原因导致暂停研究或终止临床开发的情况。"
+        },
+        {
+          "sentence_id": "C0011:S002",
+          "raw_text": "初步疗效方面，单药研究（OOJ-VT8802-01）展现出抗肿瘤活性（ORR 11.5%），支持确立 3 mg/kg Q3W 为后续推荐给药方案；",
+          "normalized_text": "初步疗效方面，单药研究（OOJ-VT8802-01）展现出抗肿瘤活性（ORR 11.5%），支持确立 3 mg/kg Q3W 为后续推荐给药方案；"
+        },
+        {
+          "sentence_id": "C0011:S003",
+          "raw_text": "联合化疗研究（OOJ-VT8802-02）呈现更优疗效信号（ORR 38.9%），且未观察到超出背景化疗的不可接受协同毒性。",
+          "normalized_text": "联合化疗研究（OOJ-VT8802-02）呈现更优疗效信号（ORR 38.9%），且未观察到超出背景化疗的不可接受协同毒性。"
+        },
+        {
+          "sentence_id": "C0011:S004",
+          "raw_text": "核心安全性进展方面，研究累计报告 4 例次与 VT8802 相关的疑似非预期严重不良反应（3例次感染性肺炎及1例次药物诱导的肝损伤）。",
+          "normalized_text": "核心安全性进展方面，研究累计报告 4 例次与 VT8802 相关的疑似非预期严重不良反应（3例次感染性肺炎及1例次药物诱导的肝损伤）。"
+        },
+        {
+          "sentence_id": "C0011:S005",
+          "raw_text": "基于此，申办者拟将“感染性肺炎”及“药物诱导的肝损伤”确认为重要已识别风险，并作为预期严重不良反应纳入后续更新的安全性参考信息（RSI）中。",
+          "normalized_text": "基于此，申办者拟将“感染性肺炎”及“药物诱导的肝损伤”确认为重要已识别风险，并作为预期严重不良反应纳入后续更新的安全性参考信息（RSI）中。"
+        },
+        {
+          "sentence_id": "C0011:S006",
+          "raw_text": "其他已观察到的不良事件（如腹泻、皮疹及化疗相关骨髓抑制等），后续将在临床研究中维持常规监测。",
+          "normalized_text": "其他已观察到的不良事件（如腹泻、皮疹及化疗相关骨髓抑制等），后续将在临床研究中维持常规监测。"
+        }
+      ],
+      "page_no": null,
+      "order": 11,
+      "doc_order_index": 10,
+      "heading_path": [
+        "执行概要"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0012",
+      "kind": "heading",
+      "raw_text": "1.前言",
+      "normalized_text": "1.前言",
+      "loc": "BODY:HDG:P51",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 50
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0012:S001",
+          "raw_text": "1.前言",
+          "normalized_text": "1.前言"
+        }
+      ],
+      "page_no": null,
+      "order": 12,
+      "doc_order_index": 44,
+      "heading_path": [
+        "1.前言"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0013",
+      "kind": "paragraph",
+      "raw_text": "本报告为VT8802的第2期研发期间安全性更新报告，涵盖周期为2022年12月01日至2023年11月30日。",
+      "normalized_text": "本报告为VT8802的第2期研发期间安全性更新报告，涵盖周期为2022年12月01日至2023年11月30日。",
+      "loc": "BODY:P52",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 51
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0013:S001",
+          "raw_text": "本报告为VT8802的第2期研发期间安全性更新报告，涵盖周期为2022年12月01日至2023年11月30日。",
+          "normalized_text": "本报告为VT8802的第2期研发期间安全性更新报告，涵盖周期为2022年12月01日至2023年11月30日。"
+        }
+      ],
+      "page_no": null,
+      "order": 13,
+      "doc_order_index": 45,
+      "heading_path": [
+        "1.前言"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0014",
+      "kind": "paragraph",
+      "raw_text": "VT8802为重组人源化抗PD-L1单克隆抗体，属于免疫检查点抑制剂类抗肿瘤药物，拟用于晚期恶性肿瘤的治疗，采用静脉输注给药。VT8802通过结合PD-L1并阻断PD-L1与PD-1及CD80的相互作用，解除PD-L1介导的免疫抑制，增强T细胞介导的抗肿瘤免疫反应。当前临床开发包括VT8802单药治疗晚期实体瘤，以及VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌。截至2023年11月30日，VT8802尚处于临床研发阶段，尚未在任何国家或地区获得上市批准。本报告中涉及的安全性和有效性资料主要来源于已完成的OOJ-VT8802-01研究及正在进行的OOJ-VT8802-02研究。",
+      "normalized_text": "VT8802为重组人源化抗PD-L1单克隆抗体，属于免疫检查点抑制剂类抗肿瘤药物，拟用于晚期恶性肿瘤的治疗，采用静脉输注给药。VT8802通过结合PD-L1并阻断PD-L1与PD-1及CD80的相互作用，解除PD-L1介导的免疫抑制，增强T细胞介导的抗肿瘤免疫反应。当前临床开发包括VT8802单药治疗晚期实体瘤，以及VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌。截至2023年11月30日，VT8802尚处于临床研发阶段，尚未在任何国家或地区获得上市批准。本报告中涉及的安全性和有效性资料主要来源于已完成的OOJ-VT8802-01研究及正在进行的OOJ-VT8802-02研究。",
+      "loc": "BODY:P53",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 52
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0014:S001",
+          "raw_text": "VT8802为重组人源化抗PD-L1单克隆抗体，属于免疫检查点抑制剂类抗肿瘤药物，拟用于晚期恶性肿瘤的治疗，采用静脉输注给药。",
+          "normalized_text": "VT8802为重组人源化抗PD-L1单克隆抗体，属于免疫检查点抑制剂类抗肿瘤药物，拟用于晚期恶性肿瘤的治疗，采用静脉输注给药。"
+        },
+        {
+          "sentence_id": "C0014:S002",
+          "raw_text": "VT8802通过结合PD-L1并阻断PD-L1与PD-1及CD80的相互作用，解除PD-L1介导的免疫抑制，增强T细胞介导的抗肿瘤免疫反应。",
+          "normalized_text": "VT8802通过结合PD-L1并阻断PD-L1与PD-1及CD80的相互作用，解除PD-L1介导的免疫抑制，增强T细胞介导的抗肿瘤免疫反应。"
+        },
+        {
+          "sentence_id": "C0014:S003",
+          "raw_text": "当前临床开发包括VT8802单药治疗晚期实体瘤，以及VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌。",
+          "normalized_text": "当前临床开发包括VT8802单药治疗晚期实体瘤，以及VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌。"
+        },
+        {
+          "sentence_id": "C0014:S004",
+          "raw_text": "截至2023年11月30日，VT8802尚处于临床研发阶段，尚未在任何国家或地区获得上市批准。",
+          "normalized_text": "截至2023年11月30日，VT8802尚处于临床研发阶段，尚未在任何国家或地区获得上市批准。"
+        },
+        {
+          "sentence_id": "C0014:S005",
+          "raw_text": "本报告中涉及的安全性和有效性资料主要来源于已完成的OOJ-VT8802-01研究及正在进行的OOJ-VT8802-02研究。",
+          "normalized_text": "本报告中涉及的安全性和有效性资料主要来源于已完成的OOJ-VT8802-01研究及正在进行的OOJ-VT8802-02研究。"
+        }
+      ],
+      "page_no": null,
+      "order": 14,
+      "doc_order_index": 46,
+      "heading_path": [
+        "1.前言"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0015",
+      "kind": "heading",
+      "raw_text": "2.全球上市批准状态",
+      "normalized_text": "2.全球上市批准状态",
+      "loc": "BODY:HDG:P54",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 53
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0015:S001",
+          "raw_text": "2.全球上市批准状态",
+          "normalized_text": "2.全球上市批准状态"
+        }
+      ],
+      "page_no": null,
+      "order": 15,
+      "doc_order_index": 47,
+      "heading_path": [
+        "2.全球上市批准状态"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0016",
+      "kind": "paragraph",
+      "raw_text": "截至本报告期结束，VT8802尚未在任何国家或地区获得上市批准，亦未提交上市许可申请。因此，本报告周期内无新增上市批准、上市许可撤回、暂停上市、未获批准或因安全性原因限制上市等情况。",
+      "normalized_text": "截至本报告期结束，VT8802尚未在任何国家或地区获得上市批准，亦未提交上市许可申请。因此，本报告周期内无新增上市批准、上市许可撤回、暂停上市、未获批准或因安全性原因限制上市等情况。",
+      "loc": "BODY:P55",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 54
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0016:S001",
+          "raw_text": "截至本报告期结束，VT8802尚未在任何国家或地区获得上市批准，亦未提交上市许可申请。",
+          "normalized_text": "截至本报告期结束，VT8802尚未在任何国家或地区获得上市批准，亦未提交上市许可申请。"
+        },
+        {
+          "sentence_id": "C0016:S002",
+          "raw_text": "因此，本报告周期内无新增上市批准、上市许可撤回、暂停上市、未获批准或因安全性原因限制上市等情况。",
+          "normalized_text": "因此，本报告周期内无新增上市批准、上市许可撤回、暂停上市、未获批准或因安全性原因限制上市等情况。"
+        }
+      ],
+      "page_no": null,
+      "order": 16,
+      "doc_order_index": 48,
+      "heading_path": [
+        "2.全球上市批准状态"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0017",
+      "kind": "heading",
+      "raw_text": "3.报告周期内因安全性原因而采取的措施",
+      "normalized_text": "3.报告周期内因安全性原因而采取的措施",
+      "loc": "BODY:HDG:P56",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 55
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0017:S001",
+          "raw_text": "3.报告周期内因安全性原因而采取的措施",
+          "normalized_text": "3.报告周期内因安全性原因而采取的措施"
+        }
+      ],
+      "page_no": null,
+      "order": 17,
+      "doc_order_index": 49,
+      "heading_path": [
+        "3.报告周期内因安全性原因而采取的措施"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0018",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，未发生因安全性原因暂停、终止或提前停止VT8802临床研究的情况，亦未因安全性原因采取限制入组、暂停给药、终止给药方案、修改研究人群、增加特殊排除标准或停止临床开发等重大措施。",
+      "normalized_text": "本报告周期内，未发生因安全性原因暂停、终止或提前停止VT8802临床研究的情况，亦未因安全性原因采取限制入组、暂停给药、终止给药方案、修改研究人群、增加特殊排除标准或停止临床开发等重大措施。",
+      "loc": "BODY:P57",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 56
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0018:S001",
+          "raw_text": "本报告周期内，未发生因安全性原因暂停、终止或提前停止VT8802临床研究的情况，亦未因安全性原因采取限制入组、暂停给药、终止给药方案、修改研究人群、增加特殊排除标准或停止临床开发等重大措施。",
+          "normalized_text": "本报告周期内，未发生因安全性原因暂停、终止或提前停止VT8802临床研究的情况，亦未因安全性原因采取限制入组、暂停给药、终止给药方案、修改研究人群、增加特殊排除标准或停止临床开发等重大措施。"
+        }
+      ],
+      "page_no": null,
+      "order": 18,
+      "doc_order_index": 50,
+      "heading_path": [
+        "3.报告周期内因安全性原因而采取的措施"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0019",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，基于累计安全性资料，申办者拟对《研究者手册》中的安全性参考信息进行更新，将感染性肺炎及药物诱导的肝损伤纳入VT8802预期严重不良反应列表。该安全性参考信息变更见第4节。",
+      "normalized_text": "本报告周期内，基于累计安全性资料，申办者拟对《研究者手册》中的安全性参考信息进行更新，将感染性肺炎及药物诱导的肝损伤纳入VT8802预期严重不良反应列表。该安全性参考信息变更见第4节。",
+      "loc": "BODY:P58",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 57
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0019:S001",
+          "raw_text": "本报告周期内，基于累计安全性资料，申办者拟对《研究者手册》中的安全性参考信息进行更新，将感染性肺炎及药物诱导的肝损伤纳入VT8802预期严重不良反应列表。",
+          "normalized_text": "本报告周期内，基于累计安全性资料，申办者拟对《研究者手册》中的安全性参考信息进行更新，将感染性肺炎及药物诱导的肝损伤纳入VT8802预期严重不良反应列表。"
+        },
+        {
+          "sentence_id": "C0019:S002",
+          "raw_text": "该安全性参考信息变更见第4节。",
+          "normalized_text": "该安全性参考信息变更见第4节。"
+        }
+      ],
+      "page_no": null,
+      "order": 19,
+      "doc_order_index": 51,
+      "heading_path": [
+        "3.报告周期内因安全性原因而采取的措施"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0020",
+      "kind": "heading",
+      "raw_text": "4.安全性参考信息变更",
+      "normalized_text": "4.安全性参考信息变更",
+      "loc": "BODY:HDG:P59",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 58
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0020:S001",
+          "raw_text": "4.安全性参考信息变更",
+          "normalized_text": "4.安全性参考信息变更"
+        }
+      ],
+      "page_no": null,
+      "order": 20,
+      "doc_order_index": 52,
+      "heading_path": [
+        "4.安全性参考信息变更"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0021",
+      "kind": "paragraph",
+      "raw_text": "结合本报告期内新增的安全性数据及阶段性评估结果，申办者已确定需对当前版本的 RSI 进行实质性更新。具体变更评估如下：",
+      "normalized_text": "结合本报告期内新增的安全性数据及阶段性评估结果，申办者已确定需对当前版本的 RSI 进行实质性更新。具体变更评估如下：",
+      "loc": "BODY:P60",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 59
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0021:S001",
+          "raw_text": "结合本报告期内新增的安全性数据及阶段性评估结果，申办者已确定需对当前版本的 RSI 进行实质性更新。",
+          "normalized_text": "结合本报告期内新增的安全性数据及阶段性评估结果，申办者已确定需对当前版本的 RSI 进行实质性更新。"
+        },
+        {
+          "sentence_id": "C0021:S002",
+          "raw_text": "具体变更评估如下：",
+          "normalized_text": "具体变更评估如下："
+        }
+      ],
+      "page_no": null,
+      "order": 21,
+      "doc_order_index": 53,
+      "heading_path": [
+        "4.安全性参考信息变更"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0022",
+      "kind": "paragraph",
+      "raw_text": "拟新增的预期严重不良反应：本报告周期内，随着Ⅰ期单药研究（OOJ-VT8802-01）的完成与Ⅱ期联合治疗研究（OOJ-VT8802-02）的推进，申办者对逐渐累积的安全信号进行了重点医学评估。具体而言，已完成的Ⅰ期研究中共确认了与VT8802相关的2例次感染性肺炎及1例次药物诱导的肝损伤（均曾按SUSAR报告）；同时，在本期正在进行的Ⅱ期研究中又新增了1例次相关的感染性肺炎。基于上述风险在本周期内的集中确证与重现（所有研究累计3例次肺炎及1例次肝损伤），申办者拟在下一版更新的《研究者手册》中，正式将“感染性肺炎”及“药物诱导的肝损伤”纳入RSI的预期严重不良反应列表。",
+      "normalized_text": "拟新增的预期严重不良反应：本报告周期内，随着Ⅰ期单药研究（OOJ-VT8802-01）的完成与Ⅱ期联合治疗研究（OOJ-VT8802-02）的推进，申办者对逐渐累积的安全信号进行了重点医学评估。具体而言，已完成的Ⅰ期研究中共确认了与VT8802相关的2例次感染性肺炎及1例次药物诱导的肝损伤（均曾按SUSAR报告）；同时，在本期正在进行的Ⅱ期研究中又新增了1例次相关的感染性肺炎。基于上述风险在本周期内的集中确证与重现（所有研究累计3例次肺炎及1例次肝损伤），申办者拟在下一版更新的《研究者手册》中，正式将“感染性肺炎”及“药物诱导的肝损伤”纳入RSI的预期严重不良反应列表。",
+      "loc": "BODY:P61",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 60
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0022:S001",
+          "raw_text": "拟新增的预期严重不良反应：本报告周期内，随着Ⅰ期单药研究（OOJ-VT8802-01）的完成与Ⅱ期联合治疗研究（OOJ-VT8802-02）的推进，申办者对逐渐累积的安全信号进行了重点医学评估。",
+          "normalized_text": "拟新增的预期严重不良反应：本报告周期内，随着Ⅰ期单药研究（OOJ-VT8802-01）的完成与Ⅱ期联合治疗研究（OOJ-VT8802-02）的推进，申办者对逐渐累积的安全信号进行了重点医学评估。"
+        },
+        {
+          "sentence_id": "C0022:S002",
+          "raw_text": "具体而言，已完成的Ⅰ期研究中共确认了与VT8802相关的2例次感染性肺炎及1例次药物诱导的肝损伤（均曾按SUSAR报告）；",
+          "normalized_text": "具体而言，已完成的Ⅰ期研究中共确认了与VT8802相关的2例次感染性肺炎及1例次药物诱导的肝损伤（均曾按SUSAR报告）；"
+        },
+        {
+          "sentence_id": "C0022:S003",
+          "raw_text": "同时，在本期正在进行的Ⅱ期研究中又新增了1例次相关的感染性肺炎。",
+          "normalized_text": "同时，在本期正在进行的Ⅱ期研究中又新增了1例次相关的感染性肺炎。"
+        },
+        {
+          "sentence_id": "C0022:S004",
+          "raw_text": "基于上述风险在本周期内的集中确证与重现（所有研究累计3例次肺炎及1例次肝损伤），申办者拟在下一版更新的《研究者手册》中，正式将“感染性肺炎”及“药物诱导的肝损伤”纳入RSI的预期严重不良反应列表。",
+          "normalized_text": "基于上述风险在本周期内的集中确证与重现（所有研究累计3例次肺炎及1例次肝损伤），申办者拟在下一版更新的《研究者手册》中，正式将“感染性肺炎”及“药物诱导的肝损伤”纳入RSI的预期严重不良反应列表。"
+        }
+      ],
+      "page_no": null,
+      "order": 22,
+      "doc_order_index": 54,
+      "heading_path": [
+        "4.安全性参考信息变更"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0023",
+      "kind": "paragraph",
+      "raw_text": "本期评估后暂不纳入 RSI 的事件：本期内观察到的其他免疫相关不良事件（如腹泻、皮疹、甲状腺及肝功能常规指标异常等），申办者亦进行了集中审查。经评估，上述事件的发生频率及严重程度未超出同类药物的常规预期，现有证据尚不支持将“腹泻”等事件作为新增的预期严重不良反应纳入 RSI。上述事件将在后续临床研究中继续维持常规监测。",
+      "normalized_text": "本期评估后暂不纳入 RSI 的事件：本期内观察到的其他免疫相关不良事件（如腹泻、皮疹、甲状腺及肝功能常规指标异常等），申办者亦进行了集中审查。经评估，上述事件的发生频率及严重程度未超出同类药物的常规预期，现有证据尚不支持将“腹泻”等事件作为新增的预期严重不良反应纳入 RSI。上述事件将在后续临床研究中继续维持常规监测。",
+      "loc": "BODY:P62",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 61
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0023:S001",
+          "raw_text": "本期评估后暂不纳入 RSI 的事件：本期内观察到的其他免疫相关不良事件（如腹泻、皮疹、甲状腺及肝功能常规指标异常等），申办者亦进行了集中审查。",
+          "normalized_text": "本期评估后暂不纳入 RSI 的事件：本期内观察到的其他免疫相关不良事件（如腹泻、皮疹、甲状腺及肝功能常规指标异常等），申办者亦进行了集中审查。"
+        },
+        {
+          "sentence_id": "C0023:S002",
+          "raw_text": "经评估，上述事件的发生频率及严重程度未超出同类药物的常规预期，现有证据尚不支持将“腹泻”等事件作为新增的预期严重不良反应纳入 RSI。",
+          "normalized_text": "经评估，上述事件的发生频率及严重程度未超出同类药物的常规预期，现有证据尚不支持将“腹泻”等事件作为新增的预期严重不良反应纳入 RSI。"
+        },
+        {
+          "sentence_id": "C0023:S003",
+          "raw_text": "上述事件将在后续临床研究中继续维持常规监测。",
+          "normalized_text": "上述事件将在后续临床研究中继续维持常规监测。"
+        }
+      ],
+      "page_no": null,
+      "order": 23,
+      "doc_order_index": 55,
+      "heading_path": [
+        "4.安全性参考信息变更"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0024",
+      "kind": "heading",
+      "raw_text": "5.报告周期内正在进行和已完成的临床试验清单",
+      "normalized_text": "5.报告周期内正在进行和已完成的临床试验清单",
+      "loc": "BODY:HDG:P63",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 62
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0024:S001",
+          "raw_text": "5.报告周期内正在进行和已完成的临床试验清单",
+          "normalized_text": "5.报告周期内正在进行和已完成的临床试验清单"
+        }
+      ],
+      "page_no": null,
+      "order": 24,
+      "doc_order_index": 56,
+      "heading_path": [
+        "5.报告周期内正在进行和已完成的临床试验清单"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0025",
+      "kind": "paragraph",
+      "raw_text": "本周期内于2023.03.20完成一项OOJ-VT8802-01研究，为VT8802单药治疗晚期实体瘤试验参与者的临床研究。该研究已完成并观察到初步抗肿瘤活性，结合安全性、耐受性、药代动力学、免疫原性及有效性结果，支持将VT8802 3 mg/kg Q3W作为后续临床研究的推荐给药方案。",
+      "normalized_text": "本周期内于2023.03.20完成一项OOJ-VT8802-01研究，为VT8802单药治疗晚期实体瘤试验参与者的临床研究。该研究已完成并观察到初步抗肿瘤活性，结合安全性、耐受性、药代动力学、免疫原性及有效性结果，支持将VT8802 3 mg/kg Q3W作为后续临床研究的推荐给药方案。",
+      "loc": "BODY:P64",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 63
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0025:S001",
+          "raw_text": "本周期内于2023.03.20完成一项OOJ-VT8802-01研究，为VT8802单药治疗晚期实体瘤试验参与者的临床研究。",
+          "normalized_text": "本周期内于2023.03.20完成一项OOJ-VT8802-01研究，为VT8802单药治疗晚期实体瘤试验参与者的临床研究。"
+        },
+        {
+          "sentence_id": "C0025:S002",
+          "raw_text": "该研究已完成并观察到初步抗肿瘤活性，结合安全性、耐受性、药代动力学、免疫原性及有效性结果，支持将VT8802 3 mg/kg Q3W作为后续临床研究的推荐给药方案。",
+          "normalized_text": "该研究已完成并观察到初步抗肿瘤活性，结合安全性、耐受性、药代动力学、免疫原性及有效性结果，支持将VT8802 3 mg/kg Q3W作为后续临床研究的推荐给药方案。"
+        }
+      ],
+      "page_no": null,
+      "order": 25,
+      "doc_order_index": 57,
+      "heading_path": [
+        "5.报告周期内正在进行和已完成的临床试验清单"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0026",
+      "kind": "paragraph",
+      "raw_text": "截至2023年11月30日，正在进行一项OOJ-VT8802-02研究，为VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的临床研究，已观察到初步抗肿瘤活性，现有资料支持研究继续开展。",
+      "normalized_text": "截至2023年11月30日，正在进行一项OOJ-VT8802-02研究，为VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的临床研究，已观察到初步抗肿瘤活性，现有资料支持研究继续开展。",
+      "loc": "BODY:P65",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 64
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0026:S001",
+          "raw_text": "截至2023年11月30日，正在进行一项OOJ-VT8802-02研究，为VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的临床研究，已观察到初步抗肿瘤活性，现有资料支持研究继续开展。",
+          "normalized_text": "截至2023年11月30日，正在进行一项OOJ-VT8802-02研究，为VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的临床研究，已观察到初步抗肿瘤活性，现有资料支持研究继续开展。"
+        }
+      ],
+      "page_no": null,
+      "order": 26,
+      "doc_order_index": 58,
+      "heading_path": [
+        "5.报告周期内正在进行和已完成的临床试验清单"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0027",
+      "kind": "paragraph",
+      "raw_text": "各研究的设计、状态、研究人群、给药方案及累计暴露情况见附录3。",
+      "normalized_text": "各研究的设计、状态、研究人群、给药方案及累计暴露情况见附录3。",
+      "loc": "BODY:P66",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 65
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0027:S001",
+          "raw_text": "各研究的设计、状态、研究人群、给药方案及累计暴露情况见附录3。",
+          "normalized_text": "各研究的设计、状态、研究人群、给药方案及累计暴露情况见附录3。"
+        }
+      ],
+      "page_no": null,
+      "order": 27,
+      "doc_order_index": 59,
+      "heading_path": [
+        "5.报告周期内正在进行和已完成的临床试验清单"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0028",
+      "kind": "heading",
+      "raw_text": "6.估计的累计暴露量",
+      "normalized_text": "6.估计的累计暴露量",
+      "loc": "BODY:HDG:P67",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 66
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0028:S001",
+          "raw_text": "6.估计的累计暴露量",
+          "normalized_text": "6.估计的累计暴露量"
+        }
+      ],
+      "page_no": null,
+      "order": 28,
+      "doc_order_index": 60,
+      "heading_path": [
+        "6.估计的累计暴露量"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0029",
+      "kind": "heading",
+      "raw_text": "6.1 研发项目中的累计试验参与者暴露量",
+      "normalized_text": "6.1 研发项目中的累计试验参与者暴露量",
+      "loc": "BODY:HDG:P68",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 67
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0029:S001",
+          "raw_text": "6.1 研发项目中的累计试验参与者暴露量",
+          "normalized_text": "6.1 研发项目中的累计试验参与者暴露量"
+        }
+      ],
+      "page_no": null,
+      "order": 29,
+      "doc_order_index": 61,
+      "heading_path": [
+        "6.估计的累计暴露量",
+        "6.1 研发项目中的累计试验参与者暴露量"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "6.1",
+        "heading_text_stripped": "研发项目中的累计试验参与者暴露量"
+      }
+    },
+    {
+      "block_id": "C0030",
+      "kind": "paragraph",
+      "raw_text": "截至2023年11月30日，累计共有50例试验参与者在VT8802临床研究中接受至少一次VT8802治疗。其中，30例试验参与者来自已完成的OOJ-VT8802-01研究，接受VT8802单药治疗；20例试验参与者来自正在进行的OOJ-VT8802-02研究，接受VT8802联合卡铂和培美曲塞治疗。",
+      "normalized_text": "截至2023年11月30日，累计共有50例试验参与者在VT8802临床研究中接受至少一次VT8802治疗。其中，30例试验参与者来自已完成的OOJ-VT8802-01研究，接受VT8802单药治疗；20例试验参与者来自正在进行的OOJ-VT8802-02研究，接受VT8802联合卡铂和培美曲塞治疗。",
+      "loc": "BODY:P69",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 68
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0030:S001",
+          "raw_text": "截至2023年11月30日，累计共有50例试验参与者在VT8802临床研究中接受至少一次VT8802治疗。",
+          "normalized_text": "截至2023年11月30日，累计共有50例试验参与者在VT8802临床研究中接受至少一次VT8802治疗。"
+        },
+        {
+          "sentence_id": "C0030:S002",
+          "raw_text": "其中，30例试验参与者来自已完成的OOJ-VT8802-01研究，接受VT8802单药治疗；",
+          "normalized_text": "其中，30例试验参与者来自已完成的OOJ-VT8802-01研究，接受VT8802单药治疗；"
+        },
+        {
+          "sentence_id": "C0030:S003",
+          "raw_text": "20例试验参与者来自正在进行的OOJ-VT8802-02研究，接受VT8802联合卡铂和培美曲塞治疗。",
+          "normalized_text": "20例试验参与者来自正在进行的OOJ-VT8802-02研究，接受VT8802联合卡铂和培美曲塞治疗。"
+        }
+      ],
+      "page_no": null,
+      "order": 30,
+      "doc_order_index": 62,
+      "heading_path": [
+        "6.估计的累计暴露量",
+        "6.1 研发项目中的累计试验参与者暴露量"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0031",
+      "kind": "paragraph",
+      "raw_text": "在OOJ-VT8802-01研究中，21例试验参与者接受推荐剂量3 mg/kg Q3W治疗。在OOJ-VT8802-02研究中，20例试验参与者均接受VT8802 3 mg/kg Q3W联合卡铂和培美曲塞治疗。因此，截至本报告期结束，累计40例试验参与者接受VT8802 3 mg/kg Q3W方案治疗。",
+      "normalized_text": "在OOJ-VT8802-01研究中，21例试验参与者接受推荐剂量3 mg/kg Q3W治疗。在OOJ-VT8802-02研究中，20例试验参与者均接受VT8802 3 mg/kg Q3W联合卡铂和培美曲塞治疗。因此，截至本报告期结束，累计40例试验参与者接受VT8802 3 mg/kg Q3W方案治疗。",
+      "loc": "BODY:P70",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 69
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0031:S001",
+          "raw_text": "在OOJ-VT8802-01研究中，21例试验参与者接受推荐剂量3 mg/kg Q3W治疗。",
+          "normalized_text": "在OOJ-VT8802-01研究中，21例试验参与者接受推荐剂量3 mg/kg Q3W治疗。"
+        },
+        {
+          "sentence_id": "C0031:S002",
+          "raw_text": "在OOJ-VT8802-02研究中，20例试验参与者均接受VT8802 3 mg/kg Q3W联合卡铂和培美曲塞治疗。",
+          "normalized_text": "在OOJ-VT8802-02研究中，20例试验参与者均接受VT8802 3 mg/kg Q3W联合卡铂和培美曲塞治疗。"
+        },
+        {
+          "sentence_id": "C0031:S003",
+          "raw_text": "因此，截至本报告期结束，累计40例试验参与者接受VT8802 3 mg/kg Q3W方案治疗。",
+          "normalized_text": "因此，截至本报告期结束，累计40例试验参与者接受VT8802 3 mg/kg Q3W方案治疗。"
+        }
+      ],
+      "page_no": null,
+      "order": 31,
+      "doc_order_index": 63,
+      "heading_path": [
+        "6.估计的累计暴露量",
+        "6.1 研发项目中的累计试验参与者暴露量"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0032",
+      "kind": "paragraph",
+      "raw_text": "总体而言，截至本报告期结束，VT8802的临床暴露量仍相对有限，现有安全性结论需结合后续临床研究中不断增加的暴露数据持续评估。",
+      "normalized_text": "总体而言，截至本报告期结束，VT8802的临床暴露量仍相对有限，现有安全性结论需结合后续临床研究中不断增加的暴露数据持续评估。",
+      "loc": "BODY:P71",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 70
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0032:S001",
+          "raw_text": "总体而言，截至本报告期结束，VT8802的临床暴露量仍相对有限，现有安全性结论需结合后续临床研究中不断增加的暴露数据持续评估。",
+          "normalized_text": "总体而言，截至本报告期结束，VT8802的临床暴露量仍相对有限，现有安全性结论需结合后续临床研究中不断增加的暴露数据持续评估。"
+        }
+      ],
+      "page_no": null,
+      "order": 32,
+      "doc_order_index": 64,
+      "heading_path": [
+        "6.估计的累计暴露量",
+        "6.1 研发项目中的累计试验参与者暴露量"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0033",
+      "kind": "heading",
+      "raw_text": "6.2 上市后用药经验中的患者暴露量",
+      "normalized_text": "6.2 上市后用药经验中的患者暴露量",
+      "loc": "BODY:HDG:P72",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 71
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0033:S001",
+          "raw_text": "6.2 上市后用药经验中的患者暴露量",
+          "normalized_text": "6.2 上市后用药经验中的患者暴露量"
+        }
+      ],
+      "page_no": null,
+      "order": 33,
+      "doc_order_index": 65,
+      "heading_path": [
+        "6.估计的累计暴露量",
+        "6.2 上市后用药经验中的患者暴露量"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "6.2",
+        "heading_text_stripped": "上市后用药经验中的患者暴露量"
+      }
+    },
+    {
+      "block_id": "C0034",
+      "kind": "paragraph",
+      "raw_text": "截至本报告期结束，VT8802尚未在任何国家或地区获得上市批准，因此无上市后用药经验中的患者暴露量数据。",
+      "normalized_text": "截至本报告期结束，VT8802尚未在任何国家或地区获得上市批准，因此无上市后用药经验中的患者暴露量数据。",
+      "loc": "BODY:P73",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 72
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0034:S001",
+          "raw_text": "截至本报告期结束，VT8802尚未在任何国家或地区获得上市批准，因此无上市后用药经验中的患者暴露量数据。",
+          "normalized_text": "截至本报告期结束，VT8802尚未在任何国家或地区获得上市批准，因此无上市后用药经验中的患者暴露量数据。"
+        }
+      ],
+      "page_no": null,
+      "order": 34,
+      "doc_order_index": 66,
+      "heading_path": [
+        "6.估计的累计暴露量",
+        "6.2 上市后用药经验中的患者暴露量"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0035",
+      "kind": "heading",
+      "raw_text": "7.行列表和汇总表中的数据",
+      "normalized_text": "7.行列表和汇总表中的数据",
+      "loc": "BODY:HDG:P74",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 73
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0035:S001",
+          "raw_text": "7.行列表和汇总表中的数据",
+          "normalized_text": "7.行列表和汇总表中的数据"
+        }
+      ],
+      "page_no": null,
+      "order": 35,
+      "doc_order_index": 67,
+      "heading_path": [
+        "7.行列表和汇总表中的数据"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0036",
+      "kind": "heading",
+      "raw_text": "7.1 参考信息",
+      "normalized_text": "7.1 参考信息",
+      "loc": "BODY:HDG:P75",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 74
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0036:S001",
+          "raw_text": "7.1 参考信息",
+          "normalized_text": "7.1 参考信息"
+        }
+      ],
+      "page_no": null,
+      "order": 36,
+      "doc_order_index": 68,
+      "heading_path": [
+        "7.行列表和汇总表中的数据",
+        "7.1 参考信息"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "7.1",
+        "heading_text_stripped": "参考信息"
+      }
+    },
+    {
+      "block_id": "C0037",
+      "kind": "paragraph",
+      "raw_text": "本报告中严重不良反应的预期性判断基于事件发生时有效版本的安全性参考信息。对于本报告期内基于累计资料拟新增至后续安全性参考信息的感染性肺炎及药物诱导的肝损伤，既往病例仍按照事件发生时有效版本的安全性参考信息进行预期性判断。",
+      "normalized_text": "本报告中严重不良反应的预期性判断基于事件发生时有效版本的安全性参考信息。对于本报告期内基于累计资料拟新增至后续安全性参考信息的感染性肺炎及药物诱导的肝损伤，既往病例仍按照事件发生时有效版本的安全性参考信息进行预期性判断。",
+      "loc": "BODY:P76",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 75
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0037:S001",
+          "raw_text": "本报告中严重不良反应的预期性判断基于事件发生时有效版本的安全性参考信息。",
+          "normalized_text": "本报告中严重不良反应的预期性判断基于事件发生时有效版本的安全性参考信息。"
+        },
+        {
+          "sentence_id": "C0037:S002",
+          "raw_text": "对于本报告期内基于累计资料拟新增至后续安全性参考信息的感染性肺炎及药物诱导的肝损伤，既往病例仍按照事件发生时有效版本的安全性参考信息进行预期性判断。",
+          "normalized_text": "对于本报告期内基于累计资料拟新增至后续安全性参考信息的感染性肺炎及药物诱导的肝损伤，既往病例仍按照事件发生时有效版本的安全性参考信息进行预期性判断。"
+        }
+      ],
+      "page_no": null,
+      "order": 37,
+      "doc_order_index": 69,
+      "heading_path": [
+        "7.行列表和汇总表中的数据",
+        "7.1 参考信息"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0038",
+      "kind": "paragraph",
+      "raw_text": "严重不良反应行列表和严重不良事件累计汇总表分别见相应附录。",
+      "normalized_text": "严重不良反应行列表和严重不良事件累计汇总表分别见相应附录。",
+      "loc": "BODY:P77",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 76
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0038:S001",
+          "raw_text": "严重不良反应行列表和严重不良事件累计汇总表分别见相应附录。",
+          "normalized_text": "严重不良反应行列表和严重不良事件累计汇总表分别见相应附录。"
+        }
+      ],
+      "page_no": null,
+      "order": 38,
+      "doc_order_index": 70,
+      "heading_path": [
+        "7.行列表和汇总表中的数据",
+        "7.1 参考信息"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0039",
+      "kind": "heading",
+      "raw_text": "7.2 报告周期内的严重不良反应行列表",
+      "normalized_text": "7.2 报告周期内的严重不良反应行列表",
+      "loc": "BODY:HDG:P78",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 77
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0039:S001",
+          "raw_text": "7.2 报告周期内的严重不良反应行列表",
+          "normalized_text": "7.2 报告周期内的严重不良反应行列表"
+        }
+      ],
+      "page_no": null,
+      "order": 39,
+      "doc_order_index": 71,
+      "heading_path": [
+        "7.行列表和汇总表中的数据",
+        "7.2 报告周期内的严重不良反应行列表"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "7.2",
+        "heading_text_stripped": "报告周期内的严重不良反应行列表"
+      }
+    },
+    {
+      "block_id": "C0040",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内纳入严重不良反应行列表的病例为申办者获知的、经研究者判断与VT8802相关的严重不良反应。相关病例信息见附录5。",
+      "normalized_text": "本报告周期内纳入严重不良反应行列表的病例为申办者获知的、经研究者判断与VT8802相关的严重不良反应。相关病例信息见附录5。",
+      "loc": "BODY:P79",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 78
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0040:S001",
+          "raw_text": "本报告周期内纳入严重不良反应行列表的病例为申办者获知的、经研究者判断与VT8802相关的严重不良反应。",
+          "normalized_text": "本报告周期内纳入严重不良反应行列表的病例为申办者获知的、经研究者判断与VT8802相关的严重不良反应。"
+        },
+        {
+          "sentence_id": "C0040:S002",
+          "raw_text": "相关病例信息见附录5。",
+          "normalized_text": "相关病例信息见附录5。"
+        }
+      ],
+      "page_no": null,
+      "order": 40,
+      "doc_order_index": 72,
+      "heading_path": [
+        "7.行列表和汇总表中的数据",
+        "7.2 报告周期内的严重不良反应行列表"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0041",
+      "kind": "heading",
+      "raw_text": "7.3 严重不良事件的累计汇总表",
+      "normalized_text": "7.3 严重不良事件的累计汇总表",
+      "loc": "BODY:HDG:P80",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 79
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0041:S001",
+          "raw_text": "7.3 严重不良事件的累计汇总表",
+          "normalized_text": "7.3 严重不良事件的累计汇总表"
+        }
+      ],
+      "page_no": null,
+      "order": 41,
+      "doc_order_index": 73,
+      "heading_path": [
+        "7.行列表和汇总表中的数据",
+        "7.3 严重不良事件的累计汇总表"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "7.3",
+        "heading_text_stripped": "严重不良事件的累计汇总表"
+      }
+    },
+    {
+      "block_id": "C0042",
+      "kind": "paragraph",
+      "raw_text": "截至2023年11月30日，VT8802临床研究中累计报告12例次严重不良事件。严重不良事件累计汇总情况见附录6。",
+      "normalized_text": "截至2023年11月30日，VT8802临床研究中累计报告12例次严重不良事件。严重不良事件累计汇总情况见附录6。",
+      "loc": "BODY:P81",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 80
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0042:S001",
+          "raw_text": "截至2023年11月30日，VT8802临床研究中累计报告12例次严重不良事件。",
+          "normalized_text": "截至2023年11月30日，VT8802临床研究中累计报告12例次严重不良事件。"
+        },
+        {
+          "sentence_id": "C0042:S002",
+          "raw_text": "严重不良事件累计汇总情况见附录6。",
+          "normalized_text": "严重不良事件累计汇总情况见附录6。"
+        }
+      ],
+      "page_no": null,
+      "order": 42,
+      "doc_order_index": 74,
+      "heading_path": [
+        "7.行列表和汇总表中的数据",
+        "7.3 严重不良事件的累计汇总表"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0043",
+      "kind": "heading",
+      "raw_text": "8.报告期内临床试验中有意义的发现",
+      "normalized_text": "8.报告期内临床试验中有意义的发现",
+      "loc": "BODY:HDG:P82",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 81
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0043:S001",
+          "raw_text": "8.报告期内临床试验中有意义的发现",
+          "normalized_text": "8.报告期内临床试验中有意义的发现"
+        }
+      ],
+      "page_no": null,
+      "order": 43,
+      "doc_order_index": 75,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0044",
+      "kind": "heading",
+      "raw_text": "8.1 已完成的临床试验",
+      "normalized_text": "8.1 已完成的临床试验",
+      "loc": "BODY:HDG:P83",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 82
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0044:S001",
+          "raw_text": "8.1 已完成的临床试验",
+          "normalized_text": "8.1 已完成的临床试验"
+        }
+      ],
+      "page_no": null,
+      "order": 44,
+      "doc_order_index": 76,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.1 已完成的临床试验"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "8.1",
+        "heading_text_stripped": "已完成的临床试验"
+      }
+    },
+    {
+      "block_id": "C0045",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，OOJ-VT8802-01研究已完成。该研究评价VT8802单药治疗晚期实体瘤试验参与者的安全性、耐受性、药代动力学、免疫原性及初步抗肿瘤活性。",
+      "normalized_text": "本报告周期内，OOJ-VT8802-01研究已完成。该研究评价VT8802单药治疗晚期实体瘤试验参与者的安全性、耐受性、药代动力学、免疫原性及初步抗肿瘤活性。",
+      "loc": "BODY:P84",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 83
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0045:S001",
+          "raw_text": "本报告周期内，OOJ-VT8802-01研究已完成。",
+          "normalized_text": "本报告周期内，OOJ-VT8802-01研究已完成。"
+        },
+        {
+          "sentence_id": "C0045:S002",
+          "raw_text": "该研究评价VT8802单药治疗晚期实体瘤试验参与者的安全性、耐受性、药代动力学、免疫原性及初步抗肿瘤活性。",
+          "normalized_text": "该研究评价VT8802单药治疗晚期实体瘤试验参与者的安全性、耐受性、药代动力学、免疫原性及初步抗肿瘤活性。"
+        }
+      ],
+      "page_no": null,
+      "order": 45,
+      "doc_order_index": 77,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.1 已完成的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0046",
+      "kind": "paragraph",
+      "raw_text": "本研究共30例试验参与者接受至少一次VT8802治疗，其中21例接受推荐剂量3 mg/kg Q3W。研究期间未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD）。",
+      "normalized_text": "本研究共30例试验参与者接受至少一次VT8802治疗，其中21例接受推荐剂量3 mg/kg Q3W。研究期间未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD）。",
+      "loc": "BODY:P85",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 84
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0046:S001",
+          "raw_text": "本研究共30例试验参与者接受至少一次VT8802治疗，其中21例接受推荐剂量3 mg/kg Q3W。",
+          "normalized_text": "本研究共30例试验参与者接受至少一次VT8802治疗，其中21例接受推荐剂量3 mg/kg Q3W。"
+        },
+        {
+          "sentence_id": "C0046:S002",
+          "raw_text": "研究期间未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD）。",
+          "normalized_text": "研究期间未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD）。"
+        }
+      ],
+      "page_no": null,
+      "order": 46,
+      "doc_order_index": 78,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.1 已完成的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0047",
+      "kind": "paragraph",
+      "raw_text": "本研究中，28例（93.3%）试验参与者发生386例次治疗期间出现的不良事件（TEAE），24例（80.0%）试验参与者发生112例次不良反应（ADR）。发生率≥10%的不良反应主要包括乏力、恶心、皮疹、输液相关反应、丙氨酸氨基转移酶升高、甲状腺功能减退症及腹泻。研究期间共5例（16.7%）试验参与者报告8例次严重不良事件，其中与VT8802相关的严重不良事件包括感染性肺炎（2例次）及药物诱导的肝损伤（1例次），均判定为疑似非预期严重不良反应。研究期间共报告6例死亡，包括1例与药物无关的5级呼吸衰竭及4例疾病进展，未发生与VT8802相关的致死性不良事件。",
+      "normalized_text": "本研究中，28例（93.3%）试验参与者发生386例次治疗期间出现的不良事件（TEAE），24例（80.0%）试验参与者发生112例次不良反应（ADR）。发生率≥10%的不良反应主要包括乏力、恶心、皮疹、输液相关反应、丙氨酸氨基转移酶升高、甲状腺功能减退症及腹泻。研究期间共5例（16.7%）试验参与者报告8例次严重不良事件，其中与VT8802相关的严重不良事件包括感染性肺炎（2例次）及药物诱导的肝损伤（1例次），均判定为疑似非预期严重不良反应。研究期间共报告6例死亡，包括1例与药物无关的5级呼吸衰竭及4例疾病进展，未发生与VT8802相关的致死性不良事件。",
+      "loc": "BODY:P86",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 85
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0047:S001",
+          "raw_text": "本研究中，28例（93.3%）试验参与者发生386例次治疗期间出现的不良事件（TEAE），24例（80.0%）试验参与者发生112例次不良反应（ADR）。",
+          "normalized_text": "本研究中，28例（93.3%）试验参与者发生386例次治疗期间出现的不良事件（TEAE），24例（80.0%）试验参与者发生112例次不良反应（ADR）。"
+        },
+        {
+          "sentence_id": "C0047:S002",
+          "raw_text": "发生率≥10%的不良反应主要包括乏力、恶心、皮疹、输液相关反应、丙氨酸氨基转移酶升高、甲状腺功能减退症及腹泻。",
+          "normalized_text": "发生率≥10%的不良反应主要包括乏力、恶心、皮疹、输液相关反应、丙氨酸氨基转移酶升高、甲状腺功能减退症及腹泻。"
+        },
+        {
+          "sentence_id": "C0047:S003",
+          "raw_text": "研究期间共5例（16.7%）试验参与者报告8例次严重不良事件，其中与VT8802相关的严重不良事件包括感染性肺炎（2例次）及药物诱导的肝损伤（1例次），均判定为疑似非预期严重不良反应。",
+          "normalized_text": "研究期间共5例（16.7%）试验参与者报告8例次严重不良事件，其中与VT8802相关的严重不良事件包括感染性肺炎（2例次）及药物诱导的肝损伤（1例次），均判定为疑似非预期严重不良反应。"
+        },
+        {
+          "sentence_id": "C0047:S004",
+          "raw_text": "研究期间共报告6例死亡，包括1例与药物无关的5级呼吸衰竭及4例疾病进展，未发生与VT8802相关的致死性不良事件。",
+          "normalized_text": "研究期间共报告6例死亡，包括1例与药物无关的5级呼吸衰竭及4例疾病进展，未发生与VT8802相关的致死性不良事件。"
+        }
+      ],
+      "page_no": null,
+      "order": 47,
+      "doc_order_index": 79,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.1 已完成的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0048",
+      "kind": "paragraph",
+      "raw_text": "有效性方面，本研究观察到一定初步抗肿瘤活性。结合安全性、耐受性、药代动力学、免疫原性及初步有效性结果，3 mg/kg Q3W被确定为后续临床研究的推荐给药方案。",
+      "normalized_text": "有效性方面，本研究观察到一定初步抗肿瘤活性。结合安全性、耐受性、药代动力学、免疫原性及初步有效性结果，3 mg/kg Q3W被确定为后续临床研究的推荐给药方案。",
+      "loc": "BODY:P87",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 86
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0048:S001",
+          "raw_text": "有效性方面，本研究观察到一定初步抗肿瘤活性。",
+          "normalized_text": "有效性方面，本研究观察到一定初步抗肿瘤活性。"
+        },
+        {
+          "sentence_id": "C0048:S002",
+          "raw_text": "结合安全性、耐受性、药代动力学、免疫原性及初步有效性结果，3 mg/kg Q3W被确定为后续临床研究的推荐给药方案。",
+          "normalized_text": "结合安全性、耐受性、药代动力学、免疫原性及初步有效性结果，3 mg/kg Q3W被确定为后续临床研究的推荐给药方案。"
+        }
+      ],
+      "page_no": null,
+      "order": 48,
+      "doc_order_index": 80,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.1 已完成的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0049",
+      "kind": "paragraph",
+      "raw_text": "总体而言，OOJ-VT8802-01研究显示VT8802单药治疗晚期实体瘤试验参与者的安全性良好且可接受，未发现影响后续临床开发的不可接受安全性风险。",
+      "normalized_text": "总体而言，OOJ-VT8802-01研究显示VT8802单药治疗晚期实体瘤试验参与者的安全性良好且可接受，未发现影响后续临床开发的不可接受安全性风险。",
+      "loc": "BODY:P88",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 87
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0049:S001",
+          "raw_text": "总体而言，OOJ-VT8802-01研究显示VT8802单药治疗晚期实体瘤试验参与者的安全性良好且可接受，未发现影响后续临床开发的不可接受安全性风险。",
+          "normalized_text": "总体而言，OOJ-VT8802-01研究显示VT8802单药治疗晚期实体瘤试验参与者的安全性良好且可接受，未发现影响后续临床开发的不可接受安全性风险。"
+        }
+      ],
+      "page_no": null,
+      "order": 49,
+      "doc_order_index": 81,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.1 已完成的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0050",
+      "kind": "heading",
+      "raw_text": "8.2 正在进行的临床试验",
+      "normalized_text": "8.2 正在进行的临床试验",
+      "loc": "BODY:HDG:P89",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 88
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0050:S001",
+          "raw_text": "8.2 正在进行的临床试验",
+          "normalized_text": "8.2 正在进行的临床试验"
+        }
+      ],
+      "page_no": null,
+      "order": 50,
+      "doc_order_index": 82,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.2 正在进行的临床试验"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "8.2",
+        "heading_text_stripped": "正在进行的临床试验"
+      }
+    },
+    {
+      "block_id": "C0051",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，OOJ-VT8802-02研究持续开展。该研究评价VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的安全性和初步有效性。",
+      "normalized_text": "本报告周期内，OOJ-VT8802-02研究持续开展。该研究评价VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的安全性和初步有效性。",
+      "loc": "BODY:P90",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 89
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0051:S001",
+          "raw_text": "本报告周期内，OOJ-VT8802-02研究持续开展。",
+          "normalized_text": "本报告周期内，OOJ-VT8802-02研究持续开展。"
+        },
+        {
+          "sentence_id": "C0051:S002",
+          "raw_text": "该研究评价VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的安全性和初步有效性。",
+          "normalized_text": "该研究评价VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的安全性和初步有效性。"
+        }
+      ],
+      "page_no": null,
+      "order": 51,
+      "doc_order_index": 83,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.2 正在进行的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0052",
+      "kind": "paragraph",
+      "raw_text": "截至2023年11月30日，本研究共20例试验参与者接受试验药物治疗。18例（90.0%）试验参与者发生86例次治疗期间出现的不良事件（TEAE），14例（70.0%）试验参与者发生52例次不良反应（ADR）。",
+      "normalized_text": "截至2023年11月30日，本研究共20例试验参与者接受试验药物治疗。18例（90.0%）试验参与者发生86例次治疗期间出现的不良事件（TEAE），14例（70.0%）试验参与者发生52例次不良反应（ADR）。",
+      "loc": "BODY:P91",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 90
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0052:S001",
+          "raw_text": "截至2023年11月30日，本研究共20例试验参与者接受试验药物治疗。",
+          "normalized_text": "截至2023年11月30日，本研究共20例试验参与者接受试验药物治疗。"
+        },
+        {
+          "sentence_id": "C0052:S002",
+          "raw_text": "18例（90.0%）试验参与者发生86例次治疗期间出现的不良事件（TEAE），14例（70.0%）试验参与者发生52例次不良反应（ADR）。",
+          "normalized_text": "18例（90.0%）试验参与者发生86例次治疗期间出现的不良事件（TEAE），14例（70.0%）试验参与者发生52例次不良反应（ADR）。"
+        }
+      ],
+      "page_no": null,
+      "order": 52,
+      "doc_order_index": 84,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.2 正在进行的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0053",
+      "kind": "paragraph",
+      "raw_text": "有效性方面，截至2023年11月30日，本研究共有18例试验参与者完成至少一次基线后肿瘤疗效评估。经研究者评估，7例试验参与者达到部分缓解（PR），8例试验参与者达到疾病稳定（SD），ORR为38.9%（7/18），DCR为83.3%（15/18）。由于随访时间尚短，缓解持续时间、无进展生存期及总生存期数据尚未成熟，仍需结合后续随访进一步评价。",
+      "normalized_text": "有效性方面，截至2023年11月30日，本研究共有18例试验参与者完成至少一次基线后肿瘤疗效评估。经研究者评估，7例试验参与者达到部分缓解（PR），8例试验参与者达到疾病稳定（SD），ORR为38.9%（7/18），DCR为83.3%（15/18）。由于随访时间尚短，缓解持续时间、无进展生存期及总生存期数据尚未成熟，仍需结合后续随访进一步评价。",
+      "loc": "BODY:P92",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 91
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0053:S001",
+          "raw_text": "有效性方面，截至2023年11月30日，本研究共有18例试验参与者完成至少一次基线后肿瘤疗效评估。",
+          "normalized_text": "有效性方面，截至2023年11月30日，本研究共有18例试验参与者完成至少一次基线后肿瘤疗效评估。"
+        },
+        {
+          "sentence_id": "C0053:S002",
+          "raw_text": "经研究者评估，7例试验参与者达到部分缓解（PR），8例试验参与者达到疾病稳定（SD），ORR为38.9%（7/18），DCR为83.3%（15/18）。",
+          "normalized_text": "经研究者评估，7例试验参与者达到部分缓解（PR），8例试验参与者达到疾病稳定（SD），ORR为38.9%（7/18），DCR为83.3%（15/18）。"
+        },
+        {
+          "sentence_id": "C0053:S003",
+          "raw_text": "由于随访时间尚短，缓解持续时间、无进展生存期及总生存期数据尚未成熟，仍需结合后续随访进一步评价。",
+          "normalized_text": "由于随访时间尚短，缓解持续时间、无进展生存期及总生存期数据尚未成熟，仍需结合后续随访进一步评价。"
+        }
+      ],
+      "page_no": null,
+      "order": 53,
+      "doc_order_index": 85,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.2 正在进行的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0054",
+      "kind": "paragraph",
+      "raw_text": "本研究中观察到的不良反应主要涉及胃肠道反应、血液学毒性、全身症状、皮肤相关事件、输液相关反应、肝功能相关实验室指标异常及肺部感染相关事件。≥3级不良反应包括中性粒细胞计数降低、发热性中性粒细胞减少症、贫血及感染性肺炎。",
+      "normalized_text": "本研究中观察到的不良反应主要涉及胃肠道反应、血液学毒性、全身症状、皮肤相关事件、输液相关反应、肝功能相关实验室指标异常及肺部感染相关事件。≥3级不良反应包括中性粒细胞计数降低、发热性中性粒细胞减少症、贫血及感染性肺炎。",
+      "loc": "BODY:P93",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 92
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0054:S001",
+          "raw_text": "本研究中观察到的不良反应主要涉及胃肠道反应、血液学毒性、全身症状、皮肤相关事件、输液相关反应、肝功能相关实验室指标异常及肺部感染相关事件。",
+          "normalized_text": "本研究中观察到的不良反应主要涉及胃肠道反应、血液学毒性、全身症状、皮肤相关事件、输液相关反应、肝功能相关实验室指标异常及肺部感染相关事件。"
+        },
+        {
+          "sentence_id": "C0054:S002",
+          "raw_text": "≥3级不良反应包括中性粒细胞计数降低、发热性中性粒细胞减少症、贫血及感染性肺炎。",
+          "normalized_text": "≥3级不良反应包括中性粒细胞计数降低、发热性中性粒细胞减少症、贫血及感染性肺炎。"
+        }
+      ],
+      "page_no": null,
+      "order": 54,
+      "doc_order_index": 86,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.2 正在进行的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0055",
+      "kind": "paragraph",
+      "raw_text": "截至本报告期结束，OOJ-VT8802-02研究共报告4例次严重不良事件，包括2例次中性粒细胞减少症、1例次感染性肺炎及1例次房颤。其中，感染性肺炎经研究者判断与VT8802相关；中性粒细胞减少症判定为与卡铂及培美曲塞相关；房颤判定为与VT8802、卡铂及培美曲塞均无关。",
+      "normalized_text": "截至本报告期结束，OOJ-VT8802-02研究共报告4例次严重不良事件，包括2例次中性粒细胞减少症、1例次感染性肺炎及1例次房颤。其中，感染性肺炎经研究者判断与VT8802相关；中性粒细胞减少症判定为与卡铂及培美曲塞相关；房颤判定为与VT8802、卡铂及培美曲塞均无关。",
+      "loc": "BODY:P94",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 93
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0055:S001",
+          "raw_text": "截至本报告期结束，OOJ-VT8802-02研究共报告4例次严重不良事件，包括2例次中性粒细胞减少症、1例次感染性肺炎及1例次房颤。",
+          "normalized_text": "截至本报告期结束，OOJ-VT8802-02研究共报告4例次严重不良事件，包括2例次中性粒细胞减少症、1例次感染性肺炎及1例次房颤。"
+        },
+        {
+          "sentence_id": "C0055:S002",
+          "raw_text": "其中，感染性肺炎经研究者判断与VT8802相关；",
+          "normalized_text": "其中，感染性肺炎经研究者判断与VT8802相关；"
+        },
+        {
+          "sentence_id": "C0055:S003",
+          "raw_text": "中性粒细胞减少症判定为与卡铂及培美曲塞相关；",
+          "normalized_text": "中性粒细胞减少症判定为与卡铂及培美曲塞相关；"
+        },
+        {
+          "sentence_id": "C0055:S004",
+          "raw_text": "房颤判定为与VT8802、卡铂及培美曲塞均无关。",
+          "normalized_text": "房颤判定为与VT8802、卡铂及培美曲塞均无关。"
+        }
+      ],
+      "page_no": null,
+      "order": 55,
+      "doc_order_index": 87,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.2 正在进行的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0056",
+      "kind": "paragraph",
+      "raw_text": "总体而言，OOJ-VT8802-02研究中报告的安全性信息未提示影响研究继续开展的新的重大安全性风险，初步有效性结果支持继续开展该联合治疗研究。后续研究中将继续关注感染性肺炎、药物诱导的肝损伤、腹泻及其他免疫相关风险，并结合更多疗效和随访数据持续评估VT8802联合治疗方案的获益-风险特征。",
+      "normalized_text": "总体而言，OOJ-VT8802-02研究中报告的安全性信息未提示影响研究继续开展的新的重大安全性风险，初步有效性结果支持继续开展该联合治疗研究。后续研究中将继续关注感染性肺炎、药物诱导的肝损伤、腹泻及其他免疫相关风险，并结合更多疗效和随访数据持续评估VT8802联合治疗方案的获益-风险特征。",
+      "loc": "BODY:P95",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 94
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0056:S001",
+          "raw_text": "总体而言，OOJ-VT8802-02研究中报告的安全性信息未提示影响研究继续开展的新的重大安全性风险，初步有效性结果支持继续开展该联合治疗研究。",
+          "normalized_text": "总体而言，OOJ-VT8802-02研究中报告的安全性信息未提示影响研究继续开展的新的重大安全性风险，初步有效性结果支持继续开展该联合治疗研究。"
+        },
+        {
+          "sentence_id": "C0056:S002",
+          "raw_text": "后续研究中将继续关注感染性肺炎、药物诱导的肝损伤、腹泻及其他免疫相关风险，并结合更多疗效和随访数据持续评估VT8802联合治疗方案的获益-风险特征。",
+          "normalized_text": "后续研究中将继续关注感染性肺炎、药物诱导的肝损伤、腹泻及其他免疫相关风险，并结合更多疗效和随访数据持续评估VT8802联合治疗方案的获益-风险特征。"
+        }
+      ],
+      "page_no": null,
+      "order": 56,
+      "doc_order_index": 88,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.2 正在进行的临床试验"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0057",
+      "kind": "heading",
+      "raw_text": "8.3 长期随访",
+      "normalized_text": "8.3 长期随访",
+      "loc": "BODY:HDG:P96",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 95
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0057:S001",
+          "raw_text": "8.3 长期随访",
+          "normalized_text": "8.3 长期随访"
+        }
+      ],
+      "page_no": null,
+      "order": 57,
+      "doc_order_index": 89,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.3 长期随访"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "8.3",
+        "heading_text_stripped": "长期随访"
+      }
+    },
+    {
+      "block_id": "C0058",
+      "kind": "paragraph",
+      "raw_text": "截至本报告期结束，VT8802临床开发项目中未开展独立的长期随访研究，本报告周期内未从长期随访中获得新的安全性资料。",
+      "normalized_text": "截至本报告期结束，VT8802临床开发项目中未开展独立的长期随访研究，本报告周期内未从长期随访中获得新的安全性资料。",
+      "loc": "BODY:P97",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 96
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0058:S001",
+          "raw_text": "截至本报告期结束，VT8802临床开发项目中未开展独立的长期随访研究，本报告周期内未从长期随访中获得新的安全性资料。",
+          "normalized_text": "截至本报告期结束，VT8802临床开发项目中未开展独立的长期随访研究，本报告周期内未从长期随访中获得新的安全性资料。"
+        }
+      ],
+      "page_no": null,
+      "order": 58,
+      "doc_order_index": 90,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.3 长期随访"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0059",
+      "kind": "heading",
+      "raw_text": "8.4 研究药物的其他治疗应用",
+      "normalized_text": "8.4 研究药物的其他治疗应用",
+      "loc": "BODY:HDG:P98",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 97
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0059:S001",
+          "raw_text": "8.4 研究药物的其他治疗应用",
+          "normalized_text": "8.4 研究药物的其他治疗应用"
+        }
+      ],
+      "page_no": null,
+      "order": 59,
+      "doc_order_index": 91,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.4 研究药物的其他治疗应用"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "8.4",
+        "heading_text_stripped": "研究药物的其他治疗应用"
+      }
+    },
+    {
+      "block_id": "C0060",
+      "kind": "paragraph",
+      "raw_text": "截至本报告期结束，除OOJ-VT8802-01研究和OOJ-VT8802-02研究外，VT8802未用于其他治疗应用项目。本报告周期内未开展同情用药、扩展用药、研究者发起研究或其他特殊治疗使用项目，因此未获得来自其他治疗应用的新的安全性资料。",
+      "normalized_text": "截至本报告期结束，除OOJ-VT8802-01研究和OOJ-VT8802-02研究外，VT8802未用于其他治疗应用项目。本报告周期内未开展同情用药、扩展用药、研究者发起研究或其他特殊治疗使用项目，因此未获得来自其他治疗应用的新的安全性资料。",
+      "loc": "BODY:P99",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 98
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0060:S001",
+          "raw_text": "截至本报告期结束，除OOJ-VT8802-01研究和OOJ-VT8802-02研究外，VT8802未用于其他治疗应用项目。",
+          "normalized_text": "截至本报告期结束，除OOJ-VT8802-01研究和OOJ-VT8802-02研究外，VT8802未用于其他治疗应用项目。"
+        },
+        {
+          "sentence_id": "C0060:S002",
+          "raw_text": "本报告周期内未开展同情用药、扩展用药、研究者发起研究或其他特殊治疗使用项目，因此未获得来自其他治疗应用的新的安全性资料。",
+          "normalized_text": "本报告周期内未开展同情用药、扩展用药、研究者发起研究或其他特殊治疗使用项目，因此未获得来自其他治疗应用的新的安全性资料。"
+        }
+      ],
+      "page_no": null,
+      "order": 60,
+      "doc_order_index": 92,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.4 研究药物的其他治疗应用"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0061",
+      "kind": "heading",
+      "raw_text": "8.5 与联合治疗相关的新的安全性数据",
+      "normalized_text": "8.5 与联合治疗相关的新的安全性数据",
+      "loc": "BODY:HDG:P100",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 99
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0061:S001",
+          "raw_text": "8.5 与联合治疗相关的新的安全性数据",
+          "normalized_text": "8.5 与联合治疗相关的新的安全性数据"
+        }
+      ],
+      "page_no": null,
+      "order": 61,
+      "doc_order_index": 93,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.5 与联合治疗相关的新的安全性数据"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "8.5",
+        "heading_text_stripped": "与联合治疗相关的新的安全性数据"
+      }
+    },
+    {
+      "block_id": "C0062",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，VT8802作为联合治疗方案组成部分用于OOJ-VT8802-02研究，主要安全性发现见第8.2节。",
+      "normalized_text": "本报告周期内，VT8802作为联合治疗方案组成部分用于OOJ-VT8802-02研究，主要安全性发现见第8.2节。",
+      "loc": "BODY:P101",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 100
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0062:S001",
+          "raw_text": "本报告周期内，VT8802作为联合治疗方案组成部分用于OOJ-VT8802-02研究，主要安全性发现见第8.2节。",
+          "normalized_text": "本报告周期内，VT8802作为联合治疗方案组成部分用于OOJ-VT8802-02研究，主要安全性发现见第8.2节。"
+        }
+      ],
+      "page_no": null,
+      "order": 62,
+      "doc_order_index": 94,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.5 与联合治疗相关的新的安全性数据"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0063",
+      "kind": "paragraph",
+      "raw_text": "截至2023年11月30日，未获得提示VT8802与卡铂及培美曲塞联合应用产生新的、明确协同毒性或影响联合治疗继续开展的重大安全性风险的资料。OOJ-VT8802-02研究中观察到的血液学毒性主要需结合卡铂及培美曲塞的已知骨髓抑制风险进行解释；感染性肺炎已纳入VT8802重要安全性问题的整体评估。",
+      "normalized_text": "截至2023年11月30日，未获得提示VT8802与卡铂及培美曲塞联合应用产生新的、明确协同毒性或影响联合治疗继续开展的重大安全性风险的资料。OOJ-VT8802-02研究中观察到的血液学毒性主要需结合卡铂及培美曲塞的已知骨髓抑制风险进行解释；感染性肺炎已纳入VT8802重要安全性问题的整体评估。",
+      "loc": "BODY:P102",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 101
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0063:S001",
+          "raw_text": "截至2023年11月30日，未获得提示VT8802与卡铂及培美曲塞联合应用产生新的、明确协同毒性或影响联合治疗继续开展的重大安全性风险的资料。",
+          "normalized_text": "截至2023年11月30日，未获得提示VT8802与卡铂及培美曲塞联合应用产生新的、明确协同毒性或影响联合治疗继续开展的重大安全性风险的资料。"
+        },
+        {
+          "sentence_id": "C0063:S002",
+          "raw_text": "OOJ-VT8802-02研究中观察到的血液学毒性主要需结合卡铂及培美曲塞的已知骨髓抑制风险进行解释；",
+          "normalized_text": "OOJ-VT8802-02研究中观察到的血液学毒性主要需结合卡铂及培美曲塞的已知骨髓抑制风险进行解释；"
+        },
+        {
+          "sentence_id": "C0063:S003",
+          "raw_text": "感染性肺炎已纳入VT8802重要安全性问题的整体评估。",
+          "normalized_text": "感染性肺炎已纳入VT8802重要安全性问题的整体评估。"
+        }
+      ],
+      "page_no": null,
+      "order": 63,
+      "doc_order_index": 95,
+      "heading_path": [
+        "8.报告期内临床试验中有意义的发现",
+        "8.5 与联合治疗相关的新的安全性数据"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0064",
+      "kind": "heading",
+      "raw_text": "9.非干预性研究的安全性结果",
+      "normalized_text": "9.非干预性研究的安全性结果",
+      "loc": "BODY:HDG:P103",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 102
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0064:S001",
+          "raw_text": "9.非干预性研究的安全性结果",
+          "normalized_text": "9.非干预性研究的安全性结果"
+        }
+      ],
+      "page_no": null,
+      "order": 64,
+      "doc_order_index": 96,
+      "heading_path": [
+        "9.非干预性研究的安全性结果"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0065",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，VT8802尚未开展非干预性研究，本报告周期内未获得来自非干预性研究的新增安全性资料。",
+      "normalized_text": "本报告周期内，VT8802尚未开展非干预性研究，本报告周期内未获得来自非干预性研究的新增安全性资料。",
+      "loc": "BODY:P104",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 103
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0065:S001",
+          "raw_text": "本报告周期内，VT8802尚未开展非干预性研究，本报告周期内未获得来自非干预性研究的新增安全性资料。",
+          "normalized_text": "本报告周期内，VT8802尚未开展非干预性研究，本报告周期内未获得来自非干预性研究的新增安全性资料。"
+        }
+      ],
+      "page_no": null,
+      "order": 65,
+      "doc_order_index": 97,
+      "heading_path": [
+        "9.非干预性研究的安全性结果"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0066",
+      "kind": "heading",
+      "raw_text": "10.其他临床试验/研究的安全性信息",
+      "normalized_text": "10.其他临床试验/研究的安全性信息",
+      "loc": "BODY:HDG:P105",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 104
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0066:S001",
+          "raw_text": "10.其他临床试验/研究的安全性信息",
+          "normalized_text": "10.其他临床试验/研究的安全性信息"
+        }
+      ],
+      "page_no": null,
+      "order": 66,
+      "doc_order_index": 98,
+      "heading_path": [
+        "10.其他临床试验/研究的安全性信息"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0067",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，除OOJ-VT8802-01研究和OOJ-VT8802-02研究外，申办者未开展其他VT8802相关临床试验或临床研究，本报告周期内未从其他临床试验或研究中获得新的安全性信息。",
+      "normalized_text": "本报告周期内，除OOJ-VT8802-01研究和OOJ-VT8802-02研究外，申办者未开展其他VT8802相关临床试验或临床研究，本报告周期内未从其他临床试验或研究中获得新的安全性信息。",
+      "loc": "BODY:P106",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 105
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0067:S001",
+          "raw_text": "本报告周期内，除OOJ-VT8802-01研究和OOJ-VT8802-02研究外，申办者未开展其他VT8802相关临床试验或临床研究，本报告周期内未从其他临床试验或研究中获得新的安全性信息。",
+          "normalized_text": "本报告周期内，除OOJ-VT8802-01研究和OOJ-VT8802-02研究外，申办者未开展其他VT8802相关临床试验或临床研究，本报告周期内未从其他临床试验或研究中获得新的安全性信息。"
+        }
+      ],
+      "page_no": null,
+      "order": 67,
+      "doc_order_index": 99,
+      "heading_path": [
+        "10.其他临床试验/研究的安全性信息"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0068",
+      "kind": "heading",
+      "raw_text": "11.上市后的安全性发现",
+      "normalized_text": "11.上市后的安全性发现",
+      "loc": "BODY:HDG:P107",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 106
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0068:S001",
+          "raw_text": "11.上市后的安全性发现",
+          "normalized_text": "11.上市后的安全性发现"
+        }
+      ],
+      "page_no": null,
+      "order": 68,
+      "doc_order_index": 100,
+      "heading_path": [
+        "11.上市后的安全性发现"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0069",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，VT8802尚未在任何国家或地区获得上市批准，因此本报告周期内无上市后安全性发现。",
+      "normalized_text": "本报告周期内，VT8802尚未在任何国家或地区获得上市批准，因此本报告周期内无上市后安全性发现。",
+      "loc": "BODY:P108",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 107
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0069:S001",
+          "raw_text": "本报告周期内，VT8802尚未在任何国家或地区获得上市批准，因此本报告周期内无上市后安全性发现。",
+          "normalized_text": "本报告周期内，VT8802尚未在任何国家或地区获得上市批准，因此本报告周期内无上市后安全性发现。"
+        }
+      ],
+      "page_no": null,
+      "order": 69,
+      "doc_order_index": 101,
+      "heading_path": [
+        "11.上市后的安全性发现"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0070",
+      "kind": "heading",
+      "raw_text": "12.非临床数据",
+      "normalized_text": "12.非临床数据",
+      "loc": "BODY:HDG:P109",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 108
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0070:S001",
+          "raw_text": "12.非临床数据",
+          "normalized_text": "12.非临床数据"
+        }
+      ],
+      "page_no": null,
+      "order": 70,
+      "doc_order_index": 102,
+      "heading_path": [
+        "12.非临床数据"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0071",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，VT8802未开展或完成产生重大安全性影响的新增非临床研究，包括体外药理学、体内药理学、一般毒理学、安全药理学、生殖毒性、遗传毒性、致癌性或其他相关非临床安全性研究。",
+      "normalized_text": "本报告周期内，VT8802未开展或完成产生重大安全性影响的新增非临床研究，包括体外药理学、体内药理学、一般毒理学、安全药理学、生殖毒性、遗传毒性、致癌性或其他相关非临床安全性研究。",
+      "loc": "BODY:P110",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 109
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0071:S001",
+          "raw_text": "本报告周期内，VT8802未开展或完成产生重大安全性影响的新增非临床研究，包括体外药理学、体内药理学、一般毒理学、安全药理学、生殖毒性、遗传毒性、致癌性或其他相关非临床安全性研究。",
+          "normalized_text": "本报告周期内，VT8802未开展或完成产生重大安全性影响的新增非临床研究，包括体外药理学、体内药理学、一般毒理学、安全药理学、生殖毒性、遗传毒性、致癌性或其他相关非临床安全性研究。"
+        }
+      ],
+      "page_no": null,
+      "order": 71,
+      "doc_order_index": 103,
+      "heading_path": [
+        "12.非临床数据"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0072",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，未获得提示需修改临床研究方案、更新研究者手册非临床安全性特征、采取新的风险控制措施或改变当前总体获益-风险判断的非临床安全性发现。",
+      "normalized_text": "本报告周期内，未获得提示需修改临床研究方案、更新研究者手册非临床安全性特征、采取新的风险控制措施或改变当前总体获益-风险判断的非临床安全性发现。",
+      "loc": "BODY:P111",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 110
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0072:S001",
+          "raw_text": "本报告周期内，未获得提示需修改临床研究方案、更新研究者手册非临床安全性特征、采取新的风险控制措施或改变当前总体获益-风险判断的非临床安全性发现。",
+          "normalized_text": "本报告周期内，未获得提示需修改临床研究方案、更新研究者手册非临床安全性特征、采取新的风险控制措施或改变当前总体获益-风险判断的非临床安全性发现。"
+        }
+      ],
+      "page_no": null,
+      "order": 72,
+      "doc_order_index": 104,
+      "heading_path": [
+        "12.非临床数据"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0073",
+      "kind": "heading",
+      "raw_text": "13.文献",
+      "normalized_text": "13.文献",
+      "loc": "BODY:HDG:P112",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 111
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0073:S001",
+          "raw_text": "13.文献",
+          "normalized_text": "13.文献"
+        }
+      ],
+      "page_no": null,
+      "order": 73,
+      "doc_order_index": 105,
+      "heading_path": [
+        "13.文献"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0074",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，申办者未获得提示VT8802存在新的重大安全性风险或需改变当前获益-风险判断的文献资料。",
+      "normalized_text": "本报告周期内，申办者未获得提示VT8802存在新的重大安全性风险或需改变当前获益-风险判断的文献资料。",
+      "loc": "BODY:P113",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 112
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0074:S001",
+          "raw_text": "本报告周期内，申办者未获得提示VT8802存在新的重大安全性风险或需改变当前获益-风险判断的文献资料。",
+          "normalized_text": "本报告周期内，申办者未获得提示VT8802存在新的重大安全性风险或需改变当前获益-风险判断的文献资料。"
+        }
+      ],
+      "page_no": null,
+      "order": 74,
+      "doc_order_index": 106,
+      "heading_path": [
+        "13.文献"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0075",
+      "kind": "paragraph",
+      "raw_text": "同类PD-1/PD-L1免疫检查点抑制剂文献中已知存在免疫介导性肺炎、肝炎、结肠炎、内分泌系统病变、皮肤反应及输液相关反应等风险。VT8802目前观察到的感染性肺炎、药物诱导的肝损伤、腹泻、皮疹、甲状腺功能异常及肝功能相关实验室指标异常等事件总体与该类药物已知风险谱相一致。",
+      "normalized_text": "同类PD-1/PD-L1免疫检查点抑制剂文献中已知存在免疫介导性肺炎、肝炎、结肠炎、内分泌系统病变、皮肤反应及输液相关反应等风险。VT8802目前观察到的感染性肺炎、药物诱导的肝损伤、腹泻、皮疹、甲状腺功能异常及肝功能相关实验室指标异常等事件总体与该类药物已知风险谱相一致。",
+      "loc": "BODY:P114",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 113
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0075:S001",
+          "raw_text": "同类PD-1/PD-L1免疫检查点抑制剂文献中已知存在免疫介导性肺炎、肝炎、结肠炎、内分泌系统病变、皮肤反应及输液相关反应等风险。",
+          "normalized_text": "同类PD-1/PD-L1免疫检查点抑制剂文献中已知存在免疫介导性肺炎、肝炎、结肠炎、内分泌系统病变、皮肤反应及输液相关反应等风险。"
+        },
+        {
+          "sentence_id": "C0075:S002",
+          "raw_text": "VT8802目前观察到的感染性肺炎、药物诱导的肝损伤、腹泻、皮疹、甲状腺功能异常及肝功能相关实验室指标异常等事件总体与该类药物已知风险谱相一致。",
+          "normalized_text": "VT8802目前观察到的感染性肺炎、药物诱导的肝损伤、腹泻、皮疹、甲状腺功能异常及肝功能相关实验室指标异常等事件总体与该类药物已知风险谱相一致。"
+        }
+      ],
+      "page_no": null,
+      "order": 75,
+      "doc_order_index": 107,
+      "heading_path": [
+        "13.文献"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0076",
+      "kind": "heading",
+      "raw_text": "14.其他DSUR",
+      "normalized_text": "14.其他DSUR",
+      "loc": "BODY:HDG:P115",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 114
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0076:S001",
+          "raw_text": "14.其他DSUR",
+          "normalized_text": "14.其他DSUR"
+        }
+      ],
+      "page_no": null,
+      "order": 76,
+      "doc_order_index": 108,
+      "heading_path": [
+        "14.其他DSUR"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0077",
+      "kind": "paragraph",
+      "raw_text": "截至本报告期结束，申办者未在其他国家或地区单独提交涵盖VT8802的其他研发期间安全性更新报告，本报告周期内未从其他DSUR获得新的安全性信息。",
+      "normalized_text": "截至本报告期结束，申办者未在其他国家或地区单独提交涵盖VT8802的其他研发期间安全性更新报告，本报告周期内未从其他DSUR获得新的安全性信息。",
+      "loc": "BODY:P116",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 115
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0077:S001",
+          "raw_text": "截至本报告期结束，申办者未在其他国家或地区单独提交涵盖VT8802的其他研发期间安全性更新报告，本报告周期内未从其他DSUR获得新的安全性信息。",
+          "normalized_text": "截至本报告期结束，申办者未在其他国家或地区单独提交涵盖VT8802的其他研发期间安全性更新报告，本报告周期内未从其他DSUR获得新的安全性信息。"
+        }
+      ],
+      "page_no": null,
+      "order": 77,
+      "doc_order_index": 109,
+      "heading_path": [
+        "14.其他DSUR"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0078",
+      "kind": "heading",
+      "raw_text": "15.缺乏疗效",
+      "normalized_text": "15.缺乏疗效",
+      "loc": "BODY:HDG:P117",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 116
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0078:S001",
+          "raw_text": "15.缺乏疗效",
+          "normalized_text": "15.缺乏疗效"
+        }
+      ],
+      "page_no": null,
+      "order": 78,
+      "doc_order_index": 110,
+      "heading_path": [
+        "15.缺乏疗效"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0079",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，未获得提示VT8802因缺乏疗效而导致试验参与者面临不合理安全性风险的资料。",
+      "normalized_text": "本报告周期内，未获得提示VT8802因缺乏疗效而导致试验参与者面临不合理安全性风险的资料。",
+      "loc": "BODY:P118",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 117
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0079:S001",
+          "raw_text": "本报告周期内，未获得提示VT8802因缺乏疗效而导致试验参与者面临不合理安全性风险的资料。",
+          "normalized_text": "本报告周期内，未获得提示VT8802因缺乏疗效而导致试验参与者面临不合理安全性风险的资料。"
+        }
+      ],
+      "page_no": null,
+      "order": 79,
+      "doc_order_index": 111,
+      "heading_path": [
+        "15.缺乏疗效"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0080",
+      "kind": "paragraph",
+      "raw_text": "已完成的OOJ-VT8802-01研究中，VT8802单药治疗晚期实体瘤试验参与者观察到初步抗肿瘤活性，支持将3 mg/kg Q3W作为后续临床研究推荐给药方案。正在进行的OOJ-VT8802-02研究中，VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者亦观察到初步抗肿瘤活性，现有资料未提示因缺乏疗效需终止研究或显著调整临床开发策略。",
+      "normalized_text": "已完成的OOJ-VT8802-01研究中，VT8802单药治疗晚期实体瘤试验参与者观察到初步抗肿瘤活性，支持将3 mg/kg Q3W作为后续临床研究推荐给药方案。正在进行的OOJ-VT8802-02研究中，VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者亦观察到初步抗肿瘤活性，现有资料未提示因缺乏疗效需终止研究或显著调整临床开发策略。",
+      "loc": "BODY:P119",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 118
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0080:S001",
+          "raw_text": "已完成的OOJ-VT8802-01研究中，VT8802单药治疗晚期实体瘤试验参与者观察到初步抗肿瘤活性，支持将3 mg/kg Q3W作为后续临床研究推荐给药方案。",
+          "normalized_text": "已完成的OOJ-VT8802-01研究中，VT8802单药治疗晚期实体瘤试验参与者观察到初步抗肿瘤活性，支持将3 mg/kg Q3W作为后续临床研究推荐给药方案。"
+        },
+        {
+          "sentence_id": "C0080:S002",
+          "raw_text": "正在进行的OOJ-VT8802-02研究中，VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者亦观察到初步抗肿瘤活性，现有资料未提示因缺乏疗效需终止研究或显著调整临床开发策略。",
+          "normalized_text": "正在进行的OOJ-VT8802-02研究中，VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者亦观察到初步抗肿瘤活性，现有资料未提示因缺乏疗效需终止研究或显著调整临床开发策略。"
+        }
+      ],
+      "page_no": null,
+      "order": 80,
+      "doc_order_index": 112,
+      "heading_path": [
+        "15.缺乏疗效"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0081",
+      "kind": "paragraph",
+      "raw_text": "鉴于VT8802仍处于临床开发阶段，其有效性结论尚需结合后续研究中更多试验参与者数据和更长随访时间进一步确认。",
+      "normalized_text": "鉴于VT8802仍处于临床开发阶段，其有效性结论尚需结合后续研究中更多试验参与者数据和更长随访时间进一步确认。",
+      "loc": "BODY:P120",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 119
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0081:S001",
+          "raw_text": "鉴于VT8802仍处于临床开发阶段，其有效性结论尚需结合后续研究中更多试验参与者数据和更长随访时间进一步确认。",
+          "normalized_text": "鉴于VT8802仍处于临床开发阶段，其有效性结论尚需结合后续研究中更多试验参与者数据和更长随访时间进一步确认。"
+        }
+      ],
+      "page_no": null,
+      "order": 81,
+      "doc_order_index": 113,
+      "heading_path": [
+        "15.缺乏疗效"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0082",
+      "kind": "heading",
+      "raw_text": "16.区域特有信息",
+      "normalized_text": "16.区域特有信息",
+      "loc": "BODY:HDG:P121",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 120
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0082:S001",
+          "raw_text": "16.区域特有信息",
+          "normalized_text": "16.区域特有信息"
+        }
+      ],
+      "page_no": null,
+      "order": 82,
+      "doc_order_index": 114,
+      "heading_path": [
+        "16.区域特有信息"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0083",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，未发生区域监管机构因安全性原因要求暂停研究、限制入组、修改给药方案、终止临床开发或采取其他重大安全性措施的情况。区域监管要求中关注的死亡、因不良事件退出研究、严重不良反应累计汇总及方案重大修订等信息见区域附录。",
+      "normalized_text": "本报告周期内，未发生区域监管机构因安全性原因要求暂停研究、限制入组、修改给药方案、终止临床开发或采取其他重大安全性措施的情况。区域监管要求中关注的死亡、因不良事件退出研究、严重不良反应累计汇总及方案重大修订等信息见区域附录。",
+      "loc": "BODY:P122",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 121
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0083:S001",
+          "raw_text": "本报告周期内，未发生区域监管机构因安全性原因要求暂停研究、限制入组、修改给药方案、终止临床开发或采取其他重大安全性措施的情况。",
+          "normalized_text": "本报告周期内，未发生区域监管机构因安全性原因要求暂停研究、限制入组、修改给药方案、终止临床开发或采取其他重大安全性措施的情况。"
+        },
+        {
+          "sentence_id": "C0083:S002",
+          "raw_text": "区域监管要求中关注的死亡、因不良事件退出研究、严重不良反应累计汇总及方案重大修订等信息见区域附录。",
+          "normalized_text": "区域监管要求中关注的死亡、因不良事件退出研究、严重不良反应累计汇总及方案重大修订等信息见区域附录。"
+        }
+      ],
+      "page_no": null,
+      "order": 83,
+      "doc_order_index": 115,
+      "heading_path": [
+        "16.区域特有信息"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0084",
+      "kind": "heading",
+      "raw_text": "17.最新信息",
+      "normalized_text": "17.最新信息",
+      "loc": "BODY:HDG:P123",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 122
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0084:S001",
+          "raw_text": "17.最新信息",
+          "normalized_text": "17.最新信息"
+        }
+      ],
+      "page_no": null,
+      "order": 84,
+      "doc_order_index": 116,
+      "heading_path": [
+        "17.最新信息"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0085",
+      "kind": "paragraph",
+      "raw_text": "本DSUR数据锁定点（2023年11月30日）之后，申办者收到一例“重度疑似免疫相关性心肌炎”的初始严重不良事件（SAE）报告。该病例为1例62岁男性试验参与者（试验参与者识别码：01001，姓名缩写：DBSG），在OOJ-VT8802-02研究中接受VT8802（3 mg/kg Q3W）联合卡铂和培美曲塞方案治疗，至事件发生时已累计完成2个周期的治疗。",
+      "normalized_text": "本DSUR数据锁定点（2023年11月30日）之后，申办者收到一例“重度疑似免疫相关性心肌炎”的初始严重不良事件（SAE）报告。该病例为1例62岁男性试验参与者（试验参与者识别码：01001，姓名缩写：DBSG），在OOJ-VT8802-02研究中接受VT8802（3 mg/kg Q3W）联合卡铂和培美曲塞方案治疗，至事件发生时已累计完成2个周期的治疗。",
+      "loc": "BODY:P124",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 123
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0085:S001",
+          "raw_text": "本DSUR数据锁定点（2023年11月30日）之后，申办者收到一例“重度疑似免疫相关性心肌炎”的初始严重不良事件（SAE）报告。",
+          "normalized_text": "本DSUR数据锁定点（2023年11月30日）之后，申办者收到一例“重度疑似免疫相关性心肌炎”的初始严重不良事件（SAE）报告。"
+        },
+        {
+          "sentence_id": "C0085:S002",
+          "raw_text": "该病例为1例62岁男性试验参与者（试验参与者识别码：01001，姓名缩写：DBSG），在OOJ-VT8802-02研究中接受VT8802（3 mg/kg Q3W）联合卡铂和培美曲塞方案治疗，至事件发生时已累计完成2个周期的治疗。",
+          "normalized_text": "该病例为1例62岁男性试验参与者（试验参与者识别码：01001，姓名缩写：DBSG），在OOJ-VT8802-02研究中接受VT8802（3 mg/kg Q3W）联合卡铂和培美曲塞方案治疗，至事件发生时已累计完成2个周期的治疗。"
+        }
+      ],
+      "page_no": null,
+      "order": 85,
+      "doc_order_index": 117,
+      "heading_path": [
+        "17.最新信息"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0086",
+      "kind": "paragraph",
+      "raw_text": "根据初始报告，该试验参与者在给药后突发重度胸闷与气促，急查心肌损伤标志物（肌钙蛋白T、肌酸激酶同工酶）显著升高，心电图提示频发室性心律失常。试验参与者既往有10年高血压史，但在事件发生前心脏功能评估正常。",
+      "normalized_text": "根据初始报告，该试验参与者在给药后突发重度胸闷与气促，急查心肌损伤标志物（肌钙蛋白T、肌酸激酶同工酶）显著升高，心电图提示频发室性心律失常。试验参与者既往有10年高血压史，但在事件发生前心脏功能评估正常。",
+      "loc": "BODY:P125",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 124
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0086:S001",
+          "raw_text": "根据初始报告，该试验参与者在给药后突发重度胸闷与气促，急查心肌损伤标志物（肌钙蛋白T、肌酸激酶同工酶）显著升高，心电图提示频发室性心律失常。",
+          "normalized_text": "根据初始报告，该试验参与者在给药后突发重度胸闷与气促，急查心肌损伤标志物（肌钙蛋白T、肌酸激酶同工酶）显著升高，心电图提示频发室性心律失常。"
+        },
+        {
+          "sentence_id": "C0086:S002",
+          "raw_text": "试验参与者既往有10年高血压史，但在事件发生前心脏功能评估正常。",
+          "normalized_text": "试验参与者既往有10年高血压史，但在事件发生前心脏功能评估正常。"
+        }
+      ],
+      "page_no": null,
+      "order": 86,
+      "doc_order_index": 118,
+      "heading_path": [
+        "17.最新信息"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0087",
+      "kind": "paragraph",
+      "raw_text": "由于免疫相关性心肌炎是免疫检查点抑制剂已知虽罕见但可致命的严重毒性，研究者高度怀疑该事件与VT8802相关，并已紧急暂停所有研究给药，将试验参与者转入心血管重症监护室（CCU）给予大剂量甲泼尼龙冲击及心肌营养支持治疗。",
+      "normalized_text": "由于免疫相关性心肌炎是免疫检查点抑制剂已知虽罕见但可致命的严重毒性，研究者高度怀疑该事件与VT8802相关，并已紧急暂停所有研究给药，将试验参与者转入心血管重症监护室（CCU）给予大剂量甲泼尼龙冲击及心肌营养支持治疗。",
+      "loc": "BODY:P126",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 125
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0087:S001",
+          "raw_text": "由于免疫相关性心肌炎是免疫检查点抑制剂已知虽罕见但可致命的严重毒性，研究者高度怀疑该事件与VT8802相关，并已紧急暂停所有研究给药，将试验参与者转入心血管重症监护室（CCU）给予大剂量甲泼尼龙冲击及心肌营养支持治疗。",
+          "normalized_text": "由于免疫相关性心肌炎是免疫检查点抑制剂已知虽罕见但可致命的严重毒性，研究者高度怀疑该事件与VT8802相关，并已紧急暂停所有研究给药，将试验参与者转入心血管重症监护室（CCU）给予大剂量甲泼尼龙冲击及心肌营养支持治疗。"
+        }
+      ],
+      "page_no": null,
+      "order": 87,
+      "doc_order_index": 119,
+      "heading_path": [
+        "17.最新信息"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0088",
+      "kind": "paragraph",
+      "raw_text": "目前该试验参与者生命体征已趋于平稳。由于“免疫相关性心肌炎”当前尚未被列入VT8802的安全性参考信息（RSI），该事件将被按疑似非预期严重不良反应（SUSAR）进行紧急报告。申办者正在密切跟进随访信息，以全面评估该罕见严重事件的临床转归及其对整体研发项目获益-风险平衡的潜在影响。",
+      "normalized_text": "目前该试验参与者生命体征已趋于平稳。由于“免疫相关性心肌炎”当前尚未被列入VT8802的安全性参考信息（RSI），该事件将被按疑似非预期严重不良反应（SUSAR）进行紧急报告。申办者正在密切跟进随访信息，以全面评估该罕见严重事件的临床转归及其对整体研发项目获益-风险平衡的潜在影响。",
+      "loc": "BODY:P127",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 126
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0088:S001",
+          "raw_text": "目前该试验参与者生命体征已趋于平稳。",
+          "normalized_text": "目前该试验参与者生命体征已趋于平稳。"
+        },
+        {
+          "sentence_id": "C0088:S002",
+          "raw_text": "由于“免疫相关性心肌炎”当前尚未被列入VT8802的安全性参考信息（RSI），该事件将被按疑似非预期严重不良反应（SUSAR）进行紧急报告。",
+          "normalized_text": "由于“免疫相关性心肌炎”当前尚未被列入VT8802的安全性参考信息（RSI），该事件将被按疑似非预期严重不良反应（SUSAR）进行紧急报告。"
+        },
+        {
+          "sentence_id": "C0088:S003",
+          "raw_text": "申办者正在密切跟进随访信息，以全面评估该罕见严重事件的临床转归及其对整体研发项目获益-风险平衡的潜在影响。",
+          "normalized_text": "申办者正在密切跟进随访信息，以全面评估该罕见严重事件的临床转归及其对整体研发项目获益-风险平衡的潜在影响。"
+        }
+      ],
+      "page_no": null,
+      "order": 88,
+      "doc_order_index": 120,
+      "heading_path": [
+        "17.最新信息"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0089",
+      "kind": "heading",
+      "raw_text": "18.整体安全性评估",
+      "normalized_text": "18.整体安全性评估",
+      "loc": "BODY:HDG:P128",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 127
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0089:S001",
+          "raw_text": "18.整体安全性评估",
+          "normalized_text": "18.整体安全性评估"
+        }
+      ],
+      "page_no": null,
+      "order": 89,
+      "doc_order_index": 121,
+      "heading_path": [
+        "18.整体安全性评估"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0090",
+      "kind": "heading",
+      "raw_text": "18.1 风险评估",
+      "normalized_text": "18.1 风险评估",
+      "loc": "BODY:HDG:P129",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 128
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0090:S001",
+          "raw_text": "18.1 风险评估",
+          "normalized_text": "18.1 风险评估"
+        }
+      ],
+      "page_no": null,
+      "order": 90,
+      "doc_order_index": 122,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.1 风险评估"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "18.1",
+        "heading_text_stripped": "风险评估"
+      }
+    },
+    {
+      "block_id": "C0091",
+      "kind": "paragraph",
+      "raw_text": "本报告周期内，用于安全性评估的核心新增信息来源于 OOJ-VT8802-01 研究完成后的定稿数据，以及 OOJ-VT8802-02 研究启动后首次收集的联合治疗暴露数据（累计新增覆盖 50 例试验参与者）。综合本期新增数据与既往资料，VT8802 的总体安全性特征仍与已知 PD-1/PD-L1 抑制剂风险谱一致，本周期内未发现需要暂停、限制或终止临床开发的新重大安全性风险。",
+      "normalized_text": "本报告周期内，用于安全性评估的核心新增信息来源于 OOJ-VT8802-01 研究完成后的定稿数据，以及 OOJ-VT8802-02 研究启动后首次收集的联合治疗暴露数据（累计新增覆盖 50 例试验参与者）。综合本期新增数据与既往资料，VT8802 的总体安全性特征仍与已知 PD-1/PD-L1 抑制剂风险谱一致，本周期内未发现需要暂停、限制或终止临床开发的新重大安全性风险。",
+      "loc": "BODY:P130",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 129
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0091:S001",
+          "raw_text": "本报告周期内，用于安全性评估的核心新增信息来源于 OOJ-VT8802-01 研究完成后的定稿数据，以及 OOJ-VT8802-02 研究启动后首次收集的联合治疗暴露数据（累计新增覆盖 50 例试验参与者）。",
+          "normalized_text": "本报告周期内，用于安全性评估的核心新增信息来源于 OOJ-VT8802-01 研究完成后的定稿数据，以及 OOJ-VT8802-02 研究启动后首次收集的联合治疗暴露数据（累计新增覆盖 50 例试验参与者）。"
+        },
+        {
+          "sentence_id": "C0091:S002",
+          "raw_text": "综合本期新增数据与既往资料，VT8802 的总体安全性特征仍与已知 PD-1/PD-L1 抑制剂风险谱一致，本周期内未发现需要暂停、限制或终止临床开发的新重大安全性风险。",
+          "normalized_text": "综合本期新增数据与既往资料，VT8802 的总体安全性特征仍与已知 PD-1/PD-L1 抑制剂风险谱一致，本周期内未发现需要暂停、限制或终止临床开发的新重大安全性风险。"
+        }
+      ],
+      "page_no": null,
+      "order": 91,
+      "doc_order_index": 123,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.1 风险评估"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0092",
+      "kind": "paragraph",
+      "raw_text": "针对本报告周期内的新增安全性发现，重点评估如下：",
+      "normalized_text": "针对本报告周期内的新增安全性发现，重点评估如下：",
+      "loc": "BODY:P131",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 130
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0092:S001",
+          "raw_text": "针对本报告周期内的新增安全性发现，重点评估如下：",
+          "normalized_text": "针对本报告周期内的新增安全性发现，重点评估如下："
+        }
+      ],
+      "page_no": null,
+      "order": 92,
+      "doc_order_index": 124,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.1 风险评估"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0093",
+      "kind": "paragraph",
+      "raw_text": "新确认的重要风险及 RSI 更新： 本期安全性评估的最重要发现是对感染性肺炎及药物诱导的肝损伤信号的最终确证。随着本期内 Ⅰ 期研究的收尾（确证 2 例次相关肺炎及 2 例次相关肝损伤）与 Ⅱ 期研究的推进（新增 1 例次相关肺炎），上述风险在本周期内呈现集中确证与重现。基于此期评估，申办者已将其升级为 VT8802 的“重要已识别风险”，并拟纳入后续安全性参考信息（RSI）作为预期严重不良反应进行重点监测。",
+      "normalized_text": "新确认的重要风险及 RSI 更新： 本期安全性评估的最重要发现是对感染性肺炎及药物诱导的肝损伤信号的最终确证。随着本期内 Ⅰ 期研究的收尾（确证 2 例次相关肺炎及 2 例次相关肝损伤）与 Ⅱ 期研究的推进（新增 1 例次相关肺炎），上述风险在本周期内呈现集中确证与重现。基于此期评估，申办者已将其升级为 VT8802 的“重要已识别风险”，并拟纳入后续安全性参考信息（RSI）作为预期严重不良反应进行重点监测。",
+      "loc": "BODY:P132",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 131
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0093:S001",
+          "raw_text": "新确认的重要风险及 RSI 更新： 本期安全性评估的最重要发现是对感染性肺炎及药物诱导的肝损伤信号的最终确证。",
+          "normalized_text": "新确认的重要风险及 RSI 更新： 本期安全性评估的最重要发现是对感染性肺炎及药物诱导的肝损伤信号的最终确证。"
+        },
+        {
+          "sentence_id": "C0093:S002",
+          "raw_text": "随着本期内 Ⅰ 期研究的收尾（确证 2 例次相关肺炎及 2 例次相关肝损伤）与 Ⅱ 期研究的推进（新增 1 例次相关肺炎），上述风险在本周期内呈现集中确证与重现。",
+          "normalized_text": "随着本期内 Ⅰ 期研究的收尾（确证 2 例次相关肺炎及 2 例次相关肝损伤）与 Ⅱ 期研究的推进（新增 1 例次相关肺炎），上述风险在本周期内呈现集中确证与重现。"
+        },
+        {
+          "sentence_id": "C0093:S003",
+          "raw_text": "基于此期评估，申办者已将其升级为 VT8802 的“重要已识别风险”，并拟纳入后续安全性参考信息（RSI）作为预期严重不良反应进行重点监测。",
+          "normalized_text": "基于此期评估，申办者已将其升级为 VT8802 的“重要已识别风险”，并拟纳入后续安全性参考信息（RSI）作为预期严重不良反应进行重点监测。"
+        }
+      ],
+      "page_no": null,
+      "order": 93,
+      "doc_order_index": 125,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.1 风险评估"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0094",
+      "kind": "paragraph",
+      "raw_text": "首次联合治疗的安全性特征： 本周期内首次获得了 VT8802 联合化疗（卡铂/培美曲塞）的安全性数据。当前观察到的血液学毒性（如骨髓抑制相关事件）主要与背景化疗药的已知毒性相一致，尚未发现 VT8802 在联合用药中导致显著的协同毒性或额外增加不可接受的骨髓抑制风险。",
+      "normalized_text": "首次联合治疗的安全性特征： 本周期内首次获得了 VT8802 联合化疗（卡铂/培美曲塞）的安全性数据。当前观察到的血液学毒性（如骨髓抑制相关事件）主要与背景化疗药的已知毒性相一致，尚未发现 VT8802 在联合用药中导致显著的协同毒性或额外增加不可接受的骨髓抑制风险。",
+      "loc": "BODY:P133",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 132
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0094:S001",
+          "raw_text": "首次联合治疗的安全性特征： 本周期内首次获得了 VT8802 联合化疗（卡铂/培美曲塞）的安全性数据。",
+          "normalized_text": "首次联合治疗的安全性特征： 本周期内首次获得了 VT8802 联合化疗（卡铂/培美曲塞）的安全性数据。"
+        },
+        {
+          "sentence_id": "C0094:S002",
+          "raw_text": "当前观察到的血液学毒性（如骨髓抑制相关事件）主要与背景化疗药的已知毒性相一致，尚未发现 VT8802 在联合用药中导致显著的协同毒性或额外增加不可接受的骨髓抑制风险。",
+          "normalized_text": "当前观察到的血液学毒性（如骨髓抑制相关事件）主要与背景化疗药的已知毒性相一致，尚未发现 VT8802 在联合用药中导致显著的协同毒性或额外增加不可接受的骨髓抑制风险。"
+        }
+      ],
+      "page_no": null,
+      "order": 94,
+      "doc_order_index": 126,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.1 风险评估"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0095",
+      "kind": "paragraph",
+      "raw_text": "既有安全性问题的演变： 对于既往已识别的常见免疫相关风险事件（如输液相关反应、皮疹、腹泻等），本周期内未观察到其发生频率、严重程度或转归出现具有临床意义的不利改变。此外，本期内亦未发生药物相关死亡事件，未发现与特殊人群暴露、用药错误或生产质量相关的新增风险信号。",
+      "normalized_text": "既有安全性问题的演变： 对于既往已识别的常见免疫相关风险事件（如输液相关反应、皮疹、腹泻等），本周期内未观察到其发生频率、严重程度或转归出现具有临床意义的不利改变。此外，本期内亦未发生药物相关死亡事件，未发现与特殊人群暴露、用药错误或生产质量相关的新增风险信号。",
+      "loc": "BODY:P134",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 133
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0095:S001",
+          "raw_text": "既有安全性问题的演变： 对于既往已识别的常见免疫相关风险事件（如输液相关反应、皮疹、腹泻等），本周期内未观察到其发生频率、严重程度或转归出现具有临床意义的不利改变。",
+          "normalized_text": "既有安全性问题的演变： 对于既往已识别的常见免疫相关风险事件（如输液相关反应、皮疹、腹泻等），本周期内未观察到其发生频率、严重程度或转归出现具有临床意义的不利改变。"
+        },
+        {
+          "sentence_id": "C0095:S002",
+          "raw_text": "此外，本期内亦未发生药物相关死亡事件，未发现与特殊人群暴露、用药错误或生产质量相关的新增风险信号。",
+          "normalized_text": "此外，本期内亦未发生药物相关死亡事件，未发现与特殊人群暴露、用药错误或生产质量相关的新增风险信号。"
+        }
+      ],
+      "page_no": null,
+      "order": 95,
+      "doc_order_index": 127,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.1 风险评估"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0096",
+      "kind": "heading",
+      "raw_text": "18.2 获益-风险考量",
+      "normalized_text": "18.2 获益-风险考量",
+      "loc": "BODY:HDG:P135",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 134
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0096:S001",
+          "raw_text": "18.2 获益-风险考量",
+          "normalized_text": "18.2 获益-风险考量"
+        }
+      ],
+      "page_no": null,
+      "order": 96,
+      "doc_order_index": 128,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.2 获益-风险考量"
+      ],
+      "meta": {
+        "style_name": "Heading 2",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 2,
+        "heading_number": "18.2",
+        "heading_text_stripped": "获益-风险考量"
+      }
+    },
+    {
+      "block_id": "C0097",
+      "kind": "paragraph",
+      "raw_text": "相较于上一 DSUR，基于本报告周期内获得的最新有效性和安全性证据，VT8802 的总体获益-风险平衡未发生不利改变。",
+      "normalized_text": "相较于上一 DSUR，基于本报告周期内获得的最新有效性和安全性证据，VT8802 的总体获益-风险平衡未发生不利改变。",
+      "loc": "BODY:P136",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 135
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0097:S001",
+          "raw_text": "相较于上一 DSUR，基于本报告周期内获得的最新有效性和安全性证据，VT8802 的总体获益-风险平衡未发生不利改变。",
+          "normalized_text": "相较于上一 DSUR，基于本报告周期内获得的最新有效性和安全性证据，VT8802 的总体获益-风险平衡未发生不利改变。"
+        }
+      ],
+      "page_no": null,
+      "order": 97,
+      "doc_order_index": 129,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.2 获益-风险考量"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0098",
+      "kind": "paragraph",
+      "raw_text": "风险可控性： 尽管本报告周期内基于积累的证据，拟将感染性肺炎及药物诱导的肝损伤纳入 RSI 作为预期严重不良反应，但现有临床经验表明，上述事件以及其他常见不良反应均可通过方案规定的常规监测、及时停药及标准对症治疗（如糖皮质激素干预）得到有效管理。此外，本期引入的联合化疗方案并未改变 VT8802 基础的安全耐受性基调。",
+      "normalized_text": "风险可控性： 尽管本报告周期内基于积累的证据，拟将感染性肺炎及药物诱导的肝损伤纳入 RSI 作为预期严重不良反应，但现有临床经验表明，上述事件以及其他常见不良反应均可通过方案规定的常规监测、及时停药及标准对症治疗（如糖皮质激素干预）得到有效管理。此外，本期引入的联合化疗方案并未改变 VT8802 基础的安全耐受性基调。",
+      "loc": "BODY:P137",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 136
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0098:S001",
+          "raw_text": "风险可控性： 尽管本报告周期内基于积累的证据，拟将感染性肺炎及药物诱导的肝损伤纳入 RSI 作为预期严重不良反应，但现有临床经验表明，上述事件以及其他常见不良反应均可通过方案规定的常规监测、及时停药及标准对症治疗（如糖皮质激素干预）得到有效管理。",
+          "normalized_text": "风险可控性： 尽管本报告周期内基于积累的证据，拟将感染性肺炎及药物诱导的肝损伤纳入 RSI 作为预期严重不良反应，但现有临床经验表明，上述事件以及其他常见不良反应均可通过方案规定的常规监测、及时停药及标准对症治疗（如糖皮质激素干预）得到有效管理。"
+        },
+        {
+          "sentence_id": "C0098:S002",
+          "raw_text": "此外，本期引入的联合化疗方案并未改变 VT8802 基础的安全耐受性基调。",
+          "normalized_text": "此外，本期引入的联合化疗方案并未改变 VT8802 基础的安全耐受性基调。"
+        }
+      ],
+      "page_no": null,
+      "order": 98,
+      "doc_order_index": 130,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.2 获益-风险考量"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0099",
+      "kind": "paragraph",
+      "raw_text": "获益证据的增强： 本报告周期内的新增疗效数据进一步强化了 VT8802 的潜在临床获益。 一方面，Ⅰ 期研究的完成证实了单药在晚期实体瘤中的初步抗肿瘤活性，并成功确立了 3 mg/kg Q3W 为后续推荐给药方案；另一方面，本期正在进行的联合治疗研究亦迅速展现出令人鼓舞的初步疗效信号（可评价试验参与者 ORR 达 38.9%，DCR 达 83.3%），未发现因缺乏疗效而使试验参与者面临不合理风险的证据。",
+      "normalized_text": "获益证据的增强： 本报告周期内的新增疗效数据进一步强化了 VT8802 的潜在临床获益。 一方面，Ⅰ 期研究的完成证实了单药在晚期实体瘤中的初步抗肿瘤活性，并成功确立了 3 mg/kg Q3W 为后续推荐给药方案；另一方面，本期正在进行的联合治疗研究亦迅速展现出令人鼓舞的初步疗效信号（可评价试验参与者 ORR 达 38.9%，DCR 达 83.3%），未发现因缺乏疗效而使试验参与者面临不合理风险的证据。",
+      "loc": "BODY:P138",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 137
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0099:S001",
+          "raw_text": "获益证据的增强： 本报告周期内的新增疗效数据进一步强化了 VT8802 的潜在临床获益。",
+          "normalized_text": "获益证据的增强： 本报告周期内的新增疗效数据进一步强化了 VT8802 的潜在临床获益。"
+        },
+        {
+          "sentence_id": "C0099:S002",
+          "raw_text": "一方面，Ⅰ 期研究的完成证实了单药在晚期实体瘤中的初步抗肿瘤活性，并成功确立了 3 mg/kg Q3W 为后续推荐给药方案；",
+          "normalized_text": "一方面，Ⅰ 期研究的完成证实了单药在晚期实体瘤中的初步抗肿瘤活性，并成功确立了 3 mg/kg Q3W 为后续推荐给药方案；"
+        },
+        {
+          "sentence_id": "C0099:S003",
+          "raw_text": "另一方面，本期正在进行的联合治疗研究亦迅速展现出令人鼓舞的初步疗效信号（可评价试验参与者 ORR 达 38.9%，DCR 达 83.3%），未发现因缺乏疗效而使试验参与者面临不合理风险的证据。",
+          "normalized_text": "另一方面，本期正在进行的联合治疗研究亦迅速展现出令人鼓舞的初步疗效信号（可评价试验参与者 ORR 达 38.9%，DCR 达 83.3%），未发现因缺乏疗效而使试验参与者面临不合理风险的证据。"
+        }
+      ],
+      "page_no": null,
+      "order": 99,
+      "doc_order_index": 131,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.2 获益-风险考量"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0100",
+      "kind": "paragraph",
+      "raw_text": "结论： 综合本报告周期内确认的风险特征与不断增强的获益证据，VT8802 单药及联合治疗方案的总体获益-风险比依然维持正向，支持现有临床开发项目的继续开展。",
+      "normalized_text": "结论： 综合本报告周期内确认的风险特征与不断增强的获益证据，VT8802 单药及联合治疗方案的总体获益-风险比依然维持正向，支持现有临床开发项目的继续开展。",
+      "loc": "BODY:P139",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 138
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0100:S001",
+          "raw_text": "结论： 综合本报告周期内确认的风险特征与不断增强的获益证据，VT8802 单药及联合治疗方案的总体获益-风险比依然维持正向，支持现有临床开发项目的继续开展。",
+          "normalized_text": "结论： 综合本报告周期内确认的风险特征与不断增强的获益证据，VT8802 单药及联合治疗方案的总体获益-风险比依然维持正向，支持现有临床开发项目的继续开展。"
+        }
+      ],
+      "page_no": null,
+      "order": 100,
+      "doc_order_index": 132,
+      "heading_path": [
+        "18.整体安全性评估",
+        "18.2 获益-风险考量"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0101",
+      "kind": "heading",
+      "raw_text": "19.重要风险总结",
+      "normalized_text": "19.重要风险总结",
+      "loc": "BODY:HDG:P140",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 139
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0101:S001",
+          "raw_text": "19.重要风险总结",
+          "normalized_text": "19.重要风险总结"
+        }
+      ],
+      "page_no": null,
+      "order": 101,
+      "doc_order_index": 133,
+      "heading_path": [
+        "19.重要风险总结"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0102",
+      "kind": "paragraph",
+      "raw_text": "截至本报告期结束，结合VT8802累计临床安全性资料，感染性肺炎和药物诱导的肝损伤被列为VT8802在后续临床开发中需要重点关注的重要已识别风险。感染性肺炎在临床研究中累计报告2例次经研究者判断与VT8802相关的严重不良反应；药物诱导的肝损伤在OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的严重不良反应。上述两类事件拟纳入后续更新的安全性参考信息，并在后续研究中作为重点风险持续监测。",
+      "normalized_text": "截至本报告期结束，结合VT8802累计临床安全性资料，感染性肺炎和药物诱导的肝损伤被列为VT8802在后续临床开发中需要重点关注的重要已识别风险。感染性肺炎在临床研究中累计报告2例次经研究者判断与VT8802相关的严重不良反应；药物诱导的肝损伤在OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的严重不良反应。上述两类事件拟纳入后续更新的安全性参考信息，并在后续研究中作为重点风险持续监测。",
+      "loc": "BODY:P141",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 140
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0102:S001",
+          "raw_text": "截至本报告期结束，结合VT8802累计临床安全性资料，感染性肺炎和药物诱导的肝损伤被列为VT8802在后续临床开发中需要重点关注的重要已识别风险。",
+          "normalized_text": "截至本报告期结束，结合VT8802累计临床安全性资料，感染性肺炎和药物诱导的肝损伤被列为VT8802在后续临床开发中需要重点关注的重要已识别风险。"
+        },
+        {
+          "sentence_id": "C0102:S002",
+          "raw_text": "感染性肺炎在临床研究中累计报告2例次经研究者判断与VT8802相关的严重不良反应；",
+          "normalized_text": "感染性肺炎在临床研究中累计报告2例次经研究者判断与VT8802相关的严重不良反应；"
+        },
+        {
+          "sentence_id": "C0102:S003",
+          "raw_text": "药物诱导的肝损伤在OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的严重不良反应。",
+          "normalized_text": "药物诱导的肝损伤在OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的严重不良反应。"
+        },
+        {
+          "sentence_id": "C0102:S004",
+          "raw_text": "上述两类事件拟纳入后续更新的安全性参考信息，并在后续研究中作为重点风险持续监测。",
+          "normalized_text": "上述两类事件拟纳入后续更新的安全性参考信息，并在后续研究中作为重点风险持续监测。"
+        }
+      ],
+      "page_no": null,
+      "order": 102,
+      "doc_order_index": 134,
+      "heading_path": [
+        "19.重要风险总结"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0103",
+      "kind": "paragraph",
+      "raw_text": "此外，腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。其中，腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息，但仍应作为后续研究中需持续关注的其他安全性问题。后续应结合累计数据、事件严重程度、转归及与VT8802的因果关系，进一步评估相关事件的风险分类及是否需要更新安全性参考信息。",
+      "normalized_text": "此外，腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。其中，腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息，但仍应作为后续研究中需持续关注的其他安全性问题。后续应结合累计数据、事件严重程度、转归及与VT8802的因果关系，进一步评估相关事件的风险分类及是否需要更新安全性参考信息。",
+      "loc": "BODY:P142",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 141
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0103:S001",
+          "raw_text": "此外，腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。",
+          "normalized_text": "此外，腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。"
+        },
+        {
+          "sentence_id": "C0103:S002",
+          "raw_text": "其中，腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息，但仍应作为后续研究中需持续关注的其他安全性问题。",
+          "normalized_text": "其中，腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息，但仍应作为后续研究中需持续关注的其他安全性问题。"
+        },
+        {
+          "sentence_id": "C0103:S003",
+          "raw_text": "后续应结合累计数据、事件严重程度、转归及与VT8802的因果关系，进一步评估相关事件的风险分类及是否需要更新安全性参考信息。",
+          "normalized_text": "后续应结合累计数据、事件严重程度、转归及与VT8802的因果关系，进一步评估相关事件的风险分类及是否需要更新安全性参考信息。"
+        }
+      ],
+      "page_no": null,
+      "order": 103,
+      "doc_order_index": 135,
+      "heading_path": [
+        "19.重要风险总结"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0104",
+      "kind": "paragraph",
+      "raw_text": "相关风险分类、临床依据及后续措施见下表。",
+      "normalized_text": "相关风险分类、临床依据及后续措施见下表。",
+      "loc": "BODY:P143",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 142
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0104:S001",
+          "raw_text": "相关风险分类、临床依据及后续措施见下表。",
+          "normalized_text": "相关风险分类、临床依据及后续措施见下表。"
+        }
+      ],
+      "page_no": null,
+      "order": 104,
+      "doc_order_index": 136,
+      "heading_path": [
+        "19.重要风险总结"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0105",
+      "kind": "paragraph",
+      "raw_text": "总体而言，现有风险可通过常规安全性监测、研究方案规定的暂停/停药标准及相应临床处理措施进行管理。本报告期内未发现影响VT8802继续临床开发的新重大安全性风险。",
+      "normalized_text": "总体而言，现有风险可通过常规安全性监测、研究方案规定的暂停/停药标准及相应临床处理措施进行管理。本报告期内未发现影响VT8802继续临床开发的新重大安全性风险。",
+      "loc": "BODY:P144",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 143
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0105:S001",
+          "raw_text": "总体而言，现有风险可通过常规安全性监测、研究方案规定的暂停/停药标准及相应临床处理措施进行管理。",
+          "normalized_text": "总体而言，现有风险可通过常规安全性监测、研究方案规定的暂停/停药标准及相应临床处理措施进行管理。"
+        },
+        {
+          "sentence_id": "C0105:S002",
+          "raw_text": "本报告期内未发现影响VT8802继续临床开发的新重大安全性风险。",
+          "normalized_text": "本报告期内未发现影响VT8802继续临床开发的新重大安全性风险。"
+        }
+      ],
+      "page_no": null,
+      "order": 105,
+      "doc_order_index": 138,
+      "heading_path": [
+        "19.重要风险总结"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0106",
+      "kind": "heading",
+      "raw_text": "20.结论",
+      "normalized_text": "20.结论",
+      "loc": "BODY:HDG:P145",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 144
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0106:S001",
+          "raw_text": "20.结论",
+          "normalized_text": "20.结论"
+        }
+      ],
+      "page_no": null,
+      "order": 106,
+      "doc_order_index": 139,
+      "heading_path": [
+        "20.结论"
+      ],
+      "meta": {
+        "style_name": "Heading 1",
+        "raw_text_changed_by_normalize": false,
+        "heading_level": 1
+      }
+    },
+    {
+      "block_id": "C0107",
+      "kind": "paragraph",
+      "raw_text": "综合本报告周期内的新增临床数据及累计安全性评估，VT8802 的总体获益-风险平衡依然积极且可接受，未发现导致临床试验暂停、试验参与者限制或阻碍当前临床开发项目继续推进的新增重大安全性风险。",
+      "normalized_text": "综合本报告周期内的新增临床数据及累计安全性评估，VT8802 的总体获益-风险平衡依然积极且可接受，未发现导致临床试验暂停、试验参与者限制或阻碍当前临床开发项目继续推进的新增重大安全性风险。",
+      "loc": "BODY:P146",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 145
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0107:S001",
+          "raw_text": "综合本报告周期内的新增临床数据及累计安全性评估，VT8802 的总体获益-风险平衡依然积极且可接受，未发现导致临床试验暂停、试验参与者限制或阻碍当前临床开发项目继续推进的新增重大安全性风险。",
+          "normalized_text": "综合本报告周期内的新增临床数据及累计安全性评估，VT8802 的总体获益-风险平衡依然积极且可接受，未发现导致临床试验暂停、试验参与者限制或阻碍当前临床开发项目继续推进的新增重大安全性风险。"
+        }
+      ],
+      "page_no": null,
+      "order": 107,
+      "doc_order_index": 140,
+      "heading_path": [
+        "20.结论"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0108",
+      "kind": "paragraph",
+      "raw_text": "获益评价： 已完成的 Ⅰ 期单药研究（OOJ-VT8802-01）与正在进行的 Ⅱ 期联合治疗研究（OOJ-VT8802-02）均展现出明确的初步抗肿瘤活性，进一步验证了 VT8802（2 mg/kg Q3W）推荐给药方案及整体临床开发策略的科学性与合理性。",
+      "normalized_text": "获益评价： 已完成的 Ⅰ 期单药研究（OOJ-VT8802-01）与正在进行的 Ⅱ 期联合治疗研究（OOJ-VT8802-02）均展现出明确的初步抗肿瘤活性，进一步验证了 VT8802（2 mg/kg Q3W）推荐给药方案及整体临床开发策略的科学性与合理性。",
+      "loc": "BODY:P147",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 146
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0108:S001",
+          "raw_text": "获益评价： 已完成的 Ⅰ 期单药研究（OOJ-VT8802-01）与正在进行的 Ⅱ 期联合治疗研究（OOJ-VT8802-02）均展现出明确的初步抗肿瘤活性，进一步验证了 VT8802（2 mg/kg Q3W）推荐给药方案及整体临床开发策略的科学性与合理性。",
+          "normalized_text": "获益评价： 已完成的 Ⅰ 期单药研究（OOJ-VT8802-01）与正在进行的 Ⅱ 期联合治疗研究（OOJ-VT8802-02）均展现出明确的初步抗肿瘤活性，进一步验证了 VT8802（2 mg/kg Q3W）推荐给药方案及整体临床开发策略的科学性与合理性。"
+        }
+      ],
+      "page_no": null,
+      "order": 108,
+      "doc_order_index": 141,
+      "heading_path": [
+        "20.结论"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0109",
+      "kind": "paragraph",
+      "raw_text": "风险行动： 针对本期内集中确证的核心安全信号，为进一步强化试验参与者的风险管理，申办者拟将“感染性肺炎”“药物诱导的肝损伤”及“腹泻”作为预期严重不良反应纳入下一版安全性参考信息（RSI）予以重点管控。",
+      "normalized_text": "风险行动： 针对本期内集中确证的核心安全信号，为进一步强化试验参与者的风险管理，申办者拟将“感染性肺炎”“药物诱导的肝损伤”及“腹泻”作为预期严重不良反应纳入下一版安全性参考信息（RSI）予以重点管控。",
+      "loc": "BODY:P148",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 147
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0109:S001",
+          "raw_text": "风险行动： 针对本期内集中确证的核心安全信号，为进一步强化试验参与者的风险管理，申办者拟将“感染性肺炎”“药物诱导的肝损伤”及“腹泻”作为预期严重不良反应纳入下一版安全性参考信息（RSI）予以重点管控。",
+          "normalized_text": "风险行动： 针对本期内集中确证的核心安全信号，为进一步强化试验参与者的风险管理，申办者拟将“感染性肺炎”“药物诱导的肝损伤”及“腹泻”作为预期严重不良反应纳入下一版安全性参考信息（RSI）予以重点管控。"
+        }
+      ],
+      "page_no": null,
+      "order": 109,
+      "doc_order_index": 142,
+      "heading_path": [
+        "20.结论"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    },
+    {
+      "block_id": "C0110",
+      "kind": "paragraph",
+      "raw_text": "后续计划： 总体而言，VT8802 现有的不良反应特征已知且临床可控。申办者将继续按计划推进后续临床开发，并在研究中对肺部感染、肝损伤等免疫介导毒性及联合用药相关的血液学毒性保持严密监测，持续动态地评估产品的获益-风险特征。",
+      "normalized_text": "后续计划： 总体而言，VT8802 现有的不良反应特征已知且临床可控。申办者将继续按计划推进后续临床开发，并在研究中对肺部感染、肝损伤等免疫介导毒性及联合用药相关的血液学毒性保持严密监测，持续动态地评估产品的获益-风险特征。",
+      "loc": "BODY:P149",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "paragraph",
+        "locator_payload": {
+          "paragraph_index": 148
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "C0110:S001",
+          "raw_text": "后续计划： 总体而言，VT8802 现有的不良反应特征已知且临床可控。",
+          "normalized_text": "后续计划： 总体而言，VT8802 现有的不良反应特征已知且临床可控。"
+        },
+        {
+          "sentence_id": "C0110:S002",
+          "raw_text": "申办者将继续按计划推进后续临床开发，并在研究中对肺部感染、肝损伤等免疫介导毒性及联合用药相关的血液学毒性保持严密监测，持续动态地评估产品的获益-风险特征。",
+          "normalized_text": "申办者将继续按计划推进后续临床开发，并在研究中对肺部感染、肝损伤等免疫介导毒性及联合用药相关的血液学毒性保持严密监测，持续动态地评估产品的获益-风险特征。"
+        }
+      ],
+      "page_no": null,
+      "order": 110,
+      "doc_order_index": 143,
+      "heading_path": [
+        "20.结论"
+      ],
+      "meta": {
+        "style_name": "Normal",
+        "raw_text_changed_by_normalize": false,
+        "presentation": {
+          "indent_first_line_pt": 21.0,
+          "line_spacing_multiple": 1.45
+        }
+      }
+    }
+  ],
+  "table_blocks": [
+    {
+      "block_id": "T0001",
+      "kind": "table",
+      "raw_text": "风险分类 | 风险/事件 | 临床依据 | 后续措施\n重要已识别风险 | 感染性肺炎 | 临床研究中累计报告3例次经研究者判断与VT8802相关的感染性肺炎严重不良反应。 | 纳入后续更新的安全性参考信息；在后续研究中持续监测肺部感染相关严重不良事件，并结合临床表现、影像学、病原学检查、合并用药及基础疾病等信息进行因果关系评估。\n重要已识别风险 | 药物诱导的肝损伤 | OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的药物诱导的肝损伤严重不良反应。 | 纳入后续更新的安全性参考信息；后续研究中继续监测肝功能相关实验室指标，对疑似肝损伤事件进行及时评估和处理。\n需持续关注的其他安全性问题 | 腹泻及其他免疫相关风险事件 | 腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息。 | 后续研究中持续监测相关事件的发生情况、严重程度、转归及与VT8802的因果关系；必要时结合累计数据进一步评估其风险分类及是否需更新安全性参考信息。",
+      "normalized_text": "风险分类 | 风险/事件 | 临床依据 | 后续措施\n重要已识别风险 | 感染性肺炎 | 临床研究中累计报告3例次经研究者判断与VT8802相关的感染性肺炎严重不良反应。 | 纳入后续更新的安全性参考信息；在后续研究中持续监测肺部感染相关严重不良事件，并结合临床表现、影像学、病原学检查、合并用药及基础疾病等信息进行因果关系评估。\n重要已识别风险 | 药物诱导的肝损伤 | OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的药物诱导的肝损伤严重不良反应。 | 纳入后续更新的安全性参考信息；后续研究中继续监测肝功能相关实验室指标，对疑似肝损伤事件进行及时评估和处理。\n需持续关注的其他安全性问题 | 腹泻及其他免疫相关风险事件 | 腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息。 | 后续研究中持续监测相关事件的发生情况、严重程度、转归及与VT8802的因果关系；必要时结合累计数据进一步评估其风险分类及是否需更新安全性参考信息。",
+      "loc": "TABLE:T1",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "table",
+        "locator_payload": {
+          "table_index": 0
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "T0001:S001",
+          "raw_text": "风险分类 | 风险/事件 | 临床依据 | 后续措施\n重要已识别风险 | 感染性肺炎 | 临床研究中累计报告3例次经研究者判断与VT8802相关的感染性肺炎严重不良反应。 | 纳入后续更新的安全性参考信息；在后续研究中持续监测肺部感染相关严重不良事件，并结合临床表现、影像学、病原学检查、合并用药及基础疾病等信息进行因果关系评估。\n重要已识别风险 | 药物诱导的肝损伤 | OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的药物诱导的肝损伤严重不良反应。 | 纳入后续更新的安全性参考信息；后续研究中继续监测肝功能相关实验室指标，对疑似肝损伤事件进行及时评估和处理。\n需持续关注的其他安全性问题 | 腹泻及其他免疫相关风险事件 | 腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息。 | 后续研究中持续监测相关事件的发生情况、严重程度、转归及与VT8802的因果关系；必要时结合累计数据进一步评估其风险分类及是否需更新安全性参考信息。",
+          "normalized_text": "风险分类 | 风险/事件 | 临床依据 | 后续措施\n重要已识别风险 | 感染性肺炎 | 临床研究中累计报告3例次经研究者判断与VT8802相关的感染性肺炎严重不良反应。 | 纳入后续更新的安全性参考信息；在后续研究中持续监测肺部感染相关严重不良事件，并结合临床表现、影像学、病原学检查、合并用药及基础疾病等信息进行因果关系评估。\n重要已识别风险 | 药物诱导的肝损伤 | OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的药物诱导的肝损伤严重不良反应。 | 纳入后续更新的安全性参考信息；后续研究中继续监测肝功能相关实验室指标，对疑似肝损伤事件进行及时评估和处理。\n需持续关注的其他安全性问题 | 腹泻及其他免疫相关风险事件 | 腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息。 | 后续研究中持续监测相关事件的发生情况、严重程度、转归及与VT8802的因果关系；必要时结合累计数据进一步评估其风险分类及是否需更新安全性参考信息。"
+        }
+      ],
+      "page_no": null,
+      "order": 1,
+      "doc_order_index": 137,
+      "heading_path": [
+        "19.重要风险总结"
+      ],
+      "meta": {
+        "row_count": 4,
+        "column_count": 4,
+        "raw_rows": [
+          [
+            "风险分类",
+            "风险/事件",
+            "临床依据",
+            "后续措施"
+          ],
+          [
+            "重要已识别风险",
+            "感染性肺炎",
+            "临床研究中累计报告3例次经研究者判断与VT8802相关的感染性肺炎严重不良反应。",
+            "纳入后续更新的安全性参考信息；在后续研究中持续监测肺部感染相关严重不良事件，并结合临床表现、影像学、病原学检查、合并用药及基础疾病等信息进行因果关系评估。"
+          ],
+          [
+            "重要已识别风险",
+            "药物诱导的肝损伤",
+            "OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的药物诱导的肝损伤严重不良反应。",
+            "纳入后续更新的安全性参考信息；后续研究中继续监测肝功能相关实验室指标，对疑似肝损伤事件进行及时评估和处理。"
+          ],
+          [
+            "需持续关注的其他安全性问题",
+            "腹泻及其他免疫相关风险事件",
+            "腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息。",
+            "后续研究中持续监测相关事件的发生情况、严重程度、转归及与VT8802的因果关系；必要时结合累计数据进一步评估其风险分类及是否需更新安全性参考信息。"
+          ]
+        ],
+        "non_empty_row_count": 4
+      }
+    }
+  ],
+  "format_blocks": [
+    {
+      "block_id": "F0001",
+      "kind": "header",
+      "raw_text": "VT8802  |  DSUR #2",
+      "normalized_text": "VT8802 | DSUR #2",
+      "loc": "FORMAT:HEADER:S1",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "header",
+        "locator_payload": {
+          "section_index": 0
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "F0001:S001",
+          "raw_text": "VT8802  |  DSUR #2",
+          "normalized_text": "VT8802 | DSUR #2"
+        }
+      ],
+      "page_no": null,
+      "order": 1,
+      "doc_order_index": null,
+      "heading_path": [],
+      "meta": {
+        "section_index": 0
+      }
+    },
+    {
+      "block_id": "F0002",
+      "kind": "footer",
+      "raw_text": "第 2 页 / 共 3 页",
+      "normalized_text": "第 2 页 / 共 3 页",
+      "loc": "FORMAT:FOOTER:S1",
+      "source_ref": {
+        "source_type": "docx",
+        "locator_type": "footer",
+        "locator_payload": {
+          "section_index": 0
+        }
+      },
+      "sentences": [
+        {
+          "sentence_id": "F0002:S001",
+          "raw_text": "第 2 页 / 共 3 页",
+          "normalized_text": "第 2 页 / 共 3 页"
+        }
+      ],
+      "page_no": null,
+      "order": 2,
+      "doc_order_index": null,
+      "heading_path": [],
+      "meta": {
+        "section_index": 0
+      }
+    }
+  ],
+  "document_meta": {
+    "parser_type": "docx_handlers",
+    "parser_version": "0.1.11",
+    "bundle_schema_version": "0.2.1",
+    "front_matter_policy_version": "0.1.3",
+    "front_matter_policy": "front_matter_blocks carries low-risk front matter only (currently TOC). Cover/title-page content is not classified as front matter by default; it remains in content_blocks for downstream resolution.",
+    "paragraph_count_raw": 149,
+    "table_count_raw": 1,
+    "parse_warnings": [],
+    "has_front_matter": true,
+    "has_toc": true,
+    "has_tables": true,
+    "has_format_blocks": true,
+    "sentence_index_version": "0.2",
+    "sentence_index_policy": "zh_source_unit_rule_based"
+  }
+}

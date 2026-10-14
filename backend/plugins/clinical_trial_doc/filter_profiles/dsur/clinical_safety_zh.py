@@ -1,0 +1,77 @@
+"""DSUR Chinese clinical-safety Filter config (heading-based recall)."""
+
+from __future__ import annotations
+
+from plugins.clinical_trial_doc.filter_profiles.common.models import (
+    ClinicalTrialFilterConfig,
+    HeadingFilterPolicy,
+)
+
+_DSUR_CLINICAL_SAFETY_POLICY_ZH = HeadingFilterPolicy(
+    heading_match_mode="contains",
+    required_heading_level=None,
+    heading_terms=(
+        "因安全性原因而采取的措施",
+        "因安全性原因采取的措施",
+        "安全性参考信息",
+        "行列表",
+        "汇总表",
+        "不良反应",
+        "不良事件",
+        "SAR",
+        "SAE",
+        "临床试验中有意义的发现",
+        "已完成的临床试验",
+        "正在进行的临床试验",
+        "长期随访",
+        "研究药物的其他治疗应用",
+        "试验药的其他治疗应用",
+        "与联合治疗相关的新的安全性数据",
+        "非干预性研究的安全性发现",
+        "非干预性研究的安全性结果",
+        "其他临床试验/研究的安全性信息",
+        "上市后的安全性发现",
+        "最新披露的信息",
+        "最新信息",
+        "区域特有信息",
+        "死亡受试者列表",
+        "死亡试验参与者列表",
+        "退出临床试验",
+        "退出研究",
+        "总体安全性评估",
+        "整体安全性评估",
+        "风险评价",
+        "风险评估",
+        "重要风险",
+        "潜在风险",
+        "已确认的风险",
+        "安全性问题",
+        "安全性信号",
+    ),
+    exclude_heading_terms=(
+        "临床试验清单",
+        "非临床",
+        "毒理",
+        "药理",
+        "药效",
+        "同类药",
+        "文献",
+        "论文摘要",
+        "缺乏疗效",
+        "生产变更",
+        "生产或微生物变更",
+        "质量安全",
+        "数据安全",
+        "下一年总体研究计划",
+        "未解决问题",
+    ),
+)
+
+DSUR_CLINICAL_SAFETY_FILTER_PROFILE_ZH = ClinicalTrialFilterConfig(
+    zone_config_name="dsur_clinical_safety_zh",
+    zone_config_version="0.2.0",
+    filter_job_id="dsur_clinical_safety",
+    language="zh",
+    strategy_id="heading_zone",
+    policy=_DSUR_CLINICAL_SAFETY_POLICY_ZH,
+)

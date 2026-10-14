@@ -1,0 +1,168 @@
+{
+  "schema_version": "0.2.0",
+  "category": "extract",
+  "doc_type": "IB",
+  "language": "zh",
+  "samples": [
+    {
+      "id": "ib_extract_heading_001",
+      "file": "ib_extract_heading_001.docx",
+      "category": "extract",
+      "doc_type": "IB",
+      "language": "zh",
+      "sample_type": "synthetic",
+      "label": "IB body: nested headings, paragraphs only (no cover/TOC/tables)",
+      "focus": [
+        "heading_hierarchy",
+        "content_paragraphs",
+        "table_ref_in_text"
+      ],
+      "expected": {
+        "has_front_matter": false,
+        "has_toc": false,
+        "has_tables": false,
+        "has_format_blocks": false,
+        "min_heading_blocks": 7,
+        "min_content_blocks": 10,
+        "min_table_blocks": 0,
+        "min_format_blocks": 0,
+        "expected_text_terms": [
+          "摘要",
+          "前言",
+          "临床安全性",
+          "不良反应"
+        ],
+        "expected_table_ref_terms": [
+          "表1"
+        ]
+      }
+    },
+    {
+      "id": "ib_extract_toc_001",
+      "file": "ib_extract_toc_001.docx",
+      "category": "extract",
+      "doc_type": "IB",
+      "language": "zh",
+      "sample_type": "synthetic",
+      "label": "IB with cover front matter and manual table-of-contents block",
+      "focus": [
+        "front_matter",
+        "manual_toc",
+        "page_break"
+      ],
+      "expected": {
+        "has_front_matter": true,
+        "has_toc": true,
+        "has_tables": false,
+        "has_format_blocks": false,
+        "min_heading_blocks": 2,
+        "min_content_blocks": 2,
+        "min_table_blocks": 0,
+        "min_format_blocks": 0,
+        "expected_text_terms": [
+          "研究者手册",
+          "目录",
+          "摘要",
+          "前言"
+        ],
+        "expected_toc_terms": [
+          "目录",
+          "5.2.1 临床安全性"
+        ]
+      }
+    },
+    {
+      "id": "ib_extract_table_001",
+      "file": "ib_extract_table_001.docx",
+      "category": "extract",
+      "doc_type": "IB",
+      "language": "zh",
+      "sample_type": "synthetic",
+      "label": "IB with tables, header/footer format blocks, multi-section",
+      "focus": [
+        "table_blocks",
+        "header_footer",
+        "multi_section",
+        "caption_line"
+      ],
+      "expected": {
+        "has_front_matter": false,
+        "has_toc": false,
+        "has_tables": true,
+        "has_format_blocks": true,
+        "min_heading_blocks": 1,
+        "min_content_blocks": 3,
+        "min_table_blocks": 2,
+        "min_format_blocks": 2,
+        "expected_text_terms": [
+          "临床安全性",
+          "不良事件",
+          "不良反应"
+        ],
+        "expected_table_ref_terms": [
+          "表1",
+          "表2"
+        ],
+        "expected_format_terms": [
+          "研究者手册（IB）",
+          "IB-VT-8802-V1.0"
+        ]
+      }
+    },
+    {
+      "id": "ib_extract_dirty_001",
+      "file": "ib_extract_dirty_001.docx",
+      "category": "extract",
+      "doc_type": "IB",
+      "language": "zh",
+      "sample_type": "synthetic",
+      "label": "IB with irregular whitespace in headings and body",
+      "focus": [
+        "dirty_whitespace",
+        "heading_number_gap"
+      ],
+      "expected": {
+        "has_front_matter": false,
+        "has_toc": false,
+        "has_tables": false,
+        "has_format_blocks": false,
+        "min_heading_blocks": 1,
+        "min_content_blocks": 4,
+        "min_table_blocks": 0,
+        "min_format_blocks": 0,
+        "expected_text_terms": [
+          "临床安全性",
+          "不良事件",
+          "严重不良反应"
+        ]
+      }
+    },
+    {
+      "id": "ib_extract_minimal_001",
+      "file": "ib_extract_minimal_001.docx",
+      "category": "extract",
+      "doc_type": "IB",
+      "language": "zh",
+      "sample_type": "synthetic",
+      "label": "IB minimal edge case: title + single paragraph",
+      "focus": [
+        "minimal_document",
+        "empty_clinical_safety"
+      ],
+      "expected": {
+        "has_front_matter": false,
+        "has_toc": false,
+        "has_tables": false,
+        "has_format_blocks": false,
+        "min_heading_blocks": 0,
+        "min_content_blocks": 1,
+        "min_table_blocks": 0,
+        "min_format_blocks": 0,
+        "expected_text_terms": [
+          "VT8802",
+          "暂无临床安全性结果"
+        ]
+      }
+    }
+  ]
+}

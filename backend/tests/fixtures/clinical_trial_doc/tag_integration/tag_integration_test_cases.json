@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.2.0",
+  "category": "tag_integration",
+  "doc_type": "IB",
+  "domain": "clinical_safety",
+  "language": "zh",
+  "target_stage": "extract",
+  "samples": [
+    {
+      "id": "ib_safety_tag_integration_001",
+      "file": "ib_safety_tag_integration_001.docx",
+      "category": "tag_integration",
+      "doc_type": "IB",
+      "domain": "clinical_safety",
+      "language": "zh",
+      "target_stage": "extract",
+      "sample_type": "synthetic",
+      "label": "IB clinical-safety gold: extract → prepare_analysis → filter → tag",
+      "focus": [
+        "extract_parse_for_tag_integration",
+        "summary_and_clinical_safety_headings",
+        "clinical_safety_content_terms"
+      ],
+      "expected": {
+        "has_front_matter": false,
+        "has_toc": false,
+        "has_tables": false,
+        "has_format_blocks": false,
+        "min_heading_blocks": 4,
+        "min_content_blocks": 10,
+        "min_table_blocks": 0,
+        "min_format_blocks": 0,
+        "expected_text_terms": [
+          "研究者手册",
+          "VT8802",
+          "2026年4月20日",
+          "张三",
+          "研究中心A",
+          "临床安全性",
+          "不良反应",
+          "12例",
+          "S-001"
+        ]
+      }
+    }
+  ]
+}

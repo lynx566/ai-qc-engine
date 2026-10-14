@@ -1,0 +1,777 @@
+{
+  "artifact_type": "aggregate_comparison_evidence",
+  "schema_version": "0.1.0",
+  "participants": [
+    {
+      "role_id": "source",
+      "aggregate_evidence_source_bundle_id": "aggregate_evidence_source_bundle_f517b882c6ca86a4f98f4938dafc88a3e5a74d2a1519503d48b4d9101148a8e7",
+      "doc_id": "doc_04a1d488-258b-422d-aed0-e896e766cb09",
+      "file_hash": "sha256:7bf64cc8a5f6441bfa2f1d1b1ea5745fb768c951ba8f52f043582dc7cc72ee5f",
+      "scopes": [
+        {
+          "scope_id": "HS0001",
+          "scope_alias": "H0001",
+          "heading_path": [
+            "执行概要"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0001",
+              "unit_alias": "U0001",
+              "sentences": [
+                {
+                  "sentence_id": "C0004:S001",
+                  "sentence_alias": "T0001",
+                  "text": "本报告为VT8802的第2期研发期间安全性更新报告（DSUR #2），涵盖周期为2022年12月01日至2023年11月30日。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0002",
+              "unit_alias": "U0002",
+              "sentences": [
+                {
+                  "sentence_id": "C0006:S001",
+                  "sentence_alias": "T0002",
+                  "text": "本报告周期内，I 期剂量探索及扩展研究（OOJ-VT8802-01）已完成，共 30 例晚期实体瘤试验参与者接受了 VT8802 单药治疗（0.3 mg/kg 至 3 mg/kg Q3W 剂量组）。"
+                },
+                {
+                  "sentence_id": "C0006:S002",
+                  "sentence_alias": "T0003",
+                  "text": "试验中未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD），且不良反应（ADR）发生率未见随剂量升高而增加的趋势。"
+                },
+                {
+                  "sentence_id": "C0006:S003",
+                  "sentence_alias": "T0004",
+                  "text": "共有 24 例（80.0%）试验参与者发生 ADR，发生率≥10%的多为轻中度事件，主要包括乏力、恶心、皮疹、输液相关反应、ALT 升高、甲状腺功能减退及腹泻。"
+                },
+                {
+                  "sentence_id": "C0006:S004",
+                  "sentence_alias": "T0005",
+                  "text": "共有5例（16.7%）试验参与者发生8例次严重不良事件，其中与VT8802相关的严重不良事件为感染性肺炎2例和药物诱导的肝损伤1例。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0003",
+              "unit_alias": "U0003",
+              "sentences": [
+                {
+                  "sentence_id": "C0007:S001",
+                  "sentence_alias": "T0006",
+                  "text": "本报告周期内，正在进行一项II期联合治疗研究（OOJ-VT8802-002），累计入组20例晚期非鳞状非小细胞肺癌试验参与者（接受3 mg/kg Q3W的VT8802联合卡铂与培美曲塞治疗）。"
+                },
+                {
+                  "sentence_id": "C0007:S002",
+                  "sentence_alias": "T0007",
+                  "text": "截至2023年11月30日，共14例（70.0%）试验参与者发生不良反应（ADR），整体符合各给药方案的已知风险谱。"
+                },
+                {
+                  "sentence_id": "C0007:S003",
+                  "sentence_alias": "T0008",
+                  "text": "其中，化疗相关的ADR主要表现为骨髓抑制（贫血、中性粒细胞/白细胞减少）及胃肠道反应；"
+                },
+                {
+                  "sentence_id": "C0007:S004",
+                  "sentence_alias": "T0009",
+                  "text": "与VT8802相关的ADR（共8例，40.0%）主要为皮疹、输液相关反应、肝/甲状腺异常及感染性肺炎。"
+                },
+                {
+                  "sentence_id": "C0007:S005",
+                  "sentence_alias": "T0010",
+                  "text": "共3例试验参与者发生4例次严重不良事件（SAE），包括2例次与化疗相关的中性粒细胞减少症，1例次与研究药物均无关的房颤，以及1例次判定为与VT8802相关的感染性肺炎（属≥3级ADR）。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0004",
+              "unit_alias": "U0004",
+              "sentences": [
+                {
+                  "sentence_id": "C0008:S001",
+                  "sentence_alias": "T0011",
+                  "text": "截至本报告期末，VT8802的总体获益-风险特征依然可接受，未发生因安全性原因导致暂停研究或终止临床开发的情况。"
+                },
+                {
+                  "sentence_id": "C0008:S003",
+                  "sentence_alias": "T0012",
+                  "text": "联合化疗研究（OOJ-VT8802-02）呈现更优疗效信号（ORR 38.9%），且未观察到超出背景化疗的不可接受协同毒性。"
+                },
+                {
+                  "sentence_id": "C0008:S004",
+                  "sentence_alias": "T0013",
+                  "text": "核心安全性进展方面，研究累计报告 4 例次与 VT8802 相关的疑似非预期严重不良反应（3例次感染性肺炎及1例次药物诱导的肝损伤）。"
+                },
+                {
+                  "sentence_id": "C0008:S005",
+                  "sentence_alias": "T0014",
+                  "text": "基于此，申办者拟将“感染性肺炎”及“药物诱导的肝损伤”确认为重要已识别风险，并作为预期严重不良反应纳入后续更新的安全性参考信息（RSI）中。"
+                },
+                {
+                  "sentence_id": "C0008:S006",
+                  "sentence_alias": "T0015",
+                  "text": "其他已观察到的不良事件（如腹泻、皮疹及化疗相关骨髓抑制等），后续将在临床研究中维持常规监测。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0002",
+          "scope_alias": "H0002",
+          "heading_path": [
+            "3.报告周期内因安全性原因而采取的措施"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0005",
+              "unit_alias": "U0005",
+              "sentences": [
+                {
+                  "sentence_id": "C0015:S001",
+                  "sentence_alias": "T0016",
+                  "text": "本报告周期内，未发生因安全性原因暂停、终止或提前停止VT8802临床研究的情况，亦未因安全性原因采取限制入组、暂停给药、终止给药方案、修改研究人群、增加特殊排除标准或停止临床开发等重大措施。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0006",
+              "unit_alias": "U0006",
+              "sentences": [
+                {
+                  "sentence_id": "C0016:S001",
+                  "sentence_alias": "T0017",
+                  "text": "本报告周期内，基于累计安全性资料，申办者拟对《研究者手册》中的安全性参考信息进行更新，将感染性肺炎及药物诱导的肝损伤纳入VT8802预期严重不良反应列表。"
+                },
+                {
+                  "sentence_id": "C0016:S002",
+                  "sentence_alias": "T0018",
+                  "text": "该安全性参考信息变更见第4节。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0003",
+          "scope_alias": "H0003",
+          "heading_path": [
+            "4.安全性参考信息变更"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0007",
+              "unit_alias": "U0007",
+              "sentences": [
+                {
+                  "sentence_id": "C0018:S001",
+                  "sentence_alias": "T0019",
+                  "text": "结合本报告期内新增的安全性数据及阶段性评估结果，申办者已确定需对当前版本的 RSI 进行实质性更新。"
+                },
+                {
+                  "sentence_id": "C0018:S002",
+                  "sentence_alias": "T0020",
+                  "text": "具体变更评估如下："
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0008",
+              "unit_alias": "U0008",
+              "sentences": [
+                {
+                  "sentence_id": "C0019:S001",
+                  "sentence_alias": "T0021",
+                  "text": "拟新增的预期严重不良反应： 本报告周期内，随着I期单药研究（OOJ-VT8802-01）的完成与II期联合治疗研究（OOJ-VT8802-02）的推进，申办者对逐渐累积的安全信号进行了重点医学评估。"
+                },
+                {
+                  "sentence_id": "C0019:S002",
+                  "sentence_alias": "T0022",
+                  "text": "具体而言，已完成的I期研究中共确认了与VT8802相关的2例次感染性肺炎及1例次药物诱导的肝损伤（均曾按SUSAR报告）；"
+                },
+                {
+                  "sentence_id": "C0019:S003",
+                  "sentence_alias": "T0023",
+                  "text": "同时，在本期正在进行的II期研究中又新增了1例次相关的感染性肺炎。"
+                },
+                {
+                  "sentence_id": "C0019:S004",
+                  "sentence_alias": "T0024",
+                  "text": "基于上述风险在本周期内的集中确证与重现（所有研究累计3例次肺炎及1例次肝损伤），申办者拟在下一版更新的《研究者手册》中，正式将“感染性肺炎”及“药物诱导的肝损伤”纳入RSI的预期严重不良反应列表。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0009",
+              "unit_alias": "U0009",
+              "sentences": [
+                {
+                  "sentence_id": "C0020:S001",
+                  "sentence_alias": "T0025",
+                  "text": "本期评估后暂不纳入 RSI 的事件：本期内观察到的其他免疫相关不良事件（如腹泻、皮疹、甲状腺及肝功能常规指标异常等），申办者亦进行了集中审查。"
+                },
+                {
+                  "sentence_id": "C0020:S002",
+                  "sentence_alias": "T0026",
+                  "text": "经评估，上述事件的发生频率及严重程度未超出同类药物的常规预期，现有证据尚不支持将“腹泻”等事件作为新增的预期严重不良反应纳入 RSI。"
+                },
+                {
+                  "sentence_id": "C0020:S003",
+                  "sentence_alias": "T0027",
+                  "text": "上述事件将在后续临床研究中继续维持常规监测。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0004",
+          "scope_alias": "H0004",
+          "heading_path": [
+            "8.报告期内临床试验中有意义的发现",
+            "8.1 已完成的临床试验"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0010",
+              "unit_alias": "U0010",
+              "sentences": [
+                {
+                  "sentence_id": "C0042:S001",
+                  "sentence_alias": "T0028",
+                  "text": "本报告周期内，OOJ-VT8802-01研究已完成。"
+                },
+                {
+                  "sentence_id": "C0042:S002",
+                  "sentence_alias": "T0029",
+                  "text": "该研究评价VT8802单药治疗晚期实体瘤试验参与者的安全性、耐受性、药代动力学、免疫原性及初步抗肿瘤活性。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0011",
+              "unit_alias": "U0011",
+              "sentences": [
+                {
+                  "sentence_id": "C0043:S001",
+                  "sentence_alias": "T0030",
+                  "text": "本研究共30例试验参与者接受至少一次VT8802治疗，其中21例接受推荐剂量3 mg/kg Q3W。"
+                },
+                {
+                  "sentence_id": "C0043:S002",
+                  "sentence_alias": "T0031",
+                  "text": "研究期间未观察到剂量限制性毒性（DLT），未达到最大耐受剂量（MTD）。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0012",
+              "unit_alias": "U0012",
+              "sentences": [
+                {
+                  "sentence_id": "C0044:S001",
+                  "sentence_alias": "T0032",
+                  "text": "本研究中，28例（93.3%）试验参与者发生386例次治疗期间出现的不良事件（TEAE），24例（80.0%）试验参与者发生112例次不良反应（ADR）。"
+                },
+                {
+                  "sentence_id": "C0044:S002",
+                  "sentence_alias": "T0033",
+                  "text": "发生率≥10%的不良反应主要包括乏力、恶心、皮疹、输液相关反应、丙氨酸氨基转移酶升高、甲状腺功能减退症及腹泻。"
+                },
+                {
+                  "sentence_id": "C0044:S003",
+                  "sentence_alias": "T0034",
+                  "text": "研究期间共5例（16.7%）试验参与者报告8例次严重不良事件，其中与VT8802相关的严重不良事件包括感染性肺炎（2例次）及药物诱导的肝损伤（1例次），均判定为疑似非预期严重不良反应。"
+                },
+                {
+                  "sentence_id": "C0044:S004",
+                  "sentence_alias": "T0035",
+                  "text": "研究期间共报告5例死亡，包括1例与药物无关的5级呼吸衰竭及4例疾病进展，未发生与VT8802相关的致死性不良事件。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0013",
+              "unit_alias": "U0013",
+              "sentences": [
+                {
+                  "sentence_id": "C0045:S001",
+                  "sentence_alias": "T0036",
+                  "text": "有效性方面，本研究观察到一定初步抗肿瘤活性。"
+                },
+                {
+                  "sentence_id": "C0045:S002",
+                  "sentence_alias": "T0037",
+                  "text": "结合安全性、耐受性、药代动力学、免疫原性及初步有效性结果，3 mg/kg Q3W被确定为后续临床研究的推荐给药方案。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0014",
+              "unit_alias": "U0014",
+              "sentences": [
+                {
+                  "sentence_id": "C0046:S001",
+                  "sentence_alias": "T0038",
+                  "text": "总体而言，OOJ-VT8802-01研究显示VT8802单药治疗晚期实体瘤试验参与者的安全性良好且可接受，未发现影响后续临床开发的不可接受安全性风险。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0005",
+          "scope_alias": "H0005",
+          "heading_path": [
+            "8.报告期内临床试验中有意义的发现",
+            "8.2 正在进行的临床试验"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0015",
+              "unit_alias": "U0015",
+              "sentences": [
+                {
+                  "sentence_id": "C0048:S001",
+                  "sentence_alias": "T0039",
+                  "text": "本报告周期内，OOJ-VT8802-02研究持续开展。"
+                },
+                {
+                  "sentence_id": "C0048:S002",
+                  "sentence_alias": "T0040",
+                  "text": "该研究评价VT8802联合卡铂和培美曲塞治疗晚期非鳞状非小细胞肺癌试验参与者的安全性和初步有效性。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0016",
+              "unit_alias": "U0016",
+              "sentences": [
+                {
+                  "sentence_id": "C0049:S001",
+                  "sentence_alias": "T0041",
+                  "text": "截至2023年11月30日，本研究共20例试验参与者接受试验药物治疗。"
+                },
+                {
+                  "sentence_id": "C0049:S002",
+                  "sentence_alias": "T0042",
+                  "text": "18例（90.0%）试验参与者发生86例次治疗期间出现的不良事件（TEAE），14例（70.0%）试验参与者发生52例次不良反应（ADR）。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0017",
+              "unit_alias": "U0017",
+              "sentences": [
+                {
+                  "sentence_id": "C0050:S001",
+                  "sentence_alias": "T0043",
+                  "text": "有效性方面，截至2023年11月30日，本研究共有18例试验参与者完成至少一次基线后肿瘤疗效评估。"
+                },
+                {
+                  "sentence_id": "C0050:S002",
+                  "sentence_alias": "T0044",
+                  "text": "经研究者评估，7例试验参与者达到部分缓解（PR），8例试验参与者达到疾病稳定（SD），ORR为38.9%（7/18），DCR为83.3%（15/18）。"
+                },
+                {
+                  "sentence_id": "C0050:S003",
+                  "sentence_alias": "T0045",
+                  "text": "由于随访时间尚短，缓解持续时间、无进展生存期及总生存期数据尚未成熟，仍需结合后续随访进一步评价。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0018",
+              "unit_alias": "U0018",
+              "sentences": [
+                {
+                  "sentence_id": "C0051:S001",
+                  "sentence_alias": "T0046",
+                  "text": "本研究中观察到的不良反应主要涉及胃肠道反应、血液学毒性、全身症状、皮肤相关事件、输液相关反应、肝功能相关实验室指标异常及肺部感染相关事件。"
+                },
+                {
+                  "sentence_id": "C0051:S002",
+                  "sentence_alias": "T0047",
+                  "text": "≥3级不良反应包括中性粒细胞计数降低、发热性中性粒细胞减少症、贫血及感染性肺炎。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0019",
+              "unit_alias": "U0019",
+              "sentences": [
+                {
+                  "sentence_id": "C0052:S001",
+                  "sentence_alias": "T0048",
+                  "text": "截至本报告期结束，OOJ-VT8802-02研究共报告4例次严重不良事件，包括2例次中性粒细胞减少症、1例次感染性肺炎及1例次房颤。"
+                },
+                {
+                  "sentence_id": "C0052:S002",
+                  "sentence_alias": "T0049",
+                  "text": "其中，感染性肺炎经研究者判断与VT8802相关；"
+                },
+                {
+                  "sentence_id": "C0052:S003",
+                  "sentence_alias": "T0050",
+                  "text": "中性粒细胞减少症判定为与卡铂及培美曲塞相关；"
+                },
+                {
+                  "sentence_id": "C0052:S004",
+                  "sentence_alias": "T0051",
+                  "text": "房颤判定为与VT8802、卡铂及培美曲塞均无关。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0020",
+              "unit_alias": "U0020",
+              "sentences": [
+                {
+                  "sentence_id": "C0053:S001",
+                  "sentence_alias": "T0052",
+                  "text": "总体而言，OOJ-VT8802-02研究中报告的安全性信息未提示影响研究继续开展的新的重大安全性风险，初步有效性结果支持继续开展该联合治疗研究。"
+                },
+                {
+                  "sentence_id": "C0053:S002",
+                  "sentence_alias": "T0053",
+                  "text": "后续研究中将继续关注感染性肺炎、药物诱导的肝损伤、腹泻及其他免疫相关风险，并结合更多疗效和随访数据持续评估VT8802联合治疗方案的获益-风险特征。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0008",
+          "scope_alias": "H0006",
+          "heading_path": [
+            "8.报告期内临床试验中有意义的发现",
+            "8.5 与联合治疗相关的新的安全性数据"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0023",
+              "unit_alias": "U0021",
+              "sentences": [
+                {
+                  "sentence_id": "C0059:S001",
+                  "sentence_alias": "T0054",
+                  "text": "本报告周期内，VT8802作为联合治疗方案组成部分用于OOJ-VT8802-02研究，主要安全性发现见第8.2节。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0024",
+              "unit_alias": "U0022",
+              "sentences": [
+                {
+                  "sentence_id": "C0060:S001",
+                  "sentence_alias": "T0055",
+                  "text": "截至2023年11月30日，未获得提示VT8802与卡铂及培美曲塞联合应用产生新的、明确协同毒性或影响联合治疗继续开展的重大安全性风险的资料。"
+                },
+                {
+                  "sentence_id": "C0060:S002",
+                  "sentence_alias": "T0056",
+                  "text": "OOJ-VT8802-02研究中观察到的血液学毒性主要需结合卡铂及培美曲塞的已知骨髓抑制风险进行解释；"
+                },
+                {
+                  "sentence_id": "C0060:S003",
+                  "sentence_alias": "T0057",
+                  "text": "感染性肺炎已纳入VT8802重要安全性问题的整体评估。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0014",
+          "scope_alias": "H0007",
+          "heading_path": [
+            "18.整体安全性评估",
+            "18.1 风险评估"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0033",
+              "unit_alias": "U0023",
+              "sentences": [
+                {
+                  "sentence_id": "C0088:S001",
+                  "sentence_alias": "T0058",
+                  "text": "本报告周期内，用于安全性评估的核心新增信息来源于 OOJ-VT8802-01 研究完成后的定稿数据，以及 OOJ-VT8802-02 研究启动后首次收集的联合治疗暴露数据（累计新增覆盖 50 例试验参与者）。"
+                },
+                {
+                  "sentence_id": "C0088:S002",
+                  "sentence_alias": "T0059",
+                  "text": "综合本期新增数据与既往资料，VT8802 的总体安全性特征仍与已知 PD-1/PD-L1 抑制剂风险谱一致，本周期内未发现需要暂停、限制或终止临床开发的新重大安全性风险。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0034",
+              "unit_alias": "U0024",
+              "sentences": [
+                {
+                  "sentence_id": "C0089:S001",
+                  "sentence_alias": "T0060",
+                  "text": "针对本报告周期内的新增安全性发现，重点评估如下："
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0035",
+              "unit_alias": "U0025",
+              "sentences": [
+                {
+                  "sentence_id": "C0090:S001",
+                  "sentence_alias": "T0061",
+                  "text": "新确认的重要风险及 RSI 更新： 本期安全性评估的最重要发现是对感染性肺炎及药物诱导的肝损伤信号的最终确证。"
+                },
+                {
+                  "sentence_id": "C0090:S002",
+                  "sentence_alias": "T0062",
+                  "text": "随着本期内 I 期研究的收尾（确证 2 例次相关肺炎及 1 例次相关肝损伤）与 II 期研究的推进（新增 1 例次相关肺炎），上述风险在本周期内呈现集中确证与重现。"
+                },
+                {
+                  "sentence_id": "C0090:S003",
+                  "sentence_alias": "T0063",
+                  "text": "基于此期评估，申办者已将其升级为 VT8802 的“重要已识别风险”，并拟纳入后续安全性参考信息（RSI）作为预期严重不良反应进行重点监测。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0036",
+              "unit_alias": "U0026",
+              "sentences": [
+                {
+                  "sentence_id": "C0091:S001",
+                  "sentence_alias": "T0064",
+                  "text": "首次联合治疗的安全性特征： 本周期内首次获得了 VT8802 联合化疗（卡铂/培美曲塞）的安全性数据。"
+                },
+                {
+                  "sentence_id": "C0091:S002",
+                  "sentence_alias": "T0065",
+                  "text": "当前观察到的血液学毒性（如骨髓抑制相关事件）主要与背景化疗药的已知毒性相一致，尚未发现 VT8802 在联合用药中导致显著的协同毒性或额外增加不可接受的骨髓抑制风险。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0037",
+              "unit_alias": "U0027",
+              "sentences": [
+                {
+                  "sentence_id": "C0092:S001",
+                  "sentence_alias": "T0066",
+                  "text": "既有安全性问题的演变： 对于既往已识别的常见免疫相关风险事件（如输液相关反应、皮疹、腹泻等），本周期内未观察到其发生频率、严重程度或转归出现具有临床意义的不利改变。"
+                },
+                {
+                  "sentence_id": "C0092:S002",
+                  "sentence_alias": "T0067",
+                  "text": "此外，本期内亦未发生药物相关死亡事件，未发现与特殊人群暴露、用药错误或生产质量相关的新增风险信号。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0015",
+          "scope_alias": "H0008",
+          "heading_path": [
+            "18.整体安全性评估",
+            "18.2 获益-风险考量"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0038",
+              "unit_alias": "U0028",
+              "sentences": [
+                {
+                  "sentence_id": "C0094:S001",
+                  "sentence_alias": "T0068",
+                  "text": "相较于上一 DSUR，基于本报告周期内获得的最新有效性和安全性证据，VT8802 的总体获益-风险平衡未发生不利改变。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0039",
+              "unit_alias": "U0029",
+              "sentences": [
+                {
+                  "sentence_id": "C0095:S001",
+                  "sentence_alias": "T0069",
+                  "text": "风险可控性： 尽管本报告周期内基于积累的证据，拟将感染性肺炎及药物诱导的肝损伤纳入 RSI 作为预期严重不良反应，但现有临床经验表明，上述事件以及其他常见不良反应均可通过方案规定的常规监测、及时停药及标准对症治疗（如糖皮质激素干预）得到有效管理。"
+                },
+                {
+                  "sentence_id": "C0095:S002",
+                  "sentence_alias": "T0070",
+                  "text": "此外，本期引入的联合化疗方案并未改变 VT8802 基础的安全耐受性基调。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0040",
+              "unit_alias": "U0030",
+              "sentences": [
+                {
+                  "sentence_id": "C0096:S001",
+                  "sentence_alias": "T0071",
+                  "text": "获益证据的增强： 本报告周期内的新增疗效数据进一步强化了 VT8802 的潜在临床获益。"
+                },
+                {
+                  "sentence_id": "C0096:S002",
+                  "sentence_alias": "T0072",
+                  "text": "一方面，I 期研究的完成证实了单药在晚期实体瘤中的初步抗肿瘤活性，并成功确立了 3 mg/kg Q3W 为后续推荐给药方案；"
+                },
+                {
+                  "sentence_id": "C0096:S003",
+                  "sentence_alias": "T0073",
+                  "text": "另一方面，本期正在进行的联合治疗研究亦迅速展现出令人鼓舞的初步疗效信号（可评价试验参与者 ORR 达 38.9%，DCR 达 83.3%），未发现因缺乏疗效而使试验参与者面临不合理风险的证据。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0041",
+              "unit_alias": "U0031",
+              "sentences": [
+                {
+                  "sentence_id": "C0097:S001",
+                  "sentence_alias": "T0074",
+                  "text": "结论： 综合本报告周期内确认的风险特征与不断增强的获益证据，VT8802 单药及联合治疗方案的总体获益-风险比依然维持正向，支持现有临床开发项目的继续开展。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0016",
+          "scope_alias": "H0009",
+          "heading_path": [
+            "19.重要风险总结"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0042",
+              "unit_alias": "U0032",
+              "sentences": [
+                {
+                  "sentence_id": "C0099:S001",
+                  "sentence_alias": "T0075",
+                  "text": "截至本报告期结束，结合VT8802累计临床安全性资料，感染性肺炎和药物诱导的肝损伤被列为VT8802在后续临床开发中需要重点关注的重要已识别风险。"
+                },
+                {
+                  "sentence_id": "C0099:S002",
+                  "sentence_alias": "T0076",
+                  "text": "感染性肺炎在临床研究中累计报告3例次经研究者判断与VT8802相关的严重不良反应；"
+                },
+                {
+                  "sentence_id": "C0099:S003",
+                  "sentence_alias": "T0077",
+                  "text": "药物诱导的肝损伤在OOJ-VT8802-01研究中报告1例次经研究者判断与VT8802相关的严重不良反应。"
+                },
+                {
+                  "sentence_id": "C0099:S004",
+                  "sentence_alias": "T0078",
+                  "text": "上述两类事件拟纳入后续更新的安全性参考信息，并在后续研究中作为重点风险持续监测。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0043",
+              "unit_alias": "U0033",
+              "sentences": [
+                {
+                  "sentence_id": "C0100:S001",
+                  "sentence_alias": "T0079",
+                  "text": "此外，腹泻、皮疹、甲状腺功能异常、肝功能相关实验室指标异常及其他免疫相关风险事件在临床研究中已有观察。"
+                },
+                {
+                  "sentence_id": "C0100:S002",
+                  "sentence_alias": "T0080",
+                  "text": "其中，腹泻目前尚未作为VT8802相关严重不良反应纳入安全性参考信息，但仍应作为后续研究中需持续关注的其他安全性问题。"
+                },
+                {
+                  "sentence_id": "C0100:S003",
+                  "sentence_alias": "T0081",
+                  "text": "后续应结合累计数据、事件严重程度、转归及与VT8802的因果关系，进一步评估相关事件的风险分类及是否需要更新安全性参考信息。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0044",
+              "unit_alias": "U0034",
+              "sentences": [
+                {
+                  "sentence_id": "C0101:S001",
+                  "sentence_alias": "T0082",
+                  "text": "相关风险分类、临床依据及后续措施见下表。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0045",
+              "unit_alias": "U0035",
+              "sentences": [
+                {
+                  "sentence_id": "C0102:S001",
+                  "sentence_alias": "T0083",
+                  "text": "总体而言，现有风险可通过常规安全性监测、研究方案规定的暂停/停药标准及相应临床处理措施进行管理。"
+                },
+                {
+                  "sentence_id": "C0102:S002",
+                  "sentence_alias": "T0084",
+                  "text": "本报告期内未发现影响VT8802继续临床开发的新重大安全性风险。"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "scope_id": "HS0017",
+          "scope_alias": "H0010",
+          "heading_path": [
+            "20.结论"
+          ],
+          "units": [
+            {
+              "unit_id": "TU0046",
+              "unit_alias": "U0036",
+              "sentences": [
+                {
+                  "sentence_id": "C0104:S001",
+                  "sentence_alias": "T0085",
+                  "text": "综合本报告周期内的新增临床数据及累计安全性评估，VT8802 的总体获益-风险平衡依然积极且可接受，未发现导致临床试验暂停、试验参与者限制或阻碍当前临床开发项目继续推进的新增重大安全性风险。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0047",
+              "unit_alias": "U0037",
+              "sentences": [
+                {
+                  "sentence_id": "C0106:S001",
+                  "sentence_alias": "T0086",
+                  "text": "风险行动： 针对本期内集中确证的核心安全信号，为进一步强化试验参与者的风险管理，申办者拟将“感染性肺炎”及“药物诱导的肝损伤”作为预期严重不良反应纳入下一版安全性参考信息（RSI）予以重点管控。"
+                }
+              ]
+            },
+            {
+              "unit_id": "TU0048",
+              "unit_alias": "U0038",
+              "sentences": [
+                {
+                  "sentence_id": "C0107:S001",
+                  "sentence_alias": "T0087",
+                  "text": "后续计划： 总体而言，VT8802 现有的不良反应特征已知且临床可控。"
+                },
+                {
+                  "sentence_id": "C0107:S002",
+                  "sentence_alias": "T0088",
+                  "text": "申办者将继续按计划推进后续临床开发，并在研究中对肺部感染、肝损伤等免疫介导毒性及联合用药相关的血液学毒性保持严密监测，持续动态地评估产品的获益-风险特征。"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
