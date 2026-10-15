@@ -38,16 +38,11 @@ The engine and product boundaries allow multiple QC functions to share the same 
 
 ## Demo
 
-Demo assets will be added after the final E2E recording. The video, screenshots, and PDF will come from one real run of the bundled error-simulation DSUR.
+▶ **[Watch the 1:28 product demo](https://www.bilibili.com/video/BV1sPJ26REKM)**
 
-| Asset                    | Status            |
-| ------------------------ | ----------------- |
-| Demo video/link          | Pending recording |
-| Result screenshot        | Pending recording |
-| Full Document screenshot | Pending recording |
-| Exported QC report PDF   | Pending recording |
+The demo shows the end-to-end workflow on the bundled error-simulation DSUR, from document upload and QC setup to finding generation, source-evidence review, and reviewer actions.
 
-No finding counts, execution timings, or generated results are presented yet.
+For repeated-run evaluation results and known limitations, see [Evaluation](evaluation/validation_summary.md).
 
 ## Architecture at a Glance
 
