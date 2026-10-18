@@ -127,21 +127,25 @@ Overview and clinical-safety Filter jobs are independent. `overview` is a suppor
 
 ## Execution Pipeline
 
-| Stage/boundary               | Input/output responsibility                                                                          |
-| ---------------------------- | ---------------------------------------------------------------------------------------------------- |
-| Upload staging               | Materialize HTTP upload bytes before admission into Task-owned input storage                         |
-| Request File Intake          | Admit the source and record document/source identity                                                 |
-| Extract                      | Parse DOCX into `bundle.json`, preserving document structure and source references                  |
-| Prepare Analysis             | Produce `analysis_bundle.json` and `block_manifest.json`; apply optional privacy preprocessing    |
-| Doc Meta                     | Derive document context in `doc_meta_bundle.json`                                                   |
-| Filter                       | Run independent installed jobs; produce `zone_match_bundle.json` and `coverage_bundle.json`       |
-| Candidate Scope              | Persist a resumable checkpoint for review of candidate chapter anchors                               |
-| Filter Output Projection     | Project automatic or confirmed matches into `filter_output_projection_bundle.json`                  |
-| Route                        | Fan in consumer-selected projected sources and produce routed units plus a routing manifest          |
-| Evidence Source Preparation  | Prepare/assess eligible evidence and declare `aggregate_evidence_source_bundle.json` for comparison |
-| Evidence Comparison          | Materialize comparison evidence; run assessment, verification, and configured second-pass behavior   |
-| Consolidation / Finalization | Consolidate findings where installed, then produce product-final `final_findings.json`              |
-| Result                       | Read persisted outputs into application read models for review/reporting                             |
+| Stage/boundary               | Owner                                              | Input/output responsibility |
+| ---------------------------- | -------------------------------------------------- | --------------------------- |
+| Upload staging               | Bridge                                             | Materialize HTTP upload bytes before Product Task admission |
+| Task source admission        | Product Task                                       | Copy sources into Task-owned canonical storage, invoke neutral Intake, build Task input entries, and persist `task_input.json` after all required slot admissions succeed; own the admitted sources |
+| Request File Intake (within Task admission) | Neutral operation invoked by Product Task | Compute and persist content identity (`file_hash` and original file name) for a Task-owned source; does not copy sources, own the overall admission, or create processing `doc_id` |
+| Processing Launch            | Flow execution                                     | Create processing-instance document identity (`doc_id`) for an already-admitted source |
+| Extract                      | Flow execution                                     | Parse DOCX into `bundle.json`, preserving document structure and source references |
+| Prepare Analysis             | Flow execution                                     | Produce `analysis_bundle.json` and `block_manifest.json`; apply optional privacy preprocessing |
+| Doc Meta                     | Flow execution                                     | Derive document context in `doc_meta_bundle.json` |
+| Filter                       | Flow execution                                     | Run independent installed jobs; produce `zone_match_bundle.json` and `coverage_bundle.json` |
+| Candidate Scope              | Flow execution                                     | Persist a resumable checkpoint for review of candidate chapter anchors |
+| Filter Output Projection     | Flow execution                                     | Project automatic or confirmed matches into `filter_output_projection_bundle.json` |
+| Route                        | Flow execution                                     | Fan in consumer-selected projected sources and produce routed units plus a routing manifest |
+| Evidence Source Preparation  | Flow execution                                     | Prepare/assess eligible evidence and declare `aggregate_evidence_source_bundle.json` for comparison |
+| Evidence Comparison          | Flow execution                                     | Materialize comparison evidence; run assessment, verification, and configured second-pass behavior |
+| Consolidation / Finalization | Flow execution                                     | Consolidate findings where installed, then produce product-final `final_findings.json` |
+| Result                       | Application readers                                | Read persisted outputs into application read models for review/reporting |
+
+This table describes the end-to-end product execution lifecycle, not a list of Flow-owned stages. Bridge handles upload staging. Product Task orchestrates and completes input admission, including the nested Request File Intake operation and TaskInput persistence, before Flow allocation or execution. Application composition installs dependencies; Product Task attaches the allocated FlowRun as a child before execution begins. Flow consumes already-admitted source bindings and owns downstream sequencing and checkpoints, starting with Processing Launch / Extract. The current Product Task QC Flow does not execute Request File Intake as its first stage: `file_hash` is established during Task admission, while processing `doc_id` is created later during Flow execution.
 
 `analysis_bundle.json` is the downstream text contract. Filter matching outputs feed projection; the coverage ledger is not Route's unit-selection input. Route consumes projected sources and does not perform LLM analysis.
 

@@ -79,6 +79,8 @@ CLI `run` does not reproduce interactive browser scope editing. Invoking executi
 
 [run_consistency_qc.py](scripts/run_consistency_qc.py) runs the installed Document Consistency QC Flow below Product Task ownership.
 
+This development CLI accepts source paths for convenience and invokes neutral Request File Intake to build admitted source bindings before allocating the Flow. The installed Flow consumes those bindings; this CLI does not perform Product Task input admission or create Task-owned input storage.
+
 ```powershell
 .\.venv\Scripts\python.exe backend/scripts/run_consistency_qc.py --help
 ```
@@ -89,13 +91,13 @@ The default Candidate Scope policy is `automatic_continue`; `--candidate-scope-m
 
 ## Stage Runners
 
-These are individual-stage or phase development/inspection tools. Product execution calls shared Python contracts rather than subprocesses of these runners.
+These are standalone development/inspection runners for execution stages, phases, and reusable operations. Their presence here does not imply that every runner corresponds to a stage owned by the QC Flow. Product execution calls the shared Python contracts directly rather than invoking these runners as subprocesses.
 
 Paths below are repository-root relative:
 
-| Stage/group | Path |
+| Operation/stage group | Path |
 | --- | --- |
-| Intake | `backend/scripts/stage_runners/request_file_intake_runner.py` |
+| Request File Intake (used during Product Task source admission) | `backend/scripts/stage_runners/request_file_intake_runner.py` |
 | Extract | `backend/scripts/stage_runners/extract_runner.py` |
 | Prepare Analysis | `backend/scripts/stage_runners/prepare_analysis_runner.py` |
 | Doc Meta | `backend/scripts/stage_runners/doc_meta_runner.py` |
@@ -127,7 +129,7 @@ Generated local execution data under `backend/runs/` is ignored by Git.
 - `document_consistency_qc/<flow_run_id>/`: Flow lineage and participant/stage outputs.
 - Stage directories: formal artifacts, operation summaries, and permitted debug metadata.
 - Review/annotation records: saved review decisions, flags, notes, and source annotations.
-- `upload_staging/`: HTTP upload materialization/session records.
+- `upload_staging/`: Bridge-owned HTTP upload materialization/session records prior to Product Task admission.
 
 Downstream readers follow recorded identities and artifact references, not the latest timestamp. Optional privacy mappings/audits and original inputs are local private data; they are not demo assets.
 
