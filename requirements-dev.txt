@@ -1,6 +1,10 @@
+# Install on top of requirements.txt.
+pytest==9.0.3
+# Tests directly construct httpx requests/responses for SDK retry handling.
+httpx==0.28.1
+# Starlette TestClient backend.
+httpx2==2.0.0
+
 # PDF text verification and development raster QA (not renderer dependencies).
 pypdf==6.20.0
 PyMuPDF==1.28.2
-
-# Starlette TestClient backend; keep runtime httpx for existing SDK dependencies.
-httpx2==2.0.0

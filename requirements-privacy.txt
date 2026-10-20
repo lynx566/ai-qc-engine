@@ -1,4 +1,5 @@
 # Optional UIE-based privacy detection.
-# Not required for the default product workflow.
+# Install alongside requirements.txt; not required by the default workflow.
 paddlepaddle==2.6.2
 paddlenlp==2.6.1
+huggingface_hub==1.17.0

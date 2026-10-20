@@ -27,7 +27,7 @@ For development, tests, and PDF QA, additionally install:
 | [requirements-dev.txt](../requirements-dev.txt) | Development/TestClient and PDF QA dependencies; install alongside base requirements |
 | [requirements-privacy.txt](../requirements-privacy.txt) | Optional UIE privacy runtime |
 
-The base manifest currently includes pytest. The optional Paddle pins are separate from the default workflow.
+The base manifest declares only direct product runtime dependencies. Pytest, TestClient, and PDF QA dependencies are in the development manifest; optional Paddle dependencies are separate from the default workflow.
 
 ## Provider Configuration
 
