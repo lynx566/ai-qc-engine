@@ -1,0 +1,9 @@
+flowchart LR
+
+    A["Select Task<br/>and upload documents"]
+    B["Create TaskRun<br/>and start child FlowRun"]
+    C["QC Setup<br/>user review and confirmation"]
+    D["Resume existing<br/>child FlowRun"]
+    E["Result workspace<br/>review QC findings"]
+
+    A --> B --> C --> D --> E

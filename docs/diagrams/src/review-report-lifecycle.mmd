@@ -1,0 +1,16 @@
+flowchart LR
+    ART["Persisted Task / Result Artifacts<br/>Product-final Findings"]
+    RESULT["Result Projection"]
+    REVIEW["Browser Review"]
+    SAVED["Persisted Review Decisions<br/>and Source Annotations"]
+    REPORT["Task-owned Report Composition"]
+    PDF["PDF Renderer"]
+    DOWNLOAD["Browser Download"]
+
+    ART --> RESULT
+    RESULT --> REVIEW
+    REVIEW --> SAVED
+    ART --> REPORT
+    SAVED --> REPORT
+    REPORT --> PDF
+    PDF --> DOWNLOAD

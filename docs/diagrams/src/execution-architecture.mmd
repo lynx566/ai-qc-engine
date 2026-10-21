@@ -1,0 +1,20 @@
+flowchart LR
+    UI["Browser UI"]
+    HTTP["Product HTTP Bridge"]
+    TASK["Product Task"]
+    APP["Application composition<br/>Installed capability"]
+    FLOW["Execution Flow"]
+    RUNTIME["Runtime Stages"]
+    PLUGIN["Installed Clinical Trial<br/>Document Plugin"]
+    LLM["LLM Provider"]
+    ART["Versioned Artifacts<br/>Run Summaries and Provenance"]
+
+    UI --> HTTP
+    HTTP --> TASK
+    TASK --> APP
+    APP --> FLOW
+    FLOW --> RUNTIME
+    RUNTIME <--> PLUGIN
+    PLUGIN --> LLM
+    RUNTIME --> ART
+    TASK --> ART

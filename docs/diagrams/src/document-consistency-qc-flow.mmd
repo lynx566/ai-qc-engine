@@ -1,0 +1,18 @@
+%%{init: {"flowchart": {"curve": "step"}}}%%
+flowchart LR
+
+    A["Processing Launch"]
+    B["Extract"]
+    C["Prepare Analysis"]
+    M["Doc Meta"]
+    D["Filter"]
+    E["Candidate Scope"]
+    F["Filter Output Projection"]
+    G["Route"]
+    H["Evidence Source Preparation"]
+    I["Evidence Comparison"]
+    J["Flow complete"]
+
+    A --> B --> C --> M --> D --> E --> F --> G --> H --> I --> J
+
+    M -.-> H
