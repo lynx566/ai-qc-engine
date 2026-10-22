@@ -1,20 +1,17 @@
 flowchart LR
     UI["Browser UI"]
     HTTP["Product HTTP Bridge"]
-    TASK["Product Task"]
-    APP["Application composition<br/>Installed capability"]
-    FLOW["Execution Flow"]
-    RUNTIME["Runtime Stages"]
-    PLUGIN["Installed Clinical Trial<br/>Document Plugin"]
+    TASK["Product Task<br/>TaskRun"]
+    APP["Application Composition<br/>Capability & Dependency Bindings"]
+    FLOW["Execution Flow<br/>FlowRun"]
+    RT["Runtime Stages"]
+    PLUGIN["Clinical Domain Plugin"]
     LLM["LLM Provider"]
-    ART["Versioned Artifacts<br/>Run Summaries and Provenance"]
+    DATA["Run Artifacts<br/>Summaries & Provenance"]
 
-    UI --> HTTP
-    HTTP --> TASK
-    TASK --> APP
-    APP --> FLOW
-    FLOW --> RUNTIME
-    RUNTIME <--> PLUGIN
-    PLUGIN --> LLM
-    RUNTIME --> ART
-    TASK --> ART
+    UI --> HTTP --> TASK --> APP --> FLOW --> RT
+    RT --> PLUGIN --> LLM
+
+    TASK --> DATA
+    FLOW --> DATA
+    RT --> DATA

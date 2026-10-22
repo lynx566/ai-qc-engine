@@ -1,0 +1,26 @@
+flowchart LR
+
+    A["ESP outputs<br/>Plan comparison jobs"]
+    B["Assessment"]
+    C["Verification"]
+    D["Second-pass Assessment"]
+    E["Job-final findings"]
+    F{"Consolidation enabled?"}
+    G["Consolidation"]
+    H["Finalization"]
+    I["Product-final findings"]
+
+    A --> B
+
+    B -->|"Findings found"| C
+    B -->|"No findings"| D
+
+    C --> E
+    D --> E
+
+    E --> F
+    F -->|Yes| G
+    F -->|No| H
+
+    G --> H
+    H --> I

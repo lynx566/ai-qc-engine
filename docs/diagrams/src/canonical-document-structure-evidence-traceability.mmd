@@ -1,0 +1,24 @@
+flowchart LR
+    A["Extract<br/>Document structure"]
+
+    A --> M["M = Front matter<br/>F = Formatting<br/>Retained in source"]
+    A --> CT["C = Content<br/>T = Tables"]
+
+    CT --> S["Candidate selection"]
+    S --> D["Direct<br/>raw source"]
+    S --> O["Overview<br/>assembled source"]
+
+    D --> R{"Route"}
+    R --> AG["aggregate"]
+    R --> X["table / case / unknown<br/>No installed ESP consumer"]
+
+    O --> AG
+
+    AG --> E{"ESP eligibility"}
+    E --> INC["Included / review"]
+    E --> EX["Excluded"]
+
+    INC --> G["Findings + source aliases"]
+
+    A -. "Extracted original structure" .-> H["Result<br/>Original evidence"]
+    G --> H

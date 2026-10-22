@@ -10,8 +10,6 @@ The current domain product built on the engine is **Clinical Trial Document QC**
 
 The current product targets quality control for clinical-trial documents. Its architecture is intended to support multiple QC functions while sharing document intake, execution, evidence, review, and reporting infrastructure.
 
-The QC function currently implemented is **Writing Accuracy & Consistency Review（撰写准确性与一致性核查）**.
-
 Its currently implemented analysis scope focuses on **investigational-product clinical safety content**, identifying substantive inaccuracies and inconsistencies and linking each finding to its source evidence.
 
 The function architecture can support additional content scopes; those scopes are not implemented in the current repository.
@@ -34,7 +32,7 @@ AI QC Engine
         └── Investigational Product Clinical Safety  ← currently implemented analysis scope
 ```
 
-The engine and product boundaries allow multiple QC functions to share the same execution, evidence, review, and reporting infrastructure. Within a QC function, domain-specific analysis scopes can be installed independently. The current repository implements one QC function and one primary analysis scope: investigational-product clinical safety. Additional QC functions and domain products are not implemented.
+The engine is designed to support reuse of execution, evidence, review, and reporting infrastructure across QC functions where their contracts are compatible. Within a QC function, domain-specific analysis scopes can be installed independently. The current repository implements one QC function and one installed analysis scope: investigational-product clinical safety. Additional QC functions and domain products are not implemented.
 
 ## Demo
 
@@ -54,9 +52,9 @@ flowchart LR
         direction TB
         API["HTTP API"]
         TASK["Product Task"]
+        APP["Application"]
         FLOW["QC Execution Flow"]
-
-        API --> TASK --> FLOW
+        API --> TASK --> APP --> FLOW
     end
 
     subgraph ENGINE["QC execution"]
@@ -64,9 +62,8 @@ flowchart LR
         PIPE["Runtime Pipeline"]
         PLUGIN["Clinical Trial Document Plugin"]
         LLM["LLM Provider<br/>Qwen / Bailian"]
-
-        PIPE <--> PLUGIN
-        PLUGIN --> LLM
+        PIPE --> PLUGIN
+        PLUGIN -->|"When needed"| LLM
     end
 
     subgraph OUTPUT["Evidence, review & export"]
@@ -75,8 +72,9 @@ flowchart LR
         RESULT["Result / Full Document"]
         REVIEW["Human Review<br/>Confirm · Ignore · Flag · Note"]
         REPORT["On-demand PDF Report"]
-
-        ART --> RESULT --> REVIEW --> REPORT
+        ART --> RESULT --> REVIEW
+        ART --> REPORT
+        REVIEW --> REPORT
     end
 
     INPUT --> API
@@ -84,7 +82,9 @@ flowchart LR
     PIPE --> ART
 ```
 
-QC Setup provides a Candidate Scope pause/resume checkpoint to inspect and adjust candidate chapters before continuing execution. Detailed stage ownership and artifact handoffs are documented in [Architecture](ARCHITECTURE.md).
+The diagram shows the main execution and review relationships; not every HTTP request traverses the full pipeline, and not every Runtime stage calls the Plugin or LLM.
+
+During QC Setup, users review and adjust candidate chapters. The Flow pauses at its Candidate Scope checkpoint and resumes after confirmation. Detailed stage ownership and artifact handoffs are documented in [Architecture](ARCHITECTURE.md).
 
 ## Engineering Highlights
 
@@ -92,8 +92,6 @@ QC Setup provides a Candidate Scope pause/resume checkpoint to inspect and adjus
 - Application composition installs clinical-domain plugins without embedding their semantics in generic Flow contracts.
 - Assessment, Verification, second-pass execution, and applicable consolidation/finalization produce findings with source provenance.
 - Persisted Task/Flow state and separate human review records support inspection and reviewer judgment.
-
-**Clinical Trial Document QC** is the current domain product, and **Writing Accuracy & Consistency Review** is its currently implemented QC function. The architecture separates shared execution/review infrastructure from domain- and function-specific QC logic.
 
 ## Quick Start
 

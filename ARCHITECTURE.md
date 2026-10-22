@@ -8,7 +8,7 @@ The design makes execution ownership explicit, keeps stage handoffs inspectable,
 
 - **Explicit ownership:** Product Tasks manage user inputs, child Flow membership, and product-level lifecycles through TaskRuns; Flows manage concrete QC execution, sequencing, and checkpoints through FlowRuns.
 - **Deterministic contracts:** schemas, identities, validation, and artifact handoffs constrain model inputs and outputs.
-- **Traceable execution:** persisted summaries connect admitted inputs, stages, findings, and review state.
+- **Traceable execution:** Persisted identities and artifact references connect admitted inputs, execution stages, and findings, while saved review state remains separately traceable.
 - **Domain separation:** application composition installs clinical plugins into reusable execution contracts.
 - **Human review:** findings remain separate from reviewer decisions and source annotations.
 
@@ -22,26 +22,27 @@ Deterministic contracts do not mean deterministic LLM output. Persisted provenan
 
 [Open full-size diagram](docs/diagrams/execution-architecture.svg?raw=true)
 
-The HTTP bridge materializes requests and delegates to Task/application use cases. Application composition installs clinical plugins and LLM bindings; the Flow sequences runtime stages through explicit contracts. Runtime and Task persistence retain outputs and execution identities.
+This diagram summarizes the primary component responsibilities and execution relationships, rather than a mandatory call sequence for every request. Application composition resolves installed capability bindings and execution dependencies; runtime stages delegate to domain executors where applicable. Task, Flow, and Runtime each persist their respective execution state and artifacts. Read operations may access application read models without re-executing the Flow.
 
 ## Ownership and Dependency Boundaries
 
-| Owner                                              | Responsibility                                                                                                      |
-| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- |
-| **Product Task** (`task/`)                 | User input topology, admitted input ownership, TaskRun lifecycle, and child Flow membership                         |
-| **Application** (`application/`)           | Process composition: install capabilities, executors, plugins, and LLM bindings; expose use cases/read models       |
-| **Capability** (`capability/`)             | Static participant slots and installed QC configuration                                                             |
-| **Flow** (`execution_flow/`)               | Stage order, FlowRun state, pause/resume, participant layout, and handoff resolution                                |
-| **Stage**                                    | A named execution boundary with declared inputs and outputs; some stages contain several internal phases            |
-| **Operations** (`operations/`)             | Neutral invocation, registry, executor, and handoff contracts                                                       |
-| **Runtime** (`runtime/`)                   | Load and validate inputs, allocate outputs, persist execution records, and delegate computation                     |
-| **Steps/Core** (`steps/`, `core/`)       | Reusable transforms, document parsing/structure, normalization, and source-reference mechanisms                     |
-| **Plugin** (`plugins/clinical_trial_doc/`) | Domain- and function-specific clinical profiles, projections, prompts, comparison strategies, and finding semantics |
-| **Artifacts** (`artifacts/`)               | Schemas, identities, validators, filenames, and serialization, including domain-specific payloads                   |
-| **Bridge** (`bridge/`)                     | HTTP adaptation, upload materialization, transport errors, and DTO serialization                                    |
-| **Frontend** (`frontend/`)                 | Product navigation, setup, evidence review, and API/read-model consumption                                          |
+| Owner                                              | Responsibility                                                                                                                                         |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Product Task** (`task/`)                 | User input topology, admitted input ownership, TaskRun lifecycle, and child Flow membership                                                            |
+| **Application** (`application/`)           | Install and resolve capabilities, executors, plugins, and dependency/LLM bindings; provide execution, resume, and read use cases                       |
+| **Capability** (`capability/`)             | Static capability identity and participant slots; complete scenario configuration also includes associated Application bindings                        |
+| **Flow** (`execution_flow/`)               | Stage order, participant layout, handoff resolution, FlowRun state/summary, and checkpoint persistence and resume                                      |
+| **Stage**                                    | A named execution boundary with declared inputs and outputs; some stages contain several internal phases                                               |
+| **Operations** (`operations/`)             | Neutral invocation, registry, executor, and handoff contracts, plus structural selection, fan-in, and materialization helpers                          |
+| **Runtime** (`runtime/`)                   | Adapt stage execution, load and validate inputs/outputs, allocate outputs, persist stage artifacts/records, and delegate computation                   |
+| **Steps** (`steps/`)                       | In-memory operation entry points, reusable transforms, and delegation to injected executors                                                            |
+| **Core** (`core/`)                         | Reusable document models/parsing/structure, normalization, filtering, metadata, and source-reference mechanisms                                        |
+| **Plugin** (`plugins/clinical_trial_doc/`) | Clinical profiles, projections, prompts, comparison strategies, finding semantics, and domain execution including internal scheduling and Finalization |
+| **Artifact Contracts** (`artifacts/`)      | Formal schemas, identities, validators, builders, filenames, and serialization, including domain payloads and some path/I/O helpers                    |
+| **Bridge** (`bridge/`)                     | HTTP adaptation, upload materialization, transport errors, and DTO serialization                                                                       |
+| **Frontend** (`frontend/`)                 | Product navigation, setup, evidence review, and API/read-model consumption                                                                             |
 
-Application composition installs bindings; Flow orchestration passes those resolved dependencies to execution. Generic runtime and neutral contracts do not choose a clinical application.
+Generic runtime and neutral contracts do not choose a clinical application.
 
 ```text
 frontend → bridge → Task/application use cases
@@ -50,7 +51,7 @@ Flow → operations + runtime
 runtime/steps/plugins → contracts + artifacts + core as needed
 ```
 
-The direction describes ownership, not a mandatory call through every package. Not every operation needs an in-memory Step. Product Flows call Python operation/runtime contracts rather than invoking stage-runner subprocesses; standalone runners reuse those contracts.
+Not every operation needs an in-memory Step. Product Flows call Python operation/runtime contracts rather than invoking stage-runner subprocesses; standalone runners reuse those contracts.
 
 ## Current Clinical Trial Document Installation
 
@@ -91,7 +92,7 @@ The diagram below summarizes the product-facing lifecycle, from task selection a
 
 [Open full-size diagram](docs/diagrams/product-task-execution-lifecycle.svg?raw=true)
 
-`TaskRun` owns the product-level execution lifecycle, while its child `FlowRun` owns concrete QC execution. QC Setup lets the user review and confirm the analysis scope before the existing child FlowRun continues. The stages and checkpoint behavior within that FlowRun are described in [Execution Pipeline](#execution-pipeline).
+`TaskRun` owns the product-level execution lifecycle, while its child `FlowRun` owns concrete QC execution. QC Setup lets the user review the proposed document coverage before the existing child FlowRun continues. The stages and checkpoint behavior within that FlowRun are described in [Execution Pipeline](#execution-pipeline).
 
 Single-document and DSUR/updated-IB tasks share this lifecycle through resumed QC execution and result artifact production. The final transition to the browser Result workspace is currently supported only for single-document tasks.
 
@@ -119,23 +120,23 @@ The current `document_consistency_qc` Flow executes in this order. The dotted ed
 
 [Open full-size diagram](docs/diagrams/document-consistency-qc-flow.svg?raw=true)
 
-| Stage/boundary                              | Owner                                     | Input/output responsibility                                                                                                                                                                           |
-| ------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Upload staging                              | Bridge                                    | Materialize HTTP upload bytes before Product Task admission                                                                                                                                           |
-| Task source admission                       | Product Task                              | Copy sources into Task-owned canonical storage, invoke neutral Intake, build Task input entries, and persist `task_input.json` after all required slot admissions succeed; own the admitted sources |
-| Request File Intake (within Task admission) | Neutral operation invoked by Product Task | Compute and persist content identity (`file_hash` and original file name) for a Task-owned source; does not copy sources, own the overall admission, or create processing `doc_id`                |
-| Processing Launch                           | Flow execution                            | Create processing-instance document identity (`doc_id`) for an already-admitted source                                                                                                              |
-| Extract                                     | Flow execution                            | Parse DOCX into `bundle.json`, preserving document structure and source references                                                                                                                  |
-| Prepare Analysis                            | Flow execution                            | Produce `analysis_bundle.json` and `block_manifest.json`; apply optional privacy preprocessing                                                                                                    |
-| Doc Meta                                    | Flow execution                            | Derive document context in `doc_meta_bundle.json`                                                                                                                                                   |
-| Filter                                      | Flow execution                            | Run independent installed jobs; produce `zone_match_bundle.json` and `coverage_bundle.json`                                                                                                       |
-| Candidate Scope                             | Flow execution                            | Persist a resumable checkpoint for review of candidate chapter anchors                                                                                                                                |
-| Filter Output Projection                    | Flow execution                            | Project automatic or confirmed matches into `filter_output_projection_bundle.json`                                                                                                                  |
-| Route                                       | Flow execution                            | Fan in consumer-selected projected sources and produce routed units plus a routing manifest                                                                                                           |
-| Evidence Source Preparation                 | Flow execution                            | Prepare/assess eligible evidence and declare `aggregate_evidence_source_bundle.json` for comparison                                                                                                 |
-| Evidence Comparison                         | Flow execution                            | Materialize comparison evidence; run assessment, verification, and configured second-pass behavior                                                                                                    |
-| Consolidation / Finalization (within Evidence Comparison) | Evidence Comparison internals | Consolidate findings where installed, then produce product-final `final_findings.json` |
-| Result                                      | Application readers                       | Read persisted outputs into application read models for review/reporting                                                                                                                              |
+| Stage/boundary                                            | Owner                                     | Input/output responsibility                                                                                                                                                                           |
+| --------------------------------------------------------- | ----------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Upload staging                                            | Bridge                                    | Materialize HTTP upload bytes before Product Task admission                                                                                                                                           |
+| Task source admission                                     | Product Task                              | Copy sources into Task-owned canonical storage, invoke neutral Intake, build Task input entries, and persist `task_input.json` after all required slot admissions succeed; own the admitted sources |
+| Request File Intake (within Task admission)               | Neutral operation invoked by Product Task | Compute and persist content identity (`file_hash` and original file name) for a Task-owned source; does not copy sources, own the overall admission, or create processing `doc_id`                |
+| Processing Launch                                         | Flow execution                            | Create processing-instance document identity (`doc_id`) for an already-admitted source                                                                                                              |
+| Extract                                                   | Flow execution                            | Parse DOCX into `bundle.json`, preserving document structure and source references                                                                                                                  |
+| Prepare Analysis                                          | Flow execution                            | Produce `analysis_bundle.json` and `block_manifest.json`; apply optional privacy preprocessing                                                                                                    |
+| Doc Meta                                                  | Flow execution                            | Derive document context in `doc_meta_bundle.json`                                                                                                                                                   |
+| Filter                                                    | Flow execution                            | Run independent installed jobs; produce `zone_match_bundle.json` and `coverage_bundle.json`                                                                                                       |
+| Candidate Scope                                           | Flow execution                            | Persist a resumable checkpoint for review of candidate chapter anchors                                                                                                                                |
+| Filter Output Projection                                  | Flow execution                            | Project automatic or confirmed matches into `filter_output_projection_bundle.json`                                                                                                                  |
+| Route                                                     | Flow execution                            | Fan in consumer-selected projected sources and produce routed units plus a routing manifest                                                                                                           |
+| Evidence Source Preparation                               | Flow execution                            | Prepare/assess eligible evidence and declare `aggregate_evidence_source_bundle.json` for comparison                                                                                                 |
+| Evidence Comparison                                       | Flow execution                            | Materialize comparison evidence; run assessment, verification, and configured second-pass behavior                                                                                                    |
+| Consolidation / Finalization (within Evidence Comparison) | Evidence Comparison internals             | Consolidate findings where installed, then produce product-final `final_findings.json`                                                                                                              |
+| Result                                                    | Application readers                       | Read persisted outputs into application read models for review/reporting                                                                                                                              |
 
 Upload staging belongs to the Bridge; source admission belongs to the Product Task. Request File Intake establishes content identity (`file_hash`) during admission, while Processing Launch creates processing-instance identity (`doc_id`) within the child FlowRun.
 
@@ -155,16 +156,15 @@ Application installation binds dependency slots to named LLM execution configura
 
 Formal prompts have package-local `system.txt`, `user.txt`, and version manifests. Assessment and Verification prompts use distinct identities, with independently versioned comparison modes. Response parsing and validation enforce the declared structure and reference contracts.
 
-Within Evidence Comparison, the internal phases are:
+### Evidence Comparison Decision and Finalization
 
-1. Materialize comparison evidence and plan comparison jobs.
-2. Run **Assessment** to propose evidence-linked findings.
-3. Route each job through **Verification** or configured **second-pass Assessment** according to its Assessment outcome.
-4. Reconcile job findings and retain settled execution state.
-5. Apply **focus-comparison consolidation** where enabled by the capability.
-6. **Finalize** product findings for the Result reader.
+The diagram below expands the Evidence Comparison stage in [Execution Pipeline](#execution-pipeline).
 
-A successful primary Assessment with findings proceeds to Verification; a successful primary Assessment with no findings triggers second-pass Assessment. A non-empty second-pass result can settle the job without an additional Verification call.
+![Evidence Comparison Decision and Finalization](docs/diagrams/evidence-comparison-lifecycle.svg)
+
+[Open full-size diagram](docs/diagrams/evidence-comparison-lifecycle.svg?raw=true)
+
+Each comparison job begins with Assessment. If findings are identified, they proceed to Verification; if no findings are produced, a second-pass Assessment is performed. Both paths converge into job-final findings. Depending on the enabled comparison mode, these findings may undergo Consolidation or pass directly to Finalization, which deterministically assembles the product-final findings.
 
 The installed single-document capabilities enable focus-comparison consolidation. The current DSUR/updated-IB binding enables both cross-document comparison directions and does not enable consolidation modes.
 
@@ -188,6 +188,14 @@ Flow summaries provide explicit lineage. Readers use declared artifact paths and
 
 Evidence anchors connect findings to document slots, blocks, and sentences. Result/report readers validate identity and project evidence back to canonical document sources. Debug request/response metadata supplements formal artifacts and follows the privacy/debug contract; it is not the authoritative result.
 
+### Canonical Document Structure and Evidence Traceability
+
+![Canonical Document Structure and Evidence Traceability](docs/diagrams/canonical-document-structure-evidence-traceability.svg)
+
+[Open full-size diagram](docs/diagrams/canonical-document-structure-evidence-traceability.svg?raw=true)
+
+Extract establishes the document structure and source identities. Content and tables are selected and processed through different projection strategies before routing and evidence eligibility checks. Only eligible or reviewable evidence proceeds downstream; excluded content remains traceable to its upstream source. Findings retain source references that support locating the corresponding original evidence in Result.
+
 ## Result and Human Review
 
 After the resumed FlowRun completes, the TaskRun read model checks the required result artifacts before exposing `resultAvailable = true`; the browser uses this state to open the Result page.
@@ -207,14 +215,6 @@ The browser provides a finding queue, source evidence, confirm/ignore actions, a
 Generated findings and saved human review/annotation state are separate persisted concerns. Result projection exposes findings and source evidence to the browser; report composition combines persisted execution data with saved reviewer state for an on-demand PDF. The browser consumes read models and review APIs; it does not execute QC or call LLMs.
 
 ## Report Composition and Export
-
-```text
-Persisted Task / Result / review / annotation / configuration state
-→ Task-owned report read and composition
-→ Presentation model
-→ PDF renderer
-→ HTTP response / browser download
-```
 
 Report composition reads the saved current state, validates identities, and checks consistency. Presentation and rendering consume that composed report rather than independently rereading changing live state. The browser coordinates saving pending review edits before requesting export.
 
@@ -236,7 +236,7 @@ Detailed labels and detector policy remain in the [privacy guide](backend/privac
 
 ## Extension Model
 
-The architecture separates three extension axes. The current repository implements only Clinical Trial Document QC, its Writing Accuracy & Consistency Review function, and the installed Investigational Product Clinical Safety analysis scope.
+The architecture separates three extension axes.
 
 ### New domain product
 
@@ -270,7 +270,7 @@ Application bindings would connect those domain-specific dependencies through ex
 | Analysis scope      | Content/semantic focus within a QC function; currently Investigational Product Clinical Safety                                                                 |
 | Product Task        | A user-facing task type defining input topology and product lifecycle responsibilities                                                                         |
 | TaskRun             | One persisted Product Task run owning admitted inputs, child Flow membership, and the product-level lifecycle                                                  |
-| Capability          | Installed Flow configuration                                                                                                                                   |
+| Capability          | Capability identity and participant-slot definition; associated Application bindings complete the installed scenario configuration. |
 | FlowRun             | One persisted Flow execution managing stage execution, checkpoints, and resume                                                                                 |
 | Filter job          | Independent language-neutral recall job                                                                                                                        |
 | Semantic module     | Installed execution module for an analysis scope; `clinical_safety` represents Investigational Product Clinical Safety through Route/ESP/Comparison bindings |
